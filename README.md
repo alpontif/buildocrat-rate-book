@@ -26,13 +26,13 @@ A public construction price book for Nigeria: material, labour and plant prices,
 3. Choose branch `main` and folder `/docs`, then save.
 4. After a minute the site is live at `https://<your-username>.github.io/rate-book/`.
 
-### 3. Use your own domain (for example `rates.buildocrat.com`)
-1. In **Settings → Pages → Custom domain**, enter `rates.buildocrat.com` and save. GitHub adds a `CNAME` file to `docs/`.
+### 3. Use your own domain (live setup: `rates.buildocrat.store`)
+1. In **Settings → Pages → Custom domain**, enter `rates.buildocrat.store` and save. GitHub adds a `CNAME` file to `docs/`.
 2. At your domain registrar or DNS provider, add a DNS record:
    - Type `CNAME`, name `rates`, value `<your-username>.github.io`
 3. Wait for DNS to update (usually minutes, sometimes a few hours), then tick **Enforce HTTPS** in Settings → Pages.
 
-To use the root domain (`buildocrat.com`) instead, add four `A` records pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153`.
+To use the root domain (`buildocrat.store`) instead, add four `A` records pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153`.
 
 ### 4. Let Claude update it every week
 1. In claude.ai, go to **Settings → Connectors** and connect **GitHub**, granting access to this repository.
