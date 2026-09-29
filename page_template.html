@@ -102,6 +102,7 @@ footer a,.about a{color:var(--accent)}
 .about .lead{font:600 22px/1.3 var(--display);letter-spacing:.01em;max-width:40ch;text-wrap:balance}
 .svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin:14px 0}
 .svc div{background:var(--surface);padding:14px;min-width:0}
+.svc .lock{background:var(--accent-soft);grid-column:1/-1}
 .svc b{display:block;font:600 17px var(--display);letter-spacing:.02em;margin-bottom:4px}
 .svc span{color:var(--muted);font-size:14px}
 .card{background:var(--surface);border:1px solid var(--line);padding:16px;display:grid;gap:10px}
@@ -167,7 +168,7 @@ footer .fbrand span{color:var(--accent)}
   <footer>
     <div class="fbrand">Build<span>ocrat</span></div>
     <div>The Nigeria Construction Rate Book is published by Buildocrat. Key prices are re-checked weekly against dated market sources.</div>
-    <div class="fcorp">Buildocrat Property Technologies Ltd &middot; RC 7019619 &middot; No 30 Anthony Enahoro Street, Utako, Abuja &middot; <span class="sel">0803 920 4361</span> &middot; WhatsApp <span class="sel">+234 701 802 4292</span> &middot; <span class="sel">buildocrat@gmail.com</span> &middot; <a href="#about" data-goto="about">About Buildocrat</a></div>
+    <div class="fcorp">Buildocrat Property Technologies Ltd &middot; RC 7019619 &middot; No 30 Anthony Enahoro Street, Utako, Abuja &middot; WhatsApp <span class="sel">+234 701 802 4292</span> &middot; <span class="sel">buildocrat@gmail.com</span> &middot; <a href="#about" data-goto="about">About Buildocrat</a></div>
     <div>Indicative market rates for budgeting and first-pass BoQ pricing. Base location Abuja; other locations use judgement-based factors. Confirm LOW-confidence items with at least three supplier quotes before relying on them in a tender. Rates are net of overheads and profit unless the tender option is on.</div>
   </footer>
 </div>
@@ -369,8 +370,10 @@ function viewAbout(){
     <h2 style="margin:6px 0 10px">Buildocrat</h2>
     <p class="lead">Price certainty for Nigerian construction materials.</p>
     <p>Buildocrat Property Technologies Ltd is an Abuja-based property technology company. It helps homeowners, developers and investors protect their building budgets from price swings in cement, blocks and other key materials.</p>
-    <p>Customers accumulate materials gradually through structured plans. Buildocrat buys and stores the materials for them until they are needed on site, so they avoid storage, spoilage, theft and inflation.</p>
+    <p>Its flagship product, <b>Buildocrat Price Lock</b>, fixes today's price for key materials such as cement and reinforcement steel for an agreed lock period. Buildocrat takes on the risk of price rises from exchange rates, fuel, tariffs and inflation while you build.</p>
+    <p>Customers can also accumulate materials gradually through structured plans. Buildocrat buys and stores the materials for them until they are needed on site, so they avoid storage, spoilage, theft and inflation.</p>
     <div class="svc">
+      <div class="lock"><b>Price Lock</b><span>Lock today's price for cement, steel and other key materials for an agreed period. No separate fee: the cost is built into the locked price, secured with an activation deposit from 10% of order value depending on customer type. Materials are delivered to your site on your schedule.</span></div>
       <div><b>3-Month Plan</b><span>90-day material accumulation and storage, with flexible withdrawal to multiple locations.</span></div>
       <div><b>6-Month Plan</b><span>180-day accumulation of cement and blocks, with protection from inflation.</span></div>
       <div><b>1-Year Plan</b><span>365-day storage with fast site delivery and theft prevention.</span></div>
@@ -379,7 +382,7 @@ function viewAbout(){
       <div><b>This rate book</b><span>Free, weekly-checked prices and first-principles BoQ unit rates for estimators, QSs and project owners.</span></div>
     </div>
     <h3>Why a public rate book</h3>
-    <p>Price certainty starts with knowing today's price. The rate book shares the prices Buildocrat tracks so that anyone budgeting a building in Nigeria can plan with current, sourced numbers.</p>
+    <p>Price certainty starts with knowing today's price. The rate book shares the prices Buildocrat tracks so that anyone budgeting a building in Nigeria can plan with current, sourced numbers. When you are ready to buy, Price Lock holds those numbers for you.</p>
   </div>
   <div style="display:grid;gap:16px;min-width:0">
     <div class="card">
@@ -388,26 +391,24 @@ function viewAbout(){
         <dt>Registered name</dt><dd>Buildocrat Property Technologies Ltd</dd>
         <dt>CAC RC No.</dt><dd class="sel">7019619</dd>
         <dt>Office</dt><dd>No 30 Anthony Enahoro Street, Utako, Abuja, FCT, Nigeria</dd>
-        <dt>Phone</dt><dd><span class="sel">0803 920 4361</span></dd>
         <dt>WhatsApp</dt><dd><span class="sel">+234 701 802 4292</span></dd>
         <dt>Email</dt><dd><span class="sel">buildocrat@gmail.com</span></dd>
         <dt>Website</dt><dd><a href="https://buildocrat.store" target="_blank" rel="noopener">buildocrat.store</a></dd>
       </dl>
-      <div class="cta"><a class="btn" href="https://wa.me/2347018024292" target="_blank" rel="noopener">Chat on WhatsApp</a><button class="btn ghost" type="button" id="copyContact">Copy contact details</button></div>
+      <div class="cta"><a class="btn" href="https://wa.me/2347018024292?text=Hello%20Buildocrat%2C%20I%27d%20like%20to%20lock%20prices%20for%20my%20project." target="_blank" rel="noopener">Lock my prices on WhatsApp</a><button class="btn ghost" type="button" id="copyContact">Copy contact details</button></div>
       <div class="muted" id="copyMsg" role="status" style="font-size:13px"></div>
     </div>
     <div class="card">
       <div class="eyebrow">Leadership</div>
       <div class="people">
         <div><b>Engr. Kola Ibrahim</b><span>Founder &amp; Managing Director &middot; Civil engineer, MNSE, R.COREN, PMP</span><div><a href="https://www.linkedin.com/in/kolaibrahim/" target="_blank" rel="noopener">LinkedIn</a></div></div>
-        <div><b>Anita Pius</b><span>Business Development Lead</span><div><a href="https://ng.linkedin.com/in/anita-pius-663844199" target="_blank" rel="noopener">LinkedIn</a></div></div>
       </div>
     </div>
   </div></div>`;
 }
 function bindAbout(){
   const b = document.getElementById("copyContact"); if (!b) return;
-  const txt = "Buildocrat Property Technologies Ltd (RC 7019619)\nNo 30 Anthony Enahoro Street, Utako, Abuja\nPhone: 0803 920 4361\nWhatsApp: +234 701 802 4292\nEmail: buildocrat@gmail.com\nWeb: buildocrat.store";
+  const txt = "Buildocrat Property Technologies Ltd (RC 7019619)\nNo 30 Anthony Enahoro Street, Utako, Abuja\nWhatsApp: +234 701 802 4292\nEmail: buildocrat@gmail.com\nWeb: buildocrat.store";
   b.addEventListener("click", () => {
     const msg = document.getElementById("copyMsg");
     const done = () => { msg.textContent = "Contact details copied."; };
