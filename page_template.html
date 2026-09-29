@@ -95,6 +95,25 @@ tr.bu td{background:var(--sunk);padding:0}
 .log{border-left:3px solid var(--accent);padding-left:12px;margin-bottom:12px}
 .log b{font-family:var(--mono);font-size:13px}
 footer{margin-top:36px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:grid;gap:8px}
+footer .fcorp{color:var(--ink)}
+footer a,.about a{color:var(--accent)}
+.sel{user-select:all;font-variant-numeric:tabular-nums}
+.about{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:24px;margin-top:18px;align-items:start}
+.about .lead{font:600 22px/1.3 var(--display);letter-spacing:.01em;max-width:40ch;text-wrap:balance}
+.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin:14px 0}
+.svc div{background:var(--surface);padding:14px;min-width:0}
+.svc b{display:block;font:600 17px var(--display);letter-spacing:.02em;margin-bottom:4px}
+.svc span{color:var(--muted);font-size:14px}
+.card{background:var(--surface);border:1px solid var(--line);padding:16px;display:grid;gap:10px}
+.kv{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 14px;font-size:14px}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.people{display:grid;gap:12px}
+.people div b{display:block}
+.people div span{color:var(--muted);font-size:13.5px}
+.cta{display:flex;gap:8px;flex-wrap:wrap}
+.cta a{text-decoration:none}
+@media (max-width:820px){.about{grid-template-columns:1fr}}
 footer .fbrand{font:700 18px var(--display);color:var(--ink);letter-spacing:.02em}
 footer .fbrand span{color:var(--accent)}
 .brandbar{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-bottom:14px}
@@ -131,6 +150,7 @@ footer .fbrand span{color:var(--accent)}
       <button role="tab" data-tab="est" aria-selected="false">Estimator</button>
       <button role="tab" data-tab="method" aria-selected="false">Method &amp; sources</button>
       <button role="tab" data-tab="log" aria-selected="false">Updates</button>
+      <button role="tab" data-tab="about" aria-selected="false">About Buildocrat</button>
     </div>
     <div class="controls" id="controls">
       <label>Search<input type="search" id="q" placeholder="Code or description, e.g. blockwork, 16mm, D02"></label>
@@ -147,6 +167,7 @@ footer .fbrand span{color:var(--accent)}
   <footer>
     <div class="fbrand">Build<span>ocrat</span></div>
     <div>The Nigeria Construction Rate Book is published by Buildocrat. Key prices are re-checked weekly against dated market sources.</div>
+    <div class="fcorp">Buildocrat Property Technologies Ltd &middot; RC 7019619 &middot; No 30 Anthony Enahoro Street, Utako, Abuja &middot; <span class="sel">0803 920 4361</span> &middot; WhatsApp <span class="sel">+234 701 802 4292</span> &middot; <span class="sel">buildocrat@gmail.com</span> &middot; <a href="#about" data-goto="about">About Buildocrat</a></div>
     <div>Indicative market rates for budgeting and first-pass BoQ pricing. Base location Abuja; other locations use judgement-based factors. Confirm LOW-confidence items with at least three supplier quotes before relying on them in a tender. Rates are net of overheads and profit unless the tender option is on.</div>
   </footer>
 </div>
@@ -170,7 +191,7 @@ const store = {get(k, d){try{const v = localStorage.getItem(k); return v ? JSON.
                set(k, v){try{localStorage.setItem(k, JSON.stringify(v))}catch(e){}}};
 
 const state = {tab: "rates", q: "", sec: "", conf: "", loc: store.get("rb-loc", DATA.locations[0][0]), tender: false, open: new Set()};
-if (/^#(rates|mats|lab|plant|est|method|log)$/.test(location.hash)) state.tab = location.hash.slice(1);
+if (/^#(rates|mats|lab|plant|est|method|log|about)$/.test(location.hash)) state.tab = location.hash.slice(1);
 
 function factors(){ const l = DATA.locations.find(x => x[0] === state.loc) || DATA.locations[0]; return {m: l[1], l: l[2], p: l[3]}; }
 const markup = () => (1 + P.oh) * (1 + P.cont) * (1 + P.profit) * (1 + P.vat);
@@ -342,16 +363,70 @@ function viewMethod(){
     <ul><li>Online Nigerian price lists are noisy and often re-dated; cable prices especially.</li><li>Plant hire has little public data; only a few machines are calibrated to a 2026 market listing.</li><li>Bitumen and asphalt evidence dates from April 2024 and is uplifted.</li><li>Prices are informal-market, delivered within the city. Add VAT on formal invoices where it is not recoverable.</li></ul>
   </div><div class="prose srcs"><h3>Sources</h3><ul>${DATA.sources.map(s => `<li><a href="${esc(s[1])}" target="_blank" rel="noopener">${esc(s[0])}</a></li>`).join("")}</ul></div></div>`;
 }
+function viewAbout(){
+  return `<div class="about"><div class="prose" style="max-width:none">
+    <div class="eyebrow">About the publisher</div>
+    <h2 style="margin:6px 0 10px">Buildocrat</h2>
+    <p class="lead">Price certainty for Nigerian construction materials.</p>
+    <p>Buildocrat Property Technologies Ltd is an Abuja-based property technology company. It helps homeowners, developers and investors protect their building budgets from price swings in cement, blocks and other key materials.</p>
+    <p>Customers accumulate materials gradually through structured plans. Buildocrat buys and stores the materials for them until they are needed on site, so they avoid storage, spoilage, theft and inflation.</p>
+    <div class="svc">
+      <div><b>3-Month Plan</b><span>90-day material accumulation and storage, with flexible withdrawal to multiple locations.</span></div>
+      <div><b>6-Month Plan</b><span>180-day accumulation of cement and blocks, with protection from inflation.</span></div>
+      <div><b>1-Year Plan</b><span>365-day storage with fast site delivery and theft prevention.</span></div>
+      <div><b>Material estimation</b><span>Free calculation of the materials a project needs, from its building drawings.</span></div>
+      <div><b>Withdrawal &amp; delivery</b><span>Materials delivered to sites across Nigeria, typically within 24 hours of a withdrawal request.</span></div>
+      <div><b>This rate book</b><span>Free, weekly-checked prices and first-principles BoQ unit rates for estimators, QSs and project owners.</span></div>
+    </div>
+    <h3>Why a public rate book</h3>
+    <p>Price certainty starts with knowing today's price. The rate book shares the prices Buildocrat tracks so that anyone budgeting a building in Nigeria can plan with current, sourced numbers.</p>
+  </div>
+  <div style="display:grid;gap:16px;min-width:0">
+    <div class="card">
+      <div class="eyebrow">Company</div>
+      <dl class="kv">
+        <dt>Registered name</dt><dd>Buildocrat Property Technologies Ltd</dd>
+        <dt>CAC RC No.</dt><dd class="sel">7019619</dd>
+        <dt>Office</dt><dd>No 30 Anthony Enahoro Street, Utako, Abuja, FCT, Nigeria</dd>
+        <dt>Phone</dt><dd><span class="sel">0803 920 4361</span></dd>
+        <dt>WhatsApp</dt><dd><span class="sel">+234 701 802 4292</span></dd>
+        <dt>Email</dt><dd><span class="sel">buildocrat@gmail.com</span></dd>
+        <dt>Website</dt><dd><a href="https://buildocrat.store" target="_blank" rel="noopener">buildocrat.store</a></dd>
+      </dl>
+      <div class="cta"><a class="btn" href="https://wa.me/2347018024292" target="_blank" rel="noopener">Chat on WhatsApp</a><button class="btn ghost" type="button" id="copyContact">Copy contact details</button></div>
+      <div class="muted" id="copyMsg" role="status" style="font-size:13px"></div>
+    </div>
+    <div class="card">
+      <div class="eyebrow">Leadership</div>
+      <div class="people">
+        <div><b>Engr. Kola Ibrahim</b><span>Founder &amp; Managing Director &middot; Civil engineer, MNSE, R.COREN, PMP</span><div><a href="https://www.linkedin.com/in/kolaibrahim/" target="_blank" rel="noopener">LinkedIn</a></div></div>
+        <div><b>Anita Pius</b><span>Business Development Lead</span><div><a href="https://ng.linkedin.com/in/anita-pius-663844199" target="_blank" rel="noopener">LinkedIn</a></div></div>
+      </div>
+    </div>
+  </div></div>`;
+}
+function bindAbout(){
+  const b = document.getElementById("copyContact"); if (!b) return;
+  const txt = "Buildocrat Property Technologies Ltd (RC 7019619)\nNo 30 Anthony Enahoro Street, Utako, Abuja\nPhone: 0803 920 4361\nWhatsApp: +234 701 802 4292\nEmail: buildocrat@gmail.com\nWeb: buildocrat.store";
+  b.addEventListener("click", () => {
+    const msg = document.getElementById("copyMsg");
+    const done = () => { msg.textContent = "Contact details copied."; };
+    try { navigator.clipboard.writeText(txt).then(done, () => { msg.textContent = txt; }); } catch (e) { msg.textContent = txt; }
+  });
+}
 function viewLog(){
   return `<div class="prose" style="margin-top:14px"><h3>Update log</h3>${DATA.changelog.slice().reverse().map(c => `<div class="log"><b>${esc(c.date)}</b><div>${esc(c.note)}</div></div>`).join("")}<p class="muted">Key prices are re-checked weekly. Each price shows the date it was last set; anything older than ${P.stale} days is flagged STALE.</p></div>`;
 }
 
 function render(){
   renderWatch();
-  const v = {rates: viewRates, mats: viewMats, lab: viewLab, plant: viewPlant, est: viewEst, method: viewMethod, log: viewLog}[state.tab]();
+  const v = {rates: viewRates, mats: viewMats, lab: viewLab, plant: viewPlant, est: viewEst, method: viewMethod, log: viewLog, about: viewAbout}[state.tab]();
   $("#view").innerHTML = v;
   if (state.tab === "est") bindEst();
+  if (state.tab === "about") bindAbout();
 }
+function goTab(t){ state.tab = t; document.querySelectorAll("#tabs button").forEach(x => x.setAttribute("aria-selected", x.dataset.tab === t)); setSections(); render(); window.scrollTo(0, 0); }
+document.addEventListener("click", e => { const g = e.target.closest("[data-goto]"); if (g) { e.preventDefault(); goTab(g.dataset.goto); } });
 document.getElementById("tabs").addEventListener("click", e => {
   const b = e.target.closest("button[data-tab]"); if (!b) return;
   state.tab = b.dataset.tab; document.querySelectorAll("#tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
