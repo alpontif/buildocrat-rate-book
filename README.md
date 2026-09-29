@@ -72,3 +72,17 @@ Entries that contain `k` are derived from another price, so never edit those.
 
 ## Other hosts
 Netlify or Cloudflare Pages work the same way. Connect the repository and set the publish directory to `docs`, with no build command. Automatic deploys on each push keep the site current.
+
+## Installing the site as an app
+The website is installable:
+- **Android (Chrome)** and **desktop (Chrome/Edge):** use the **Install app** button in the header, or the install icon in the address bar.
+- **iPhone/iPad (Safari):** tap **Install app** for instructions. You tap **Share**, then **Add to Home Screen**.
+
+Once installed, it opens full-screen and works offline with the last prices it downloaded.
+
+`assemble.py` writes three files for this:
+- `docs/manifest.webmanifest`
+- `docs/sw.js`, the offline cache
+- the icons in `docs/icons/`, made by `make_icons.py`
+
+The cache version changes on every rebuild. When a weekly price update is pushed, installed apps pick it up the next time they're online.

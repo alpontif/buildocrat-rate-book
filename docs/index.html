@@ -11,7 +11,14 @@
 <meta property="og:url" content="https://rates.buildocrat.store/">
 <link rel="canonical" href="https://rates.buildocrat.store/">
 <meta name="theme-color" content="#0C6A4C">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230C6A4C'/%3E%3Ctext x='16' y='23' font-family='Arial' font-weight='700' font-size='20' text-anchor='middle' fill='white'%3EB%3C/text%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Rate Book">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="alternate icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230C6A4C'/%3E%3Ctext x='16' y='23' font-family='Arial' font-weight='700' font-size='20' text-anchor='middle' fill='white'%3EB%3C/text%3E%3C/svg%3E">
 <style>html{color-scheme:light dark}[hidden]{display:none!important}img{max-width:100%}</style>
 </head>
 <body>
@@ -137,6 +144,9 @@ footer .fbrand span{color:var(--accent)}
 .brandbar{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-bottom:14px}
 .wordmark{font:700 26px/1 var(--display);letter-spacing:.02em;color:var(--ink)}
 .wordmark span{color:var(--accent)}
+.install{margin-left:auto;padding:7px 14px;font-size:13px}
+.iosHint{display:flex;gap:10px;align-items:flex-start;background:var(--accent-soft);border:1px solid var(--line);padding:10px 12px;margin-bottom:14px;font-size:14px}
+.iosHint .xbtn{margin-left:auto}
 .brandtag{font:600 12px var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .stamp .pub{display:block;margin-top:6px;color:var(--accent)}
 @media (max-width:820px){header.top{grid-template-columns:1fr}.stamp{text-align:left}.est{grid-template-columns:1fr}}
@@ -147,6 +157,11 @@ footer .fbrand span{color:var(--accent)}
   <div class="brandbar">
     <span class="wordmark" aria-label="Buildocrat">Build<span>ocrat</span></span>
     <span class="brandtag">Price certainty for Nigerian construction</span>
+    <button class="btn install" type="button" id="installBtn" hidden>Install app</button>
+  </div>
+  <div class="iosHint" id="iosHint" role="status" hidden>
+    <b>Install on iPhone or iPad:</b> tap the Share button <span aria-hidden="true">&#x2B06;&#xFE0E;</span> in Safari, then choose <b>Add to Home Screen</b>.
+    <button class="xbtn" type="button" id="iosClose" aria-label="Close">&times;</button>
   </div>
   <header class="top">
     <div>
@@ -515,8 +530,31 @@ $("#view").addEventListener("click", e => { const tr = e.target.closest("tr.item
 $("#view").addEventListener("keydown", e => { const tr = e.target.closest("tr.item"); if (tr && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); toggleRow(tr); } });
 document.querySelectorAll("#tabs button").forEach(x => x.setAttribute("aria-selected", x.dataset.tab === state.tab));
 setSections(); render();
+
+/* Install as an app (own website only; hidden inside embedded viewers) */
+(function(){
+  const btn = document.getElementById("installBtn"), hint = document.getElementById("iosHint");
+  const embedded = window.self !== window.top;
+  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+  if (embedded || standalone || !("serviceWorker" in navigator)) return;
+  let deferred = null;
+  window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; btn.hidden = false; });
+  window.addEventListener("appinstalled", () => { btn.hidden = true; deferred = null; });
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  if (ios) btn.hidden = false;
+  btn.addEventListener("click", async () => {
+    if (deferred) { deferred.prompt(); try { await deferred.userChoice; } catch (e) {} deferred = null; btn.hidden = true; }
+    else if (ios) { hint.hidden = false; }
+  });
+  document.getElementById("iosClose").addEventListener("click", () => { hint.hidden = true; });
+})();
 })();
 </script>
 
+<script>
+if ("serviceWorker" in navigator && window.self === window.top) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+}
+</script>
 </body>
 </html>
