@@ -86,3 +86,31 @@ Once installed, it opens full-screen and works offline with the last prices it d
 - the icons in `docs/icons/`, made by `make_icons.py`
 
 The cache version changes on every rebuild. When a weekly price update is pushed, installed apps pick it up the next time they're online.
+
+## Search engines and AI assistants (SEO)
+`assemble.py` also builds a crawlable static site from `rate-data.json`. It uses `site_build.py`, with `engine_py.py` as the Python copy of the rate maths; the two engines are checked to agree to the naira.
+
+**Pages**
+- Home: the interactive rate book, with pre-rendered content so crawlers see it without JavaScript.
+- `/prices/` plus 15 price pages (cement, iron rods, blocks, sand, granite, roofing, tiles, paint, timber, diesel, tanks, solar, ready-mix, cables, doors and windows).
+- `/rates/` plus one page per BoQ rate (160).
+- `/labour/`, `/plant/`, `/locations/` (12 cities), and the bungalow cost guide.
+- `/methodology/`, `/about/`, `/updates/` and `/data/`.
+
+**Files for search engines and AI**
+- `sitemap.xml`
+- `robots.txt`, which explicitly allows the search and AI crawlers
+- `llms.txt` and `llms-full.txt`, plain-text versions for AI assistants
+- `feed.xml`, an Atom feed of the weekly updates
+- `og.png`, the social preview image, redrawn each week with the current prices
+- CSV and JSON downloads in `/data/`
+- `404.html`
+
+**Structured data:** JSON-LD for Organization, WebSite, Dataset, WebPage, BreadcrumbList and FAQPage.
+
+**Settings (`site-config.json`)**
+- `google_site_verification`: the token from the Google Search Console HTML-tag method.
+- `bing_site_verification`: the token from Bing Webmaster Tools.
+- `indexnow_key`: keep as is.
+
+**IndexNow:** `.github/workflows/indexnow.yml` notifies Bing and other IndexNow search engines after every data push.

@@ -1,0 +1,373 @@
+code,group,description,unit,price_ngn,low_ngn,high_ngn,waste_pct,confidence,evidence_date,price_set,source,location
+M-CEM-01,"Cement, Binders & Admixtures","OPC 42.5 cement, 50kg bag - adopted market average",bag,12000,11000,13500,0.03,HIGH,2026-09-29,2026-09-29,"The Trumpet (29 Sep 2026): major brands ~N12,000/bag in Sept after N13-15k Jul-Aug; BuildWithEase Jul 2026 N11-15k",Abuja
+M-CEM-02,"Cement, Binders & Admixtures",OPC cement per tonne (20 bags),t,240000,220000,270000,0.03,HIGH,2026-09-29,2026-09-29,Derived by formula,Abuja
+M-CEM-07,"Cement, Binders & Admixtures","Dangote 3X 42.5R, 50kg",bag,12300,10800.0,13800.0,0.03,MEDIUM,2026-09-29,2026-09-29,BuildWithEase Jul 2026: Dangote N10.5-12.5k; typically N300-700 over BUA,Abuja
+M-CEM-08,"Cement, Binders & Admixtures","BUA 42.5, 50kg",bag,11800,10400.0,13200.0,0.03,MEDIUM,2026-09-29,2026-09-29,BuildWithEase Jul 2026: BUA typically N300-700 cheaper than Dangote,Abuja
+M-CEM-09,"Cement, Binders & Admixtures","HBM (ex-Lafarge) Elephant 42.5, 50kg",bag,12000,10600.0,13400.0,0.03,MEDIUM,2026-09-29,2026-09-29,The Trumpet Sep 2026: HBM competing at ~N12k,Abuja
+M-CEM-10,"Cement, Binders & Admixtures","HBM Powermax 42.5R (structural premium), 50kg",bag,13500,10800.0,16200.0,0.03,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-11,"Cement, Binders & Admixtures","32.5 grade cement (Supaset/Ashaka-type), 50kg",bag,11200,9000.0,13400.0,0.03,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-12,"Cement, Binders & Admixtures","White cement, 40kg",bag,38000,30400.0,45600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-13,"Cement, Binders & Admixtures","Hydrated lime, 25kg",bag,8000,6400.0,9600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-03,"Cement, Binders & Admixtures","Tile adhesive, standard, 20kg",bag,9500,7600.0,11400.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-20,"Cement, Binders & Admixtures","Tile adhesive, flexible/porcelain grade (C2TE), 20kg",bag,16000,12800.0,19200.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-04,"Cement, Binders & Admixtures","Tile grout, per kg",kg,1500,1200.0,1800.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-19,"Cement, Binders & Admixtures","Epoxy grout, per kg",kg,9000,7200.0,10800.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-05,"Cement, Binders & Admixtures","Plaster of Paris (POP), 40kg bag",bag,9000,7200.0,10800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-21,"Cement, Binders & Admixtures","Gypsum plaster (skim), 25kg",bag,9500,7600.0,11400.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-06,"Cement, Binders & Admixtures","Wall putty / skim coat, 20kg",bag,9000,7200.0,10800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-14,"Cement, Binders & Admixtures","SBR bonding agent, per litre",L,3800,3040.0,4560.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-15,"Cement, Binders & Admixtures","Integral waterproofing admixture, per litre",L,4500,3600.0,5400.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-16,"Cement, Binders & Admixtures","Superplasticiser, per litre",L,3500,2800.0,4200.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-17,"Cement, Binders & Admixtures","Curing compound, per litre",L,3000,2400.0,3600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-18,"Cement, Binders & Admixtures","Non-shrink cementitious grout, 25kg",bag,28000,22400.0,33600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CEM-22,"Cement, Binders & Admixtures","Cementitious waterproofing, 2-part, 25kg set",set,55000,44000.0,66000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-AGG-01,"Aggregates, Fill & Soils (Delivered Abuja)","Sharp sand, 20t tipper load",load,130000,90000,180000,0,MEDIUM,2026-09-01,2026-09-29,Prioni (Feb 2026) N70-150k/20t national; Jiji Lagos 2026 N150-180k/20t,Abuja
+M-AGG-02,"Aggregates, Fill & Soils (Delivered Abuja)","Sharp sand, per tonne",t,6500.0,4500.0,9000.0,0.08,MEDIUM,2026-09-01,2026-09-29,Derived by formula,Abuja
+M-AGG-03,"Aggregates, Fill & Soils (Delivered Abuja)","Plaster (soft) sand, 20t load",load,140000,112000.0,168000.0,0,LOW,2026-09-01,2026-09-29,Judgement: ~5-10% over sharp sand,Abuja
+M-AGG-04,"Aggregates, Fill & Soils (Delivered Abuja)","Plaster sand, per tonne",t,7000.0,5600.0,8400.0,0.08,LOW,,2026-09-29,Derived by formula,Abuja
+M-AGG-11,"Aggregates, Fill & Soils (Delivered Abuja)","Filling sand (fine), 20t load",load,70000,56000.0,84000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-AGG-12,"Aggregates, Fill & Soils (Delivered Abuja)","Filling sand, per tonne",t,3500.0,2800.0,4200.0,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-AGG-05,"Aggregates, Fill & Soils (Delivered Abuja)","Laterite filling, 20t load",load,85000,68000.0,102000.0,0,LOW,2026-09-01,2026-09-29,Judgement from Abuja supplier lists,Abuja
+M-AGG-06,"Aggregates, Fill & Soils (Delivered Abuja)","Laterite, per tonne",t,4250.0,3400.0,5100.0,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-AGG-07,"Aggregates, Fill & Soils (Delivered Abuja)","Granite 3/4"", 30t load",load,540000,400000,765000,0,MEDIUM,2026-09-01,2026-09-29,Jiji 2026: 30t N765k (Ibadan); Prioni Feb 2026 N7-10k/t; Abuja near Bwari/Kubwa quarries,Abuja
+M-AGG-08,"Aggregates, Fill & Soils (Delivered Abuja)","Granite 3/4"", per tonne",t,17999.82,13333.2,25499.75,0.05,MEDIUM,,2026-09-29,Derived by formula,Abuja
+M-AGG-13,"Aggregates, Fill & Soils (Delivered Abuja)","Granite 1/2"", 30t load",load,560000,448000.0,672000.0,0,LOW,,2026-09-29,"Judgement (+~4% over 3/4"")",Abuja
+M-AGG-14,"Aggregates, Fill & Soils (Delivered Abuja)","Granite 1/2"", per tonne",t,18666.48,14933.18,22399.78,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-AGG-15,"Aggregates, Fill & Soils (Delivered Abuja)","Granite 1/4"" (chippings), 30t load",load,520000,416000.0,624000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-AGG-16,"Aggregates, Fill & Soils (Delivered Abuja)","Granite 1/4"", per tonne",t,17333.16,13866.53,20799.79,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-AGG-17,"Aggregates, Fill & Soils (Delivered Abuja)","Granite 1"", per tonne",t,17500,14000.0,21000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-AGG-09,"Aggregates, Fill & Soils (Delivered Abuja)","Hardcore / stone base, per tonne",t,11000,8800.0,13200.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-AGG-10,"Aggregates, Fill & Soils (Delivered Abuja)","Stone dust, per tonne",t,9000,7200.0,10800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-AGG-18,"Aggregates, Fill & Soils (Delivered Abuja)","Crushed stone base 0/40 (graded), per tonne",t,12500,10000.0,15000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-AGG-19,"Aggregates, Fill & Soils (Delivered Abuja)","Boulders / rip-rap, per tonne",t,13000,10400.0,15600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-AGG-20,"Aggregates, Fill & Soils (Delivered Abuja)","Gravel (laterite-gravel), per tonne",t,6500,5200.0,7800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-AGG-21,"Aggregates, Fill & Soils (Delivered Abuja)","Topsoil, 20t load",load,80000,64000.0,96000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-AGG-22,"Aggregates, Fill & Soils (Delivered Abuja)","Topsoil, per tonne",t,4000.0,3200.0,4800.0,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-BLK-01,"Blocks, Bricks & Precast","9"" (225mm) hollow sandcrete block",nr,850,700,1000,0.05,MEDIUM,2026-09-01,2026-09-29,"Jiji Abuja (Lugbe) 2026: N800 std; N1,000 vibrated stone-dust",Abuja
+M-BLK-02,"Blocks, Bricks & Precast","6"" (150mm) hollow sandcrete block",nr,700,560.0,840.0,0.05,LOW,2026-09-01,2026-09-29,"Judgement from 9"" ratio",Abuja
+M-BLK-04,"Blocks, Bricks & Precast","5"" (125mm) hollow block",nr,580,460.0,700.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-08,"Blocks, Bricks & Precast","4"" (100mm) hollow block",nr,520,420.0,620.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-03,"Blocks, Bricks & Precast","9"" (225mm) solid block",nr,1050,840.0,1260.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-09,"Blocks, Bricks & Precast","6"" (150mm) solid block",nr,850,680.0,1020.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-10,"Blocks, Bricks & Precast",Compressed earth interlocking brick,nr,350,280.0,420.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-11,"Blocks, Bricks & Precast",Burnt clay facing brick 215x102.5x65,nr,450,360.0,540.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-05,"Blocks, Bricks & Precast",Interlocking paving stone 60mm,m2,8500,6800.0,10200.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-06,"Blocks, Bricks & Precast",Interlocking paving stone 80mm,m2,10500,8400.0,12600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-12,"Blocks, Bricks & Precast",Interlocking paving stone 100mm (heavy duty),m2,13500,10800.0,16200.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-07,"Blocks, Bricks & Precast",Precast kerb 450x250x125 (walkway),nr,4500,3600.0,5400.0,0.03,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-13,"Blocks, Bricks & Precast",Precast road kerb 900x300x150,nr,9000,7200.0,10800.0,0.03,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-14,"Blocks, Bricks & Precast",Precast lintel 150x225x1500,nr,18000,14400.0,21600.0,0.02,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-15,"Blocks, Bricks & Precast","Precast U-drain 600mm, per m",m,35000,28000.0,42000.0,0.02,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-16,"Blocks, Bricks & Precast","Precast drain cover slab, per m",m,18000,14400.0,21600.0,0.02,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-17,"Blocks, Bricks & Precast","Concrete culvert pipe 600mm dia, per m",m,95000,76000.0,114000.0,0.02,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-18,"Blocks, Bricks & Precast","Concrete culvert pipe 900mm dia, per m",m,150000,120000.0,180000.0,0.02,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-19,"Blocks, Bricks & Precast","Concrete culvert pipe 1200mm dia, per m",m,230000,184000.0,276000.0,0.02,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-20,"Blocks, Bricks & Precast",Precast manhole ring 1000mm,nr,65000,52000.0,78000.0,0.02,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-21,"Blocks, Bricks & Precast","Hollow pot for rib-and-block slab, 225mm",nr,1300,1040.0,1560.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-BLK-22,"Blocks, Bricks & Precast","Concrete cover spacers, per 100",pack,3000,2400.0,3600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-01,Reinforcement & Steel,"High-yield rebar 12-16mm, per tonne",t,1050000,950000,1150000,0.05,MEDIUM,2026-05-28,2026-09-29,Spiritlevel/Naijasabi (2026) avg N1.1m/t; BestSales (Feb 2026) 12/16mm TMT N1.01m/t,Abuja
+M-STL-02,Reinforcement & Steel,"High-yield rebar 20-25mm, per tonne",t,1070000,970000,1180000,0.05,MEDIUM,2026-05-28,2026-09-29,Spiritlevel/Naijasabi (2026) avg N1.1m/t; BestSales (Feb 2026) 12/16mm TMT N1.01m/t,Abuja
+M-STL-03,Reinforcement & Steel,"Rebar 8-10mm, per tonne",t,1100000,1000000,1200000,0.05,MEDIUM,2026-05-28,2026-09-29,Spiritlevel/Naijasabi (2026) avg N1.1m/t; BestSales (Feb 2026) 12/16mm TMT N1.01m/t,Abuja
+M-STL-09,Reinforcement & Steel,"High-yield rebar 32mm, per tonne",t,1100000,880000.0,1320000.0,0.05,LOW,,2026-09-29,Spiritlevel/Naijasabi (2026) avg N1.1m/t; BestSales (Feb 2026) 12/16mm TMT N1.01m/t,Abuja
+M-STL-10,Reinforcement & Steel,"8mm rebar, 12m length (0.395 kg/m)",length,5214.0,4740.0,5688.0,0,MEDIUM,,2026-09-29,Derived by formula,Abuja
+M-STL-11,Reinforcement & Steel,"10mm rebar, 12m length (0.617 kg/m)",length,8144.4,7404.0,8884.8,0,MEDIUM,,2026-09-29,Derived by formula,Abuja
+M-STL-12,Reinforcement & Steel,"12mm rebar, 12m length (0.888 kg/m)",length,11188.8,10123.2,12254.4,0,MEDIUM,,2026-09-29,Derived by formula,Abuja
+M-STL-13,Reinforcement & Steel,"16mm rebar, 12m length (1.578 kg/m)",length,19882.8,17989.2,21776.4,0,MEDIUM,,2026-09-29,Derived by formula,Abuja
+M-STL-14,Reinforcement & Steel,"20mm rebar, 12m length (2.466 kg/m)",length,31663.44,28704.24,34918.56,0,MEDIUM,,2026-09-29,Derived by formula,Abuja
+M-STL-15,Reinforcement & Steel,"25mm rebar, 12m length (3.853 kg/m)",length,49472.52,44848.92,54558.48,0,MEDIUM,,2026-09-29,Derived by formula,Abuja
+M-STL-16,Reinforcement & Steel,"32mm rebar, 12m length (6.313 kg/m)",length,83331.6,66665.28,99997.92,0,LOW,,2026-09-29,Derived by formula,Abuja
+M-STL-04,Reinforcement & Steel,"Binding wire, 20kg roll",roll,38000,30400.0,45600.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-05,Reinforcement & Steel,"Binding wire, per kg",kg,1900.0,1520.0,2280.0,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-STL-07,Reinforcement & Steel,"BRC mesh A142, per m2",m2,3800,3040.0,4560.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-17,Reinforcement & Steel,"BRC mesh A193, per m2",m2,5200,4160.0,6240.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-18,Reinforcement & Steel,"BRC mesh A252, per m2",m2,6800,5440.0,8160.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-19,Reinforcement & Steel,"Expanded metal lath, per m2",m2,2800,2240.0,3360.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-08,Reinforcement & Steel,"Structural steel sections (UB/UC/PFC/angle), per tonne",t,1450000,1160000.0,1740000.0,0.05,LOW,,2026-09-29,Judgement: ~1.35-1.4x rebar/t,Abuja
+M-STL-20,Reinforcement & Steel,"Angle iron 25x25x3, 6m (1.12 kg/m)",length,9744.0,7795.2,11692.8,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables),Abuja
+M-STL-21,Reinforcement & Steel,"Angle iron 50x50x5, 6m (3.77 kg/m)",length,32799.0,26239.2,39358.8,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables),Abuja
+M-STL-22,Reinforcement & Steel,"Angle iron 75x75x6, 6m (6.85 kg/m)",length,59595.0,47676.0,71514.0,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables),Abuja
+M-STL-23,Reinforcement & Steel,"Flat bar 50x6, 6m (2.36 kg/m)",length,20532.0,16425.6,24638.4,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables),Abuja
+M-STL-24,Reinforcement & Steel,"Square hollow section 25x25x1.5, 6m (1.06 kg/m)",length,10144.2,8115.36,12173.04,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables); +10% tube premium,Abuja
+M-STL-25,Reinforcement & Steel,"Square hollow section 50x50x2, 6m (2.93 kg/m)",length,28040.1,22432.08,33648.12,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables); +10% tube premium,Abuja
+M-STL-26,Reinforcement & Steel,"Rectangular hollow section 100x50x3, 6m (6.71 kg/m)",length,64214.7,51371.76,77057.64,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables),Abuja
+M-STL-27,Reinforcement & Steel,"Black steel pipe 2"" (60.3x2.9), 6m (4.11 kg/m)",length,39332.7,31466.16,47199.24,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables),Abuja
+M-STL-28,Reinforcement & Steel,"Galvanised pipe 2"" medium, 6m (5.03 kg/m)",length,56889.3,45511.44,68267.16,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables); +30% galvanising,Abuja
+M-STL-29,Reinforcement & Steel,"Galvanised pipe 1"" medium, 6m (2.41 kg/m)",length,27257.1,21805.68,32708.52,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables); +30% galvanising,Abuja
+M-STL-30,Reinforcement & Steel,"Channel PFC 100x50, 6m (10.2 kg/m)",length,88740.0,70992.0,106488.0,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables),Abuja
+M-STL-31,Reinforcement & Steel,"Universal beam 203x133x25, per m",m,36250.0,29000.0,43500.0,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables),Abuja
+M-STL-32,Reinforcement & Steel,"Universal beam 254x146x31, per m",m,44950.0,35960.0,53940.0,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables),Abuja
+M-STL-33,Reinforcement & Steel,"Universal column 203x203x46, per m",m,66700.0,53360.0,80040.0,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables),Abuja
+M-STL-34,Reinforcement & Steel,"Steel plate 6mm, per m2 (47.1 kg)",m2,68295.0,54636.0,81954.0,0.08,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables),Abuja
+M-STL-35,Reinforcement & Steel,"Steel plate 10mm, per m2 (78.5 kg)",m2,113825.0,91060.0,136590.0,0.08,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables),Abuja
+M-STL-36,Reinforcement & Steel,"Galvanised Z/C purlin 150x65x2, per m (4.1 kg/m)",m,7728.5,6182.8,9274.2,0.05,LOW,,2026-09-29,Derived: structural steel N/t x section weight (BS/EN tables); +30% galvanised cold-formed,Abuja
+M-STL-37,Reinforcement & Steel,"Steel metal deck 0.9mm, per m2",m2,18000,14400.0,21600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-38,Reinforcement & Steel,"Welding electrodes E6013 2.5mm, per kg",kg,2800,2240.0,3360.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-39,Reinforcement & Steel,"Cutting/grinding disc 9""",nr,3000,2400.0,3600.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-40,Reinforcement & Steel,Bolt & nut M16x100 grade 8.8 with washers,nr,800,640.0,960.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-41,Reinforcement & Steel,Expansion anchor bolt M12,nr,900,720.0,1080.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-42,Reinforcement & Steel,"Chemical anchor resin, 400ml cartridge",nr,15000,12000.0,18000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-06,Reinforcement & Steel,"Wire nails, assorted, per kg",kg,2600,2080.0,3120.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-43,Reinforcement & Steel,"Concrete nails, per kg",kg,3500,2800.0,4200.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-44,Reinforcement & Steel,"Roofing nails (umbrella head), per kg",kg,3200,2560.0,3840.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-45,Reinforcement & Steel,"Barbed wire, 200m roll",roll,35000,28000.0,42000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-46,Reinforcement & Steel,"Razor (concertina) wire 450mm, per coil (~10m)",coil,25000,20000.0,30000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-47,Reinforcement & Steel,"Chain-link mesh 1.8m high, 20m roll",roll,75000,60000.0,90000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-STL-48,Reinforcement & Steel,Welded mesh fence panel 2.4x1.8m,nr,28000,22400.0,33600.0,0.03,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-01,Timber & Boards,"2""x2""x12' hardwood",length,2500,2000.0,3000.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-02,Timber & Boards,"2""x3""x12' hardwood",length,3500,2800.0,4200.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-03,Timber & Boards,"2""x4""x12' hardwood (Gmelina/Akpontu)",length,4800,3840.0,5760.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-04,Timber & Boards,"2""x6""x12' hardwood",length,8000,7040.0,8960.0,0.1,MEDIUM,2026-03-26,2026-09-29,"BestSales (Mar 2026): mahogany 2x6x12 N8,000",Abuja
+M-TMB-09,Timber & Boards,"2""x12""x12' hardwood",length,9500,7600.0,11400.0,0.1,LOW,2026-02-19,2026-09-29,"BestSales 2026: 2x12 full length N3,000-9,500",Abuja
+M-TMB-10,Timber & Boards,"3""x4""x12' hardwood",length,7500,6000.0,9000.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-11,Timber & Boards,"1""x2""x12' batten",length,1500,1200.0,1800.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-12,Timber & Boards,"1""x6""x12' plank",length,3300,2640.0,3960.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-05,Timber & Boards,"1""x12""x12' plank (formwork)",length,6500,5200.0,7800.0,0.1,LOW,2026-02-19,2026-09-29,"BestSales 2026 1x12 N2,500-4,000/ft; BetaSales 2025 hardwood N6,000",Abuja
+M-TMB-13,Timber & Boards,"Dressed hardwood (Iroko/Mahogany) for joinery, per m3",m3,750000,600000.0,900000.0,0.15,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-06,Timber & Boards,"Marine board 18mm, 4'x8' film-faced",sheet,32000,25600.0,38400.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-14,Timber & Boards,"Plywood 12mm, 4'x8'",sheet,18000,14400.0,21600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-15,Timber & Boards,"Plywood 18mm, 4'x8'",sheet,26000,20800.0,31200.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-16,Timber & Boards,"MDF 18mm, 4'x8'",sheet,25000,20000.0,30000.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-17,Timber & Boards,"HDF 3mm, 4'x8'",sheet,6000,4800.0,7200.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-18,Timber & Boards,"Particle board 18mm, 4'x8'",sheet,18000,14400.0,21600.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-19,Timber & Boards,Bamboo prop / stick,nr,1500,1200.0,1800.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-TMB-07,Timber & Boards,"Wood preservative (Solignum-type), per litre",L,4500,3600.0,5400.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-11,"Roofing, Cladding & Rainwater",Aluminium longspan 0.40mm (market),m2,5600,5150.0,6050.0,0,HIGH,2026-09-01,2026-09-29,"Ideal Roofing System, Lagos price list, Sept 2026: 0.40mm market from N5,600/m2",Abuja
+M-RF-03,"Roofing, Cladding & Rainwater",Aluminium longspan 0.45mm (market),m2,6600,5810.0,7390.0,0,MEDIUM,2026-06-03,2026-09-29,"Jumac Aluminium (Jun 2026): light gauges N5,600-7,400/m2",Abuja
+M-RF-01,"Roofing, Cladding & Rainwater","Aluminium longspan 0.55mm, Grade A (market)",m2,8100,7000,9000,0,HIGH,2026-09-01,2026-09-29,"Ideal Roofing System, Lagos price list, Sept 2026: N8,100/m2",Abuja
+M-RF-09,"Roofing, Cladding & Rainwater","Aluminium longspan 0.45mm, caliper",m2,11000,8800.0,13200.0,0,LOW,,2026-09-29,Interpolated from Ideal Roofing caliper range,Abuja
+M-RF-02,"Roofing, Cladding & Rainwater","Aluminium longspan 0.55mm, caliper (industrial)",m2,13200,12100.0,14300.0,0,HIGH,2026-09-01,2026-09-29,"Ideal Roofing System, Lagos price list, Sept 2026: N13,200/m2",Abuja
+M-RF-10,"Roofing, Cladding & Rainwater","Aluminium longspan 0.70mm, caliper",m2,15800,14500.0,17100.0,0,HIGH,2026-09-01,2026-09-29,"Ideal Roofing System, Lagos price list, Sept 2026: N15,800/m2",Abuja
+M-RF-04,"Roofing, Cladding & Rainwater",Step-tile / Metcopo aluminium 0.55mm (market),m2,8800,7040.0,10560.0,0,LOW,,2026-09-29,Judgement ~5-10% over longspan,Abuja
+M-RF-12,"Roofing, Cladding & Rainwater","Metcopo aluminium 0.55mm, caliper",m2,14000,11200.0,16800.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-05,"Roofing, Cladding & Rainwater","Stone-coated steel tile (Gerard-type), per piece",nr,5600,4750,6500,0.03,MEDIUM,2026-04-03,2026-09-29,"Gods Promise Aluminium (Apr 2026): N4,750-6,500/piece",Abuja
+M-RF-13,"Roofing, Cladding & Rainwater","Stone-coated shingle/bond profile, per piece",nr,6200,4960.0,7440.0,0.03,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-14,"Roofing, Cladding & Rainwater","Stone-coated ridge/hip cap, per piece",nr,5500,4400.0,6600.0,0.03,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-15,"Roofing, Cladding & Rainwater","Galvanised corrugated (zinc) sheet 0.3mm, per m2",m2,5000,4000.0,6000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-16,"Roofing, Cladding & Rainwater","Polycarbonate/translucent roofing sheet, per m2",m2,7500,6000.0,9000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-06,"Roofing, Cladding & Rainwater","Aluminium ridge cap / flashing, per m",m,4500,3600.0,5400.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-17,"Roofing, Cladding & Rainwater","Self-drilling roofing screws with washers, per 100",pack,6500,5200.0,7800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-18,"Roofing, Cladding & Rainwater","Reflective foil roof insulation, per m2",m2,1800,1440.0,2160.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-19,"Roofing, Cladding & Rainwater","Glass/rock wool insulation 50mm, per m2",m2,4500,3600.0,5400.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-07,"Roofing, Cladding & Rainwater","PVC fascia board, per m",m,5500,4400.0,6600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-20,"Roofing, Cladding & Rainwater","PVC soffit panel, per m2",m2,6500,5200.0,7800.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-08,"Roofing, Cladding & Rainwater","Aluminium gutter, per m",m,7500,6000.0,9000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-21,"Roofing, Cladding & Rainwater","uPVC rainwater downpipe 110mm, 5.8m length",length,14000,11200.0,16800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RF-22,"Roofing, Cladding & Rainwater","uPVC downpipe 110mm, per m",m,2413.8,1931.04,2896.56,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-RF-23,"Roofing, Cladding & Rainwater","Aluminium composite panel 4mm, per m2",m2,22000,17600.0,26400.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-WP-01,Waterproofing & Dpc,"Torch-on APP bitumen membrane 4mm, 10 m2 roll",roll,45000,36000.0,54000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-WP-02,Waterproofing & Dpc,"Torch-on membrane 4mm, per m2",m2,4500.0,3600.0,5400.0,0.12,LOW,,2026-09-29,Derived by formula,Abuja
+M-WP-03,Waterproofing & Dpc,"Bitumen primer, per litre",L,3500,2800.0,4200.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-WP-04,Waterproofing & Dpc,"Bituminous paint (black), 20L",pail,55000,44000.0,66000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-WP-05,Waterproofing & Dpc,"Bituminous paint, per litre",L,2750.0,2200.0,3300.0,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-WP-06,Waterproofing & Dpc,Bituminous felt DPC 225mm x 20m roll,roll,15000,12000.0,18000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-WP-07,Waterproofing & Dpc,"DPC 225mm, per m",m,750.0,600.0,900.0,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-WP-08,Waterproofing & Dpc,"Polyurethane liquid membrane, 20kg",pail,180000,144000.0,216000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-WP-09,Waterproofing & Dpc,"Polyurethane membrane, per kg",kg,9000.0,7200.0,10800.0,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-WP-10,Waterproofing & Dpc,"PVC waterstop 150mm, per m",m,4500,3600.0,5400.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-WP-11,Waterproofing & Dpc,"Non-woven geotextile, per m2",m2,1200,960.0,1440.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-WP-12,Waterproofing & Dpc,"Polyurethane joint sealant, 600ml",nr,9000,7200.0,10800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-01,Floor & Wall Finishes,"Floor tile 600x600 ceramic/porcelain, mid-range",m2,8500,7500,9500,0.08,MEDIUM,2026-08-25,2026-09-29,"TilesNg listings (2026): 60x60 N7,500-9,300/m2",Abuja
+M-FIN-02,Floor & Wall Finishes,"Floor tile 600x600 polished porcelain (Spanish), premium",m2,22500,18000,27000,0.08,MEDIUM,2026-08-25,2026-09-29,"TilesNg listings (2026): Spanish N22,500-26,500/m2",Abuja
+M-FIN-11,Floor & Wall Finishes,Floor tile 600x600 matt anti-slip porcelain,m2,12000,9600.0,14400.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-12,Floor & Wall Finishes,Floor tile 400x400 ceramic,m2,5500,4400.0,6600.0,0.08,LOW,,2026-09-29,PropertyPro/Nigerian Informer 40x40 cheapest carton; uplifted,Abuja
+M-FIN-13,Floor & Wall Finishes,Floor tile 300x300 anti-slip (wet areas),m2,6500,5200.0,7800.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-14,Floor & Wall Finishes,Porcelain slab 600x1200,m2,28000,22400.0,33600.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-03,Floor & Wall Finishes,Wall tile 300x600,m2,7500,6000.0,9000.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-15,Floor & Wall Finishes,"Tile skirting 100mm, per m",m,1800,1440.0,2160.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-16,Floor & Wall Finishes,"Aluminium/PVC tile trim, per m",m,1200,960.0,1440.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-17,Floor & Wall Finishes,"Local granite slab 20mm polished, per m2",m2,45000,36000.0,54000.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-18,Floor & Wall Finishes,"Imported marble 20mm, per m2",m2,85000,68000.0,102000.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-19,Floor & Wall Finishes,"Natural stone wall cladding, per m2",m2,18000,14400.0,21600.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-20,Floor & Wall Finishes,"SPC vinyl click flooring 4-5mm, per m2",m2,7500,6600.0,8400.0,0.08,MEDIUM,2026-09-29,2026-09-29,"Jiji flooring listings Sep 2026: vinyl/SPC N5,300-8,000/m2",Abuja
+M-FIN-21,Floor & Wall Finishes,"Laminate flooring 8mm, per m2",m2,9000,7200.0,10800.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-22,Floor & Wall Finishes,"Carpet tiles (commercial), per m2",m2,14000,11200.0,16800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-23,Floor & Wall Finishes,"Epoxy floor coating (2-part), per kg",kg,9500,7600.0,11400.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-24,Floor & Wall Finishes,"WPC fluted wall panel, per m2",m2,12000,9600.0,14400.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-04,Paints & Coatings,"Emulsion paint, standard, 20L",pail,50000,45000,55000,0,MEDIUM,2026-08-25,2026-09-29,"TilesNg listings (2026): Wall Care N47,000, Chemstar N53,000 /20L",Abuja
+M-FIN-05,Paints & Coatings,"Emulsion paint, per litre",L,2500.0,2250.0,2750.0,0.05,MEDIUM,,2026-09-29,Derived by formula,Abuja
+M-FIN-25,Paints & Coatings,"Silk/satin emulsion (premium), 20L",pail,87000,76600.0,97400.0,0,MEDIUM,2026-08-25,2026-09-29,"TilesNg listings (2026): Macnugar silk N87,000/20L",Abuja
+M-FIN-26,Paints & Coatings,"Silk emulsion, per litre",L,4350.0,3830.0,4870.0,0.05,MEDIUM,,2026-09-29,Derived by formula,Abuja
+M-FIN-06,Paints & Coatings,"Weathershield / textured exterior paint, 20L",pail,95000,83600.0,106400.0,0,MEDIUM,2026-08-25,2026-09-29,"TilesNg listings (2026): weathershield N96,000/20L",Abuja
+M-FIN-07,Paints & Coatings,"Weathershield, per litre",L,4750.0,4180.0,5320.0,0.05,MEDIUM,,2026-09-29,Derived by formula,Abuja
+M-FIN-27,Paints & Coatings,"Alkali-resistant primer/sealer, 20L",pail,38000,30400.0,45600.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-28,Paints & Coatings,"Primer/sealer, per litre",L,1900.0,1520.0,2280.0,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-FIN-08,Paints & Coatings,"Gloss paint (oil), 4L",tin,28000,22400.0,33600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-29,Paints & Coatings,"Red oxide anti-rust primer, 4L",tin,22000,17600.0,26400.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-30,Paints & Coatings,"Wood varnish, 4L",tin,30000,24000.0,36000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-31,Paints & Coatings,"Thinner, 4L",tin,9000,7200.0,10800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-32,Paints & Coatings,"Textured (sand) wall coating, 25kg",pail,45000,36000.0,54000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-08B,"Ceilings, Partitions & Glass","Gypsum board 12.5mm, 1.2x2.4m",sheet,11000,8800.0,13200.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-33,"Ceilings, Partitions & Glass","PVC ceiling panel, per m2",m2,5500,4400.0,6600.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-34,"Ceilings, Partitions & Glass","Acoustic mineral fibre tile 600x600, per m2",m2,9000,7200.0,10800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-35,"Ceilings, Partitions & Glass","Exposed T-grid suspension system, per m2",m2,3500,2800.0,4200.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-36,"Ceilings, Partitions & Glass","POP cornice, per m",m,2500,2000.0,3000.0,0.08,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-37,"Ceilings, Partitions & Glass","POP fibre (sisal/hemp), per kg",kg,1500,1200.0,1800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-38,"Ceilings, Partitions & Glass","Galvanised drywall stud/channel, 3m",length,2800,2240.0,3360.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-39,"Ceilings, Partitions & Glass","Clear float glass 5mm, per m2",m2,14000,11200.0,16800.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-40,"Ceilings, Partitions & Glass","Tinted/reflective glass 6mm, per m2",m2,18000,14400.0,21600.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-41,"Ceilings, Partitions & Glass","Tempered glass 10mm, per m2",m2,45000,36000.0,54000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-42,"Ceilings, Partitions & Glass","Tempered glass 12mm, per m2",m2,55000,44000.0,66000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-43,"Ceilings, Partitions & Glass","Mirror 5mm, per m2",m2,20000,16000.0,24000.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-09,Utilities,"Water, 10,000L tanker delivered",load,35000,28000.0,42000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FIN-10,Utilities,"Water, per m3",m3,3500.0,2800.0,4200.0,0,LOW,,2026-09-29,Derived by formula,Abuja
+M-FIN-44,Utilities,"Grid electricity, Band A commercial, per kWh",kWh,225,180.0,270.0,0,LOW,,2026-09-29,Judgement - verify current NERC Band A tariff,Abuja
+M-DW-01,"Doors, Windows, Joinery & Ironmongery",Flush door 900x2100 with hardwood frame & ironmongery (supply),nr,110000,88000.0,132000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-02,"Doors, Windows, Joinery & Ironmongery",Hardwood panel door with frame (supply),nr,260000,208000.0,312000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-03,"Doors, Windows, Joinery & Ironmongery","Steel security door, imported, 1200 (supply)",nr,420000,336000.0,504000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-06,"Doors, Windows, Joinery & Ironmongery",Fire-rated steel door 1hr with frame & closer (supply),nr,950000,760000.0,1140000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-07,"Doors, Windows, Joinery & Ironmongery",Frameless 12mm tempered glass door with patch fittings - supply & fix,m2,180000,144000.0,216000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-08,"Doors, Windows, Joinery & Ironmongery",Aluminium hinged/swing door with glazing - supply & fix,m2,110000,88000.0,132000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-04,"Doors, Windows, Joinery & Ironmongery","Aluminium casement window, 5mm glass & net - supply & fix",m2,95000,75000,120000,0,MEDIUM,2026-08-25,2026-09-29,TilesNg 2026: casement 1.2x1.2m sets N95-130k (~N76k/m2 supply) + fixing,Abuja
+M-DW-05,"Doors, Windows, Joinery & Ironmongery",Aluminium sliding window - supply & fix,m2,80000,64000.0,96000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-09,"Doors, Windows, Joinery & Ironmongery","uPVC casement window, double seal - supply & fix",m2,150000,120000.0,180000.0,0,LOW,,2026-09-29,"TilesNg 2026: uPVC casement set N154,000",Abuja
+M-DW-10,"Doors, Windows, Joinery & Ironmongery","Stick curtain wall, tinted glass - supply & fix",m2,260000,208000.0,312000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-11,"Doors, Windows, Joinery & Ironmongery",Wrought-iron burglary-proof - supply & fix,m2,35000,28000.0,42000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-12,"Doors, Windows, Joinery & Ironmongery","Fabricated steel gate (sliding/swing), primed & painted",m2,85000,68000.0,102000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-13,"Doors, Windows, Joinery & Ironmongery",Mortice lock set (3-lever),nr,25000,20000.0,30000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-14,"Doors, Windows, Joinery & Ironmongery",Lever handle set,nr,12000,9600.0,14400.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-15,"Doors, Windows, Joinery & Ironmongery","Steel butt hinges 100mm, pair",pair,3500,2800.0,4200.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-16,"Doors, Windows, Joinery & Ironmongery",Overhead door closer,nr,25000,20000.0,30000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-17,"Doors, Windows, Joinery & Ironmongery",Panic exit bar,nr,85000,68000.0,102000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-18,"Doors, Windows, Joinery & Ironmongery","Built-in wardrobe (MDF/laminate), per m2 face",m2,95000,76000.0,114000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-19,"Doors, Windows, Joinery & Ironmongery","Kitchen base cabinets, per m run",m,280000,224000.0,336000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-20,"Doors, Windows, Joinery & Ironmongery","Kitchen wall cabinets, per m run",m,200000,160000.0,240000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-DW-21,"Doors, Windows, Joinery & Ironmongery","Granite kitchen worktop incl. cut-outs, per m",m,120000,96000.0,144000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-11,Electrical,"1.0mm2 single-core Cu cable, 100m coil",coil,40000,32000.0,48000.0,0.05,LOW,,2026-09-29,Online lists (N13-28k) carry 2023 prices - not reliable,Abuja
+M-EL-01,Electrical,"1.5mm2 single-core Cu cable, 100m coil",coil,55000,44000.0,66000.0,0.05,LOW,,2026-09-29,Online lists carry 2023 prices - verify,Abuja
+M-EL-02,Electrical,"2.5mm2 single-core Cu cable, 100m coil",coil,85000,68000.0,102000.0,0.05,LOW,,2026-09-29,Verify - copper-sensitive,Abuja
+M-EL-03,Electrical,"4mm2 single-core Cu cable, 100m coil",coil,135000,108000.0,162000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-04,Electrical,"6mm2 single-core Cu cable, 100m coil",coil,200000,160000.0,240000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-12,Electrical,"10mm2 single-core Cu cable, per m",m,3500,2800.0,4200.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-13,Electrical,"16mm2 4-core armoured Cu cable, per m",m,22000,17600.0,26400.0,0.03,LOW,,2026-09-29,"Nigerchin list (2023) N9,870/m uplifted for copper & FX",Abuja
+M-EL-14,Electrical,"25mm2 4-core armoured Cu cable, per m",m,35000,28000.0,42000.0,0.03,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-15,Electrical,"35mm2 4-core armoured Cu cable, per m",m,48000,38400.0,57600.0,0.03,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-16,Electrical,"50mm2 4-core armoured Cu cable, per m",m,68000,54400.0,81600.0,0.03,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-17,Electrical,"70mm2 4-core armoured Cu cable, per m",m,95000,76000.0,114000.0,0.03,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-18,Electrical,"2.5mm2 3-core flex, per m",m,1800,1440.0,2160.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-19,Electrical,"Cat6 data cable, 305m box",box,95000,76000.0,114000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-05,Electrical,"20mm PVC conduit, 3m",length,1000,800.0,1200.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-20,Electrical,"25mm PVC conduit, 3m",length,1400,1120.0,1680.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-21,Electrical,"PVC trunking 50x50, 3m",length,4500,3600.0,5400.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-22,Electrical,"Perforated cable tray 300mm, 3m",length,35000,28000.0,42000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-06,Electrical,"Conduit accessories per point (box, bends, saddles)",set,1500,1200.0,1800.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-07,Electrical,"1-gang 1-way switch, mid-range",nr,3000,2400.0,3600.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-23,Electrical,2-gang switch,nr,4000,3200.0,4800.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-08,Electrical,13A twin switched socket,nr,4500,3600.0,5400.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-24,Electrical,15A socket outlet (AC/cooker),nr,5500,4400.0,6600.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-25,Electrical,45A cooker control unit,nr,12000,9600.0,14400.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-26,Electrical,Fused spur unit,nr,6000,4800.0,7200.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-27,Electrical,Distribution board 8-way SPN (empty),nr,35000,28000.0,42000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-28,Electrical,Distribution board 12-way TPN (empty),nr,85000,68000.0,102000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-29,Electrical,MCB single-pole 6-63A,nr,4500,3600.0,5400.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-30,Electrical,RCBO 32A 30mA,nr,22000,17600.0,26400.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-31,Electrical,MCCB 100A triple-pole,nr,95000,76000.0,114000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-32,Electrical,Manual changeover switch 100A 4-pole,nr,75000,60000.0,90000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-33,Electrical,Automatic transfer switch 100A,nr,450000,360000.0,540000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-34,Electrical,Copper-bonded earth rod 1.2m with clamp,nr,18000,14400.0,21600.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-09,Electrical,LED downlight 12W,nr,4500,3600.0,5400.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-35,Electrical,LED panel 600x600 40W,nr,18000,14400.0,21600.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-36,Electrical,LED batten 1200mm,nr,7000,5600.0,8400.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-37,Electrical,LED flood light 100W,nr,25000,20000.0,30000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-38,Electrical,Wall bracket light,nr,12000,9600.0,14400.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-39,Electrical,Emergency light (maintained),nr,15000,12000.0,18000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-40,Electrical,Illuminated exit sign,nr,18000,14400.0,21600.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-41,Electrical,LED street light 100W with 8m galvanised pole (supply),nr,380000,304000.0,456000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-42,Electrical,"Ceiling fan 56""",nr,45000,36000.0,54000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-43,Electrical,"Extractor fan 6""",nr,18000,14400.0,21600.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-44,Electrical,Smoke detector (standalone),nr,12000,9600.0,14400.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-45,Electrical,Split AC 1.5HP inverter (supply),nr,650000,520000.0,780000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-46,Electrical,Split AC 2HP inverter (supply),nr,850000,680000.0,1020000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-47,Electrical,"AC copper pipe set with insulation, per m",m,6500,5200.0,7800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-48,Electrical,Electric water heater 50L,nr,150000,120000.0,180000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-49,Electrical,Solar panel 550W mono,nr,140000,115000,165000,0,MEDIUM,2026-09-20,2026-09-29,"PVPro Nigeria, 'Solar Equipment Prices Lagos September 2026' (20 Sep 2026): 550W N115-165k",Abuja
+M-EL-50,Electrical,Hybrid inverter 5kVA/48V,nr,500000,350000,650000,0,MEDIUM,2026-09-20,2026-09-29,"PVPro Nigeria, 'Solar Equipment Prices Lagos September 2026' (20 Sep 2026): 5kVA hybrid N350-650k",Abuja
+M-EL-51,Electrical,Hybrid inverter 11kVA,nr,1716000,1510100.0,1921900.0,0,MEDIUM,2026-09-20,2026-09-29,"PVPro Nigeria, 'Solar Equipment Prices Lagos September 2026' (20 Sep 2026): 11kVA N1,716,000",Abuja
+M-EL-52,Electrical,LiFePO4 battery 5kWh 48V,nr,1500000,995000,2148000,0,MEDIUM,2026-09-20,2026-09-29,"PVPro Nigeria, 'Solar Equipment Prices Lagos September 2026' (20 Sep 2026): 5kWh 48V N995k-2.15m",Abuja
+M-EL-53,Electrical,LiFePO4 battery 15kWh 48V,nr,2700000,2300000,3100000,0,MEDIUM,2026-09-20,2026-09-29,"PVPro Nigeria, 'Solar Equipment Prices Lagos September 2026' (20 Sep 2026): 15kWh N2.3-3.1m",Abuja
+M-EL-54,Electrical,Tubular battery 200Ah,nr,175000,154000.0,196000.0,0,MEDIUM,2026-09-20,2026-09-29,"PVPro Nigeria, 'Solar Equipment Prices Lagos September 2026' (20 Sep 2026): from N155,000",Abuja
+M-EL-55,Electrical,"PV mounting rail & clamps, per panel",set,25000,20000.0,30000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-56,Electrical,"Solar DC cable 6mm2, per m",m,1200,960.0,1440.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-57,Electrical,Concrete electric pole 9m,nr,185000,148000.0,222000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-58,Electrical,Distribution transformer 300kVA 11/0.415kV (supply),nr,45000000,36000000.0,54000000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-59,Electrical,Distribution transformer 500kVA 11/0.415kV (supply),nr,62000000,49600000.0,74400000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-EL-60,Electrical,Diesel generator 60kVA soundproof (supply),nr,28000000,22400000.0,33600000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-01,"Plumbing, Sanitary & Water","PPR pipe 20mm, 4m",length,3800,3040.0,4560.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-07,"Plumbing, Sanitary & Water","PPR pipe 25mm, 4m",length,5500,4400.0,6600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-08,"Plumbing, Sanitary & Water","PPR pipe 32mm, 4m",length,8500,6800.0,10200.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-09,"Plumbing, Sanitary & Water","PPR pipe 50mm, 4m",length,20000,16000.0,24000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-10,"Plumbing, Sanitary & Water","PPR fittings allowance, per water point",set,6000,4800.0,7200.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-11,"Plumbing, Sanitary & Water","uPVC pressure pipe 1/2"", 5.8m",length,2800,2240.0,3360.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-12,"Plumbing, Sanitary & Water","uPVC pressure pipe 1"", 5.8m",length,5500,4400.0,6600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-13,"Plumbing, Sanitary & Water","uPVC pressure pipe 2"", 5.8m",length,12000,9600.0,14400.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-14,"Plumbing, Sanitary & Water","uPVC waste pipe 50mm, 5.8m",length,6500,5200.0,7800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-15,"Plumbing, Sanitary & Water","uPVC soil pipe 75mm, 5.8m",length,11000,8800.0,13200.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-02,"Plumbing, Sanitary & Water","uPVC soil pipe 110mm, 5.8m",length,19000,15200.0,22800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-16,"Plumbing, Sanitary & Water","uPVC drain pipe 160mm, 5.8m",length,38000,30400.0,45600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-17,"Plumbing, Sanitary & Water",uPVC 110mm bend/junction,nr,3500,2800.0,4200.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-18,"Plumbing, Sanitary & Water","Brass gate valve 1""",nr,12000,9600.0,14400.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-19,"Plumbing, Sanitary & Water","Ball valve 3/4""",nr,6000,4800.0,7200.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-20,"Plumbing, Sanitary & Water","Float valve 3/4""",nr,9000,7200.0,10800.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-21,"Plumbing, Sanitary & Water",Pillar/bib tap,nr,9000,7200.0,10800.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-22,"Plumbing, Sanitary & Water",Floor drain / gully trap,nr,6000,4800.0,7200.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-23,"Plumbing, Sanitary & Water","WC suite, economy",nr,75000,60000.0,90000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-03,"Plumbing, Sanitary & Water","WC suite, close-coupled, mid-range",nr,125000,100000.0,150000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-24,"Plumbing, Sanitary & Water","WC one-piece, premium",nr,350000,280000.0,420000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-25,"Plumbing, Sanitary & Water","Wash hand basin, economy, with pillar taps",nr,45000,36000.0,54000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-04,"Plumbing, Sanitary & Water",Wash hand basin with pedestal & mixer,nr,85000,68000.0,102000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-26,"Plumbing, Sanitary & Water",Counter-top basin with mixer,nr,90000,72000.0,108000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-27,"Plumbing, Sanitary & Water",Urinal bowl with flush valve,nr,120000,96000.0,144000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-05,"Plumbing, Sanitary & Water","Stainless kitchen sink, single bowl, with mixer",nr,70000,56000.0,84000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-28,"Plumbing, Sanitary & Water","Stainless kitchen sink, double bowl, with mixer",nr,110000,88000.0,132000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-29,"Plumbing, Sanitary & Water",Acrylic bathtub 1.7m with mixer,nr,280000,224000.0,336000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-30,"Plumbing, Sanitary & Water",Shower mixer set with head,nr,55000,44000.0,66000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-31,"Plumbing, Sanitary & Water","Polyethylene water tank 1,000L",nr,140000,120000,160000,0,MEDIUM,2026-09-29,2026-09-29,Jiji.ng GeePee tank listings (Sep 2026): N120-160k,Abuja
+M-PL-32,"Plumbing, Sanitary & Water","Polyethylene water tank 1,500L",nr,168000,147800.0,188200.0,0,MEDIUM,2026-09-29,2026-09-29,Jiji.ng GeePee tank listings (Sep 2026): N165-170k,Abuja
+M-PL-06,"Plumbing, Sanitary & Water","Polyethylene water tank 2,000L",nr,260000,230000,290000,0,MEDIUM,2026-09-29,2026-09-29,Jiji.ng GeePee tank listings (Sep 2026): N230-290k,Abuja
+M-PL-33,"Plumbing, Sanitary & Water","Polyethylene water tank 3,000L",nr,320000,281600.0,358400.0,0,MEDIUM,2026-09-29,2026-09-29,Jiji.ng GeePee tank listings (Sep 2026): N310-330k,Abuja
+M-PL-34,"Plumbing, Sanitary & Water","Polyethylene water tank 4,000L",nr,370000,325600.0,414400.0,0,MEDIUM,2026-09-29,2026-09-29,Jiji.ng GeePee tank listings (Sep 2026): N370k,Abuja
+M-PL-35,"Plumbing, Sanitary & Water","Polyethylene water tank 5,000L",nr,650000,572000.0,728000.0,0,MEDIUM,2026-09-29,2026-09-29,Jiji.ng GeePee tank listings (Sep 2026): N650k,Abuja
+M-PL-36,"Plumbing, Sanitary & Water","Polyethylene water tank 10,000L",nr,1555000,1368400.0,1741600.0,0,MEDIUM,2026-09-29,2026-09-29,"Jiji.ng GeePee tank listings (Sep 2026): N1,555,000",Abuja
+M-PL-37,"Plumbing, Sanitary & Water",Surface water pump 1HP,nr,95000,76000.0,114000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-38,"Plumbing, Sanitary & Water",Submersible borehole pump 1.5HP (supply),nr,380000,334400.0,425600.0,0,MEDIUM,2026-07-04,2026-09-29,Skillland Nigeria borehole cost guide (updated 4 Jul 2026): pump supply & install N180-600k,Abuja
+M-PL-39,"Plumbing, Sanitary & Water",Booster pressure pump set,nr,250000,200000.0,300000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-40,"Plumbing, Sanitary & Water","Cast-iron manhole cover & frame, medium duty",nr,55000,44000.0,66000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-41,"Plumbing, Sanitary & Water","Borehole drilling, Abuja basement rock, per m (subcontract)",m,22000,15000,25000,0,MEDIUM,2026-07-04,2026-09-29,Skillland Nigeria borehole cost guide (updated 4 Jul 2026): N15-25k/m; FCT 60-150m hard rock,Abuja
+M-PL-42,"Plumbing, Sanitary & Water","uPVC borehole casing 125mm, 5.8m",length,18000,14400.0,21600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-PL-43,"Plumbing, Sanitary & Water",Geophysical (VES) survey,nr,100000,88000.0,112000.0,0,MEDIUM,2026-07-04,2026-09-29,Skillland Nigeria borehole cost guide (updated 4 Jul 2026): N50-150k,Abuja
+M-PL-44,"Plumbing, Sanitary & Water",Steel tank stand 6m high (fabricated & erected),nr,350000,308000.0,392000.0,0,MEDIUM,2026-07-04,2026-09-29,Skillland Nigeria borehole cost guide (updated 4 Jul 2026): N120-400k,Abuja
+M-RD-01,Roads & External Works,"Bitumen 60/70 penetration grade, per tonne",t,1350000,1188000.0,1512000.0,0.02,MEDIUM,2024-04-15,2026-09-29,Nairaland (Apr 2024) N1.29-1.3m/t; Petra Oil 2026 CIF W. Africa ~US$540/t + duty/haulage,Abuja
+M-RD-02,Roads & External Works,"MC-30 cutback bitumen, 200L drum",drum,290000,232000.0,348000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RD-03,Roads & External Works,"MC-30 cutback, per litre",L,1450.0,1160.0,1740.0,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-RD-04,Roads & External Works,"Bitumen emulsion (tack coat), 200L drum",drum,220000,176000.0,264000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RD-05,Roads & External Works,"Bitumen emulsion, per litre",L,1100.0,880.0,1320.0,0.05,LOW,,2026-09-29,Derived by formula,Abuja
+M-RD-06,Roads & External Works,"Asphalt concrete wearing course, ex-plant, per tonne",t,160000,128000.0,192000.0,0.03,LOW,2024-04-15,2026-09-29,Nairaland Apr 2024 Abuja/Lagos N120.5-121.5k/t; uplifted for diesel +45% & granite since,Abuja
+M-RD-07,Roads & External Works,"Asphalt concrete binder course, ex-plant, per tonne",t,152000,121600.0,182400.0,0.03,LOW,2024-04-15,2026-09-29,Nairaland Apr 2024 N115.5-118.5k/t; uplifted,Abuja
+M-RD-08,Roads & External Works,"Thermoplastic road-marking material, per kg",kg,1800,1440.0,2160.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RD-09,Roads & External Works,Road stud (cat's eye),nr,3500,2800.0,4200.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RD-10,Roads & External Works,Traffic sign with post (supply),nr,180000,144000.0,216000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RD-11,Roads & External Works,"W-beam guard rail with posts, per m",m,45000,36000.0,54000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RD-12,Roads & External Works,"Carpet grass, per m2",m2,1500,1200.0,1800.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-RD-13,Roads & External Works,Tree/shrub seedling,nr,5000,4000.0,6000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-06,Concrete Supply & Site Sundries,"Ready-mix C20/25, delivered Abuja (ex-pump)",m3,150000,120000.0,180000.0,0.02,LOW,,2026-09-29,"Jiji 2026 Ikorodu: C15 N124,000/m3 ex-VAT; grades derived",Abuja
+M-CON-04,Concrete Supply & Site Sundries,"Ready-mix C25/30, delivered Abuja (ex-pump)",m3,165000,132000.0,198000.0,0.02,LOW,2026-09-01,2026-09-29,"Jiji 2026: C15 N124,000/m3 ex-VAT; C25 ~+30%",Abuja
+M-CON-07,Concrete Supply & Site Sundries,"Ready-mix C30/37, delivered Abuja (ex-pump)",m3,178000,142400.0,213600.0,0.02,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-08,Concrete Supply & Site Sundries,"Ready-mix C35/45, delivered Abuja (ex-pump)",m3,192000,153600.0,230400.0,0.02,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-09,Concrete Supply & Site Sundries,"Ready-mix C40/50, delivered Abuja (ex-pump)",m3,210000,168000.0,252000.0,0.02,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-05,Concrete Supply & Site Sundries,"Concrete pump hire, per pour (<=60 m3)",pour,380000,304000.0,456000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-01,Concrete Supply & Site Sundries,"DPM polythene 1000g, 4m x 50m roll",roll,55000,44000.0,66000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-02,Concrete Supply & Site Sundries,"DPM polythene, per m2",m2,275.0,220.0,330.0,0.1,LOW,,2026-09-29,Derived by formula,Abuja
+M-CON-03,Concrete Supply & Site Sundries,"Anti-termite chemical, per litre",L,13000,10400.0,15600.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-10,Concrete Supply & Site Sundries,"Formwork release oil, per litre",L,2500,2000.0,3000.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-11,Concrete Supply & Site Sundries,"Hessian/curing mat, per m2",m2,800,640.0,960.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-12,Concrete Supply & Site Sundries,"Scaffold safety net, per m2",m2,1500,1200.0,1800.0,0.1,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-13,Concrete Supply & Site Sundries,"Corrugated galvanised sheet for hoarding, per sheet",sheet,9500,7600.0,11400.0,0.05,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-14,Concrete Supply & Site Sundries,Safety helmet,nr,5000,4000.0,6000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-15,Concrete Supply & Site Sundries,Safety boots,pair,22000,17600.0,26400.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-16,Concrete Supply & Site Sundries,Hi-vis vest,nr,3000,2400.0,3600.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-17,Concrete Supply & Site Sundries,Full-body harness with lanyard,nr,45000,36000.0,54000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-18,Concrete Supply & Site Sundries,Project signboard (fabricated & erected),nr,150000,120000.0,180000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-CON-19,Concrete Supply & Site Sundries,"20ft container (purchase, converted office)",nr,5500000,4400000.0,6600000.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja
+M-FUE-01,Fuel & Lubricants,"Diesel (AGO), pump price, per litre",L,1900,1790,2000,0,HIGH,2026-09-27,2026-09-29,"DailyFuels Sep 2026 nat. avg N1,834; depot N1,790 Lagos-N1,900 PH (Vanguard/Parrot, 25-27 Sep 2026)",Abuja
+M-FUE-02,Fuel & Lubricants,"Petrol (PMS), pump price, per litre",L,1360,1325,1460,0,HIGH,2026-09-27,2026-09-29,"Legit/NNPC Sep 2026 Lagos N1,385, Yobe N1,456; MRS Lagos N1,350 (27 Sep)",Abuja
+M-FUE-03,Fuel & Lubricants,"LPG (cooking/torching gas), per kg",kg,1100,970.0,1230.0,0,MEDIUM,2026-09-27,2026-09-29,"Parrot/depot report 25 Sep 2026: N1,020 Warri - N1,125 PH",Abuja
+M-FUE-04,Fuel & Lubricants,"Engine oil, per litre",L,5500,4400.0,6600.0,0,LOW,,2026-09-29,Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes,Abuja

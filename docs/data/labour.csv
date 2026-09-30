@@ -1,0 +1,52 @@
+code,trade,type,daily_wage_ngn,low_ngn,high_ngn,monthly_salary_ngn,all_in_day_ngn,all_in_hour_ngn,confidence,source
+L-LAB,Unskilled labourer,Craft,7000,5000,8000,,9170.0,1146.25,MEDIUM,BuildWithEase 'Labour Cost ... Nigeria 2026' (Apr/May 2026) Abuja N5-8k
+L-MAS,Mason / bricklayer,Craft,15000,12000,18000,,19650.0,2456.25,MEDIUM,BuildWithEase 'Labour Cost ... Nigeria 2026' (Apr/May 2026) Abuja N12-18k
+L-PLA,Plasterer / screeder,Craft,13500,10000,16000,,17685.0,2210.62,MEDIUM,BuildWithEase 'Labour Cost ... Nigeria 2026' (Apr/May 2026) national N10-16k
+L-CFN,Concrete finisher (power float),Craft,14500,12000,17000,,18995.0,2374.38,LOW,Judgement
+L-CAR,Carpenter (formwork & roof),Craft,17000,14000,20000,,22270.0,2783.75,MEDIUM,BuildWithEase 'Labour Cost ... Nigeria 2026' (Apr/May 2026) Abuja N14-20k
+L-JOI,Joiner / cabinet maker,Craft,18000,15000,22000,,23580.0,2947.5,LOW,Judgement
+L-IRB,Iron bender / steel fixer,Craft,15000,12000,18000,,19650.0,2456.25,MEDIUM,BuildWithEase 'Labour Cost ... Nigeria 2026' (Apr/May 2026) national N12-18k
+L-ELE,Electrician,Craft,18500,15000,22000,,24235.0,3029.38,MEDIUM,BuildWithEase 'Labour Cost ... Nigeria 2026' (Apr/May 2026) Abuja N15-22k
+L-ELH,Electrician's mate,Craft,9000,7000,10000,,11790.0,1473.75,LOW,Judgement
+L-PLU,Plumber,Craft,17000,14000,20000,,22270.0,2783.75,MEDIUM,BuildWithEase 'Labour Cost ... Nigeria 2026' (Apr/May 2026) Abuja N14-20k
+L-PLH,Plumber's mate,Craft,9000,7000,10000,,11790.0,1473.75,LOW,Judgement
+L-TIL,Tiler,Craft,15000,12000,18000,,19650.0,2456.25,MEDIUM,BuildWithEase 'Labour Cost ... Nigeria 2026' (Apr/May 2026) national N12-18k
+L-MRB,Marble/granite fitter & polisher,Craft,17000,14000,22000,,22270.0,2783.75,LOW,Judgement
+L-PAI,Painter,Craft,12500,10000,14000,,16375.0,2046.88,MEDIUM,BuildWithEase 'Labour Cost ... Nigeria 2026' (Apr/May 2026) national N10-14k
+L-POP,POP / ceiling installer,Craft,14500,12000,18000,,18995.0,2374.38,LOW,Judgement
+L-ROF,Roofer (sheeting),Craft,16000,13000,20000,,20960.0,2620.0,LOW,Judgement
+L-WPR,Waterproofing applicator,Craft,16000,13000,20000,,20960.0,2620.0,LOW,Judgement
+L-WEL,Welder / fabricator,Craft,18000,15000,22000,,23580.0,2947.5,LOW,Judgement
+L-SER,Steel erector,Craft,20000,16000,24000,,26200.0,3275.0,LOW,Judgement
+L-RIG,Rigger / banksman,Craft,16000,13000,20000,,20960.0,2620.0,LOW,Judgement
+L-SCF,Scaffolder,Craft,14000,11000,16000,,18340.0,2292.5,LOW,Judgement
+L-ALU,Aluminium fabricator / glazier,Craft,18000,15000,22000,,23580.0,2947.5,LOW,Judgement
+L-HVC,AC / HVAC technician,Craft,20000,15000,25000,,26200.0,3275.0,LOW,Judgement
+L-LVT,Low-current / CCTV technician,Craft,18000,14000,22000,,23580.0,2947.5,LOW,Judgement
+L-MOU,Block moulder,Craft,12000,10000,14000,,15720.0,1965.0,LOW,Judgement
+L-INT,Interlock/paving layer,Craft,13000,11000,16000,,17030.0,2128.75,LOW,Judgement
+L-PIP,Pipe layer (drainage),Craft,14000,11000,17000,,18340.0,2292.5,LOW,Judgement
+L-LSC,Landscaper / gardener,Craft,9000,7000,11000,,11790.0,1473.75,LOW,Judgement
+L-ASP,Asphalt crew hand (raker/lute),Craft,12000,9000,14000,,15720.0,1965.0,LOW,Judgement
+L-CHN,Chainman / survey assistant,Craft,8000,7000,10000,,10480.0,1310.0,LOW,Judgement
+L-SEC,Watchman / security guard,Craft,7000,6000,9000,,9170.0,1146.25,LOW,Judgement
+L-STK,Storekeeper,Craft,9500,8000,12000,,12445.0,1555.62,LOW,Judgement
+L-GEN,Generator attendant,Craft,9000,7000,11000,,11790.0,1473.75,LOW,Judgement
+L-OPR,Plant operator - general (roller/loader),Operator,25000,20000,35000,,32750.0,4093.75,LOW,Judgement - Abuja
+L-OPX,Excavator / backhoe operator,Operator,30000,25000,40000,,39300.0,4912.5,LOW,Judgement
+L-OPD,Dozer / grader operator,Operator,32000,28000,42000,,41920.0,5240.0,LOW,Judgement
+L-CRO,Crane operator,Operator,40000,35000,55000,,52400.0,6550.0,LOW,Judgement
+L-PAV,Asphalt paver screed operator,Operator,30000,25000,40000,,39300.0,4912.5,LOW,Judgement
+L-DRV,Heavy goods driver (tipper/trailer),Operator,20000,15000,25000,,26200.0,3275.0,LOW,Judgement
+L-DRL,Light vehicle driver,Operator,12000,10000,15000,,15720.0,1965.0,LOW,Judgement
+L-DRD,Dredge master / operator,Operator,45000,35000,60000,,58950.0,7368.75,LOW,Judgement - replace with Yellowmetal FESTAC actuals
+L-FOR,Foreman / site supervisor,Staff,,,,300000,14457.69,1807.21,MEDIUM,BuildWithEase 'Labour Cost ... Nigeria 2026' (Apr/May 2026): N150-300k/month; N15-35k/day
+L-SEN,Site engineer (COREN-registered),Staff,,,,450000,21686.54,2710.82,LOW,Judgement - Abuja contractor salaries
+L-QSS,Quantity surveyor,Staff,,,,450000,21686.54,2710.82,LOW,Judgement
+L-SMG,Site / construction manager,Staff,,,,750000,36144.23,4518.03,LOW,Judgement
+L-PMG,Project manager,Staff,,,,1000000,48192.31,6024.04,LOW,Judgement
+L-SVY,Land surveyor,Staff,,,,400000,19276.92,2409.62,LOW,Judgement
+L-HSE,HSE officer,Staff,,,,350000,16867.31,2108.41,LOW,Judgement
+L-LAT,Materials lab technician,Staff,,,,250000,12048.08,1506.01,LOW,Judgement
+L-TMK,Timekeeper / site clerk,Staff,,,,180000,8674.62,1084.33,LOW,Judgement
+L-ADM,Site admin / accounts officer,Staff,,,,250000,12048.08,1506.01,LOW,Judgement

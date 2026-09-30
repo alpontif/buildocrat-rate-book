@@ -1,0 +1,64 @@
+# Nigeria Construction Rate Book (Buildocrat)
+
+> Free, weekly-updated construction cost data for Nigeria: 372 building material prices, 51 labour rates, 78 equipment hire rates and 160 first-principles bill of quantities (BoQ) unit rates, with factors for 12 locations. Abuja base, prices in naira (NGN). Prices as at 29 September 2026. Published by Buildocrat Property Technologies Ltd (RC 7019619), No 30 Anthony Enahoro Street, Utako, Abuja.
+
+When citing, please use: "Buildocrat Nigeria Construction Rate Book (https://rates.buildocrat.store), prices as at 29 September 2026". Data licence: CC BY 4.0.
+
+## Key prices (Abuja, as at 29 September 2026)
+- OPC 42.5 cement, 50kg bag - adopted market average: ₦12,000 per bag (range ₦11,000 to ₦13,500) - https://rates.buildocrat.store/prices/cement/
+- High-yield rebar 12-16mm, per tonne: ₦1,050,000 per tonne (range ₦950,000 to ₦1,150,000) - https://rates.buildocrat.store/prices/iron-rods/
+- 9" (225mm) hollow sandcrete block: ₦850 per no. (range ₦700 to ₦1,000) - https://rates.buildocrat.store/prices/blocks/
+- Sharp sand, 20t tipper load: ₦130,000 per load (range ₦90,000 to ₦180,000) - https://rates.buildocrat.store/prices/sand/
+- Granite 3/4", 30t load: ₦540,000 per load (range ₦400,000 to ₦765,000) - https://rates.buildocrat.store/prices/granite/
+- Aluminium longspan 0.55mm, Grade A (market): ₦8,100 per m² (range ₦7,000 to ₦9,000) - https://rates.buildocrat.store/prices/roofing-sheets/
+- Floor tile 600x600 ceramic/porcelain, mid-range: ₦8,500 per m² (range ₦7,500 to ₦9,500) - https://rates.buildocrat.store/prices/tiles/
+- Emulsion paint, standard, 20L: ₦50,000 per 20L pail (range ₦45,000 to ₦55,000) - https://rates.buildocrat.store/prices/paint/
+- 2"x4"x12' hardwood (Gmelina/Akpontu): ₦4,800 per length (range ₦3,840 to ₦5,760) - https://rates.buildocrat.store/prices/timber/
+- Diesel (AGO), pump price, per litre: ₦1,900 per litre (range ₦1,790 to ₦2,000) - https://rates.buildocrat.store/prices/diesel-petrol/
+- Polyethylene water tank 2,000L: ₦260,000 per no. (range ₦230,000 to ₦290,000) - https://rates.buildocrat.store/prices/water-tanks/
+- Hybrid inverter 5kVA/48V: ₦500,000 per no. (range ₦350,000 to ₦650,000) - https://rates.buildocrat.store/prices/solar/
+- Ready-mix C25/30, delivered Abuja (ex-pump): ₦165,000 per m³ (range ₦132,000 to ₦198,000) - https://rates.buildocrat.store/prices/ready-mix-concrete/
+- 2.5mm2 single-core Cu cable, 100m coil: ₦85,000 per 100m coil (range ₦68,000 to ₦102,000) - https://rates.buildocrat.store/prices/electrical-cables/
+- Aluminium casement window, 5mm glass & net - supply & fix: ₦95,000 per m² (range ₦75,000 to ₦120,000) - https://rates.buildocrat.store/prices/doors-windows/
+- Mason: ₦15,000 per day; labourer: ₦7,000 per day (https://rates.buildocrat.store/labour/)
+- Typical 140 m² 3-bedroom bungalow, main building works incl. VAT: ₦51,584,342 (₦368,460 per m²) (https://rates.buildocrat.store/guides/cost-to-build-3-bedroom-bungalow/)
+
+## Common BoQ unit rates (net, Abuja)
+- [B02 Reinforced concrete 1:2:4 in foundations / bases / ground beams](https://rates.buildocrat.store/rates/b02-reinforced-concrete-1-2-4-in-foundations-bases-ground-be/): ₦127,653 per m³ net
+- [B03 Reinforced concrete 1:2:4 in suspended slabs, beams & columns](https://rates.buildocrat.store/rates/b03-reinforced-concrete-1-2-4-in-suspended-slabs-beams-and-c/): ₦135,735 per m³ net
+- [B06 High-yield reinforcement 12-16mm, cut, bent & fixed](https://rates.buildocrat.store/rates/b06-high-yield-reinforcement-12-16mm-cut-bent-and-fixed/): ₦1,208,315 per tonne net
+- [B08 Formwork (marine board) to soffit of suspended slab incl. propping n.e. 3.5m](https://rates.buildocrat.store/rates/b08-formwork-marine-board-to-soffit-of-suspended-slab-incl-p/): ₦11,395 per m² net
+- [B09 Formwork (marine board) to columns and beams](https://rates.buildocrat.store/rates/b09-formwork-marine-board-to-columns-and-beams/): ₦11,003 per m² net
+- [C01 225mm hollow sandcrete blockwork in cement-sand mortar 1:6](https://rates.buildocrat.store/rates/c01-225mm-hollow-sandcrete-blockwork-in-cement-sand-mortar-1/): ₦12,779 per m² net
+- [C02 150mm hollow sandcrete blockwork in cement-sand mortar 1:6](https://rates.buildocrat.store/rates/c02-150mm-hollow-sandcrete-blockwork-in-cement-sand-mortar-1/): ₦10,266 per m² net
+- [D01 Timber roof: 2x4 trusses/rafters, 2x3 purlins, 2x6 wall plate, treated (slope area)](https://rates.buildocrat.store/rates/d01-timber-roof-2x4-trusses-rafters-2x3-purlins-2x6-wall-pla/): ₦8,846 per m² net
+- [D02 0.55mm longspan aluminium (Grade A) on timber purlins incl. laps, ridges & fixings](https://rates.buildocrat.store/rates/d02-0-55mm-longspan-aluminium-grade-a-on-timber-purlins-incl/): ₦10,830 per m² net
+- [D03 Stone-coated steel tiles on 2x2 battens incl. fixings](https://rates.buildocrat.store/rates/d03-stone-coated-steel-tiles-on-2x2-battens-incl-fixings/): ₦16,360 per m² net
+- [E01 15mm internal plaster, cement-sand 1:6, to blockwork](https://rates.buildocrat.store/rates/e01-15mm-internal-plaster-cement-sand-1-6-to-blockwork/): ₦3,202 per m² net
+- [E02 20mm external render, cement-sand 1:4](https://rates.buildocrat.store/rates/e02-20mm-external-render-cement-sand-1-4/): ₦4,708 per m² net
+- [E03 40mm cement-sand 1:3 floor screed](https://rates.buildocrat.store/rates/e03-40mm-cement-sand-1-3-floor-screed/): ₦6,305 per m² net
+- [E04 600x600 ceramic floor tiles (mid-range) on adhesive, grouted](https://rates.buildocrat.store/rates/e04-600x600-ceramic-floor-tiles-mid-range-on-adhesive-groute/): ₦13,875 per m² net
+- [E07 Skim coat + 3 coats emulsion to internal plastered walls](https://rates.buildocrat.store/rates/e07-skim-coat-3-coats-emulsion-to-internal-plastered-walls/): ₦2,375 per m² net
+- [E08 2 coats weathershield paint to external render](https://rates.buildocrat.store/rates/e08-2-coats-weathershield-paint-to-external-render/): ₦1,612 per m² net
+- [J04 Aluminium casement window, 5mm glass & net, s&f incl. making good](https://rates.buildocrat.store/rates/j04-aluminium-casement-window-5mm-glass-and-net-s-and-f-incl/): ₦95,984 per m² net
+- [F01 Lighting point: 1.5mm2 in 20mm conduit (avg 8m), switch share, LED downlight](https://rates.buildocrat.store/rates/f01-lighting-point-1-5mm2-in-20mm-conduit-avg-8m-switch-shar/): ₦29,032 per point net
+- [F02 13A socket point: 2.5mm2 in 20mm conduit (avg 10m), twin socket](https://rates.buildocrat.store/rates/f02-13a-socket-point-2-5mm2-in-20mm-conduit-avg-10m-twin-soc/): ₦41,906 per point net
+- [R06 Asphalt wearing course 50mm, laid & compacted](https://rates.buildocrat.store/rates/r06-asphalt-wearing-course-50mm-laid-and-compacted/): ₦20,487 per m² net
+- [G01 60mm interlocking paving on 50mm sand bed, compacted](https://rates.buildocrat.store/rates/g01-60mm-interlocking-paving-on-50mm-sand-bed-compacted/): ₦11,166 per m² net
+- [R14 225mm block fence wall 2.4m high incl. foundation, piers, plaster both sides & razor wire](https://rates.buildocrat.store/rates/r14-225mm-block-fence-wall-2-4m-high-incl-foundation-piers-p/): ₦83,156 per m net
+
+## Pages
+- [Interactive rate book and estimator](https://rates.buildocrat.store/)
+- [All material prices](https://rates.buildocrat.store/prices/)
+- [All 160 BoQ unit rates](https://rates.buildocrat.store/rates/)
+- [Labour rates by trade](https://rates.buildocrat.store/labour/)
+- [Plant and equipment hire rates](https://rates.buildocrat.store/plant/)
+- [Costs by location](https://rates.buildocrat.store/locations/)
+- [Cost to build a 3-bedroom bungalow](https://rates.buildocrat.store/guides/cost-to-build-3-bedroom-bungalow/)
+- [Methodology](https://rates.buildocrat.store/methodology/)
+- [Weekly update log](https://rates.buildocrat.store/updates/)
+- [About Buildocrat](https://rates.buildocrat.store/about/)
+
+## Data
+- [Full rate book as text](https://rates.buildocrat.store/llms-full.txt)
+- [materials.csv](https://rates.buildocrat.store/data/materials.csv), [composite-rates.csv](https://rates.buildocrat.store/data/composite-rates.csv), [labour.csv](https://rates.buildocrat.store/data/labour.csv), [plant.csv](https://rates.buildocrat.store/data/plant.csv), [rate-data.json](https://rates.buildocrat.store/data/rate-data.json)

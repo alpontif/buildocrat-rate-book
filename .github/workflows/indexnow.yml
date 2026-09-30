@@ -1,0 +1,15 @@
+name: Notify search engines (IndexNow)
+on:
+  push:
+    branches: [main]
+    paths: ["docs/sitemap.xml", "rate-data.json"]
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wait for GitHub Pages to publish
+        run: sleep 150
+      - name: Submit all sitemap URLs to IndexNow (Bing, Yandex, Seznam, Naver)
+        run: python3 indexnow.py

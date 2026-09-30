@@ -1,0 +1,695 @@
+# Nigeria Construction Rate Book - full data (Buildocrat)
+
+Prices as at 29 September 2026. Abuja base, naira (NGN), excluding VAT unless stated. Source: Buildocrat Property Technologies Ltd (RC 7019619), https://rates.buildocrat.store. Licence CC BY 4.0.
+
+Method: unit rate = sum(material qty x (1+waste) x price) + sum(labour hours x all-in hourly rate) + sum(plant days x all-in day rate). Tender rate = net x 1.3347 (overheads 7.5%, contingency 5%, profit 10%, VAT 7.5%).
+
+## Material prices
+code | material | unit | price | range | confidence | evidence date | source
+M-CEM-01 | OPC 42.5 cement, 50kg bag - adopted market average | bag | ₦12,000 | ₦11,000-₦13,500 | HIGH | 2026-09-29 | The Trumpet (29 Sep 2026): major brands ~N12,000/bag in Sept after N13-15k Jul-Aug; BuildWithEase Jul 2026 N11-15k
+M-CEM-02 | OPC cement per tonne (20 bags) | t | ₦240,000 | ₦220,000-₦270,000 | HIGH | 2026-09-29 | Derived by formula
+M-CEM-07 | Dangote 3X 42.5R, 50kg | bag | ₦12,300 | ₦10,800-₦13,800 | MEDIUM | 2026-09-29 | BuildWithEase Jul 2026: Dangote N10.5-12.5k; typically N300-700 over BUA
+M-CEM-08 | BUA 42.5, 50kg | bag | ₦11,800 | ₦10,400-₦13,200 | MEDIUM | 2026-09-29 | BuildWithEase Jul 2026: BUA typically N300-700 cheaper than Dangote
+M-CEM-09 | HBM (ex-Lafarge) Elephant 42.5, 50kg | bag | ₦12,000 | ₦10,600-₦13,400 | MEDIUM | 2026-09-29 | The Trumpet Sep 2026: HBM competing at ~N12k
+M-CEM-10 | HBM Powermax 42.5R (structural premium), 50kg | bag | ₦13,500 | ₦10,800-₦16,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-11 | 32.5 grade cement (Supaset/Ashaka-type), 50kg | bag | ₦11,200 | ₦9,000-₦13,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-12 | White cement, 40kg | bag | ₦38,000 | ₦30,400-₦45,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-13 | Hydrated lime, 25kg | bag | ₦8,000 | ₦6,400-₦9,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-03 | Tile adhesive, standard, 20kg | bag | ₦9,500 | ₦7,600-₦11,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-20 | Tile adhesive, flexible/porcelain grade (C2TE), 20kg | bag | ₦16,000 | ₦12,800-₦19,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-04 | Tile grout, per kg | kg | ₦1,500 | ₦1,200-₦1,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-19 | Epoxy grout, per kg | kg | ₦9,000 | ₦7,200-₦10,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-05 | Plaster of Paris (POP), 40kg bag | bag | ₦9,000 | ₦7,200-₦10,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-21 | Gypsum plaster (skim), 25kg | bag | ₦9,500 | ₦7,600-₦11,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-06 | Wall putty / skim coat, 20kg | bag | ₦9,000 | ₦7,200-₦10,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-14 | SBR bonding agent, per litre | L | ₦3,800 | ₦3,040-₦4,560 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-15 | Integral waterproofing admixture, per litre | L | ₦4,500 | ₦3,600-₦5,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-16 | Superplasticiser, per litre | L | ₦3,500 | ₦2,800-₦4,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-17 | Curing compound, per litre | L | ₦3,000 | ₦2,400-₦3,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-18 | Non-shrink cementitious grout, 25kg | bag | ₦28,000 | ₦22,400-₦33,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CEM-22 | Cementitious waterproofing, 2-part, 25kg set | set | ₦55,000 | ₦44,000-₦66,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-AGG-01 | Sharp sand, 20t tipper load | load | ₦130,000 | ₦90,000-₦180,000 | MEDIUM | 2026-09-01 | Prioni (Feb 2026) N70-150k/20t national; Jiji Lagos 2026 N150-180k/20t
+M-AGG-02 | Sharp sand, per tonne | t | ₦6,500 | ₦4,500-₦9,000 | MEDIUM | 2026-09-01 | Derived by formula
+M-AGG-03 | Plaster (soft) sand, 20t load | load | ₦140,000 | ₦112,000-₦168,000 | LOW | 2026-09-01 | Judgement: ~5-10% over sharp sand
+M-AGG-04 | Plaster sand, per tonne | t | ₦7,000 | ₦5,600-₦8,400 | LOW | derived | Derived by formula
+M-AGG-11 | Filling sand (fine), 20t load | load | ₦70,000 | ₦56,000-₦84,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-AGG-12 | Filling sand, per tonne | t | ₦3,500 | ₦2,800-₦4,200 | LOW | derived | Derived by formula
+M-AGG-05 | Laterite filling, 20t load | load | ₦85,000 | ₦68,000-₦102,000 | LOW | 2026-09-01 | Judgement from Abuja supplier lists
+M-AGG-06 | Laterite, per tonne | t | ₦4,250 | ₦3,400-₦5,100 | LOW | derived | Derived by formula
+M-AGG-07 | Granite 3/4", 30t load | load | ₦540,000 | ₦400,000-₦765,000 | MEDIUM | 2026-09-01 | Jiji 2026: 30t N765k (Ibadan); Prioni Feb 2026 N7-10k/t; Abuja near Bwari/Kubwa quarries
+M-AGG-08 | Granite 3/4", per tonne | t | ₦18,000 | ₦13,333-₦25,500 | MEDIUM | derived | Derived by formula
+M-AGG-13 | Granite 1/2", 30t load | load | ₦560,000 | ₦448,000-₦672,000 | LOW | derived | Judgement (+~4% over 3/4")
+M-AGG-14 | Granite 1/2", per tonne | t | ₦18,666 | ₦14,933-₦22,400 | LOW | derived | Derived by formula
+M-AGG-15 | Granite 1/4" (chippings), 30t load | load | ₦520,000 | ₦416,000-₦624,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-AGG-16 | Granite 1/4", per tonne | t | ₦17,333 | ₦13,867-₦20,800 | LOW | derived | Derived by formula
+M-AGG-17 | Granite 1", per tonne | t | ₦17,500 | ₦14,000-₦21,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-AGG-09 | Hardcore / stone base, per tonne | t | ₦11,000 | ₦8,800-₦13,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-AGG-10 | Stone dust, per tonne | t | ₦9,000 | ₦7,200-₦10,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-AGG-18 | Crushed stone base 0/40 (graded), per tonne | t | ₦12,500 | ₦10,000-₦15,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-AGG-19 | Boulders / rip-rap, per tonne | t | ₦13,000 | ₦10,400-₦15,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-AGG-20 | Gravel (laterite-gravel), per tonne | t | ₦6,500 | ₦5,200-₦7,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-AGG-21 | Topsoil, 20t load | load | ₦80,000 | ₦64,000-₦96,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-AGG-22 | Topsoil, per tonne | t | ₦4,000 | ₦3,200-₦4,800 | LOW | derived | Derived by formula
+M-BLK-01 | 9" (225mm) hollow sandcrete block | nr | ₦850 | ₦700-₦1,000 | MEDIUM | 2026-09-01 | Jiji Abuja (Lugbe) 2026: N800 std; N1,000 vibrated stone-dust
+M-BLK-02 | 6" (150mm) hollow sandcrete block | nr | ₦700 | ₦560-₦840 | LOW | 2026-09-01 | Judgement from 9" ratio
+M-BLK-04 | 5" (125mm) hollow block | nr | ₦580 | ₦460-₦700 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-08 | 4" (100mm) hollow block | nr | ₦520 | ₦420-₦620 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-03 | 9" (225mm) solid block | nr | ₦1,050 | ₦840-₦1,260 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-09 | 6" (150mm) solid block | nr | ₦850 | ₦680-₦1,020 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-10 | Compressed earth interlocking brick | nr | ₦350 | ₦280-₦420 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-11 | Burnt clay facing brick 215x102.5x65 | nr | ₦450 | ₦360-₦540 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-05 | Interlocking paving stone 60mm | m2 | ₦8,500 | ₦6,800-₦10,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-06 | Interlocking paving stone 80mm | m2 | ₦10,500 | ₦8,400-₦12,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-12 | Interlocking paving stone 100mm (heavy duty) | m2 | ₦13,500 | ₦10,800-₦16,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-07 | Precast kerb 450x250x125 (walkway) | nr | ₦4,500 | ₦3,600-₦5,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-13 | Precast road kerb 900x300x150 | nr | ₦9,000 | ₦7,200-₦10,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-14 | Precast lintel 150x225x1500 | nr | ₦18,000 | ₦14,400-₦21,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-15 | Precast U-drain 600mm, per m | m | ₦35,000 | ₦28,000-₦42,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-16 | Precast drain cover slab, per m | m | ₦18,000 | ₦14,400-₦21,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-17 | Concrete culvert pipe 600mm dia, per m | m | ₦95,000 | ₦76,000-₦114,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-18 | Concrete culvert pipe 900mm dia, per m | m | ₦150,000 | ₦120,000-₦180,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-19 | Concrete culvert pipe 1200mm dia, per m | m | ₦230,000 | ₦184,000-₦276,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-20 | Precast manhole ring 1000mm | nr | ₦65,000 | ₦52,000-₦78,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-21 | Hollow pot for rib-and-block slab, 225mm | nr | ₦1,300 | ₦1,040-₦1,560 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-BLK-22 | Concrete cover spacers, per 100 | pack | ₦3,000 | ₦2,400-₦3,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-01 | High-yield rebar 12-16mm, per tonne | t | ₦1,050,000 | ₦950,000-₦1,150,000 | MEDIUM | 2026-05-28 | Spiritlevel/Naijasabi (2026) avg N1.1m/t; BestSales (Feb 2026) 12/16mm TMT N1.01m/t
+M-STL-02 | High-yield rebar 20-25mm, per tonne | t | ₦1,070,000 | ₦970,000-₦1,180,000 | MEDIUM | 2026-05-28 | Spiritlevel/Naijasabi (2026) avg N1.1m/t; BestSales (Feb 2026) 12/16mm TMT N1.01m/t
+M-STL-03 | Rebar 8-10mm, per tonne | t | ₦1,100,000 | ₦1,000,000-₦1,200,000 | MEDIUM | 2026-05-28 | Spiritlevel/Naijasabi (2026) avg N1.1m/t; BestSales (Feb 2026) 12/16mm TMT N1.01m/t
+M-STL-09 | High-yield rebar 32mm, per tonne | t | ₦1,100,000 | ₦880,000-₦1,320,000 | LOW | derived | Spiritlevel/Naijasabi (2026) avg N1.1m/t; BestSales (Feb 2026) 12/16mm TMT N1.01m/t
+M-STL-10 | 8mm rebar, 12m length (0.395 kg/m) | length | ₦5,214 | ₦4,740-₦5,688 | MEDIUM | derived | Derived by formula
+M-STL-11 | 10mm rebar, 12m length (0.617 kg/m) | length | ₦8,144 | ₦7,404-₦8,885 | MEDIUM | derived | Derived by formula
+M-STL-12 | 12mm rebar, 12m length (0.888 kg/m) | length | ₦11,189 | ₦10,123-₦12,254 | MEDIUM | derived | Derived by formula
+M-STL-13 | 16mm rebar, 12m length (1.578 kg/m) | length | ₦19,883 | ₦17,989-₦21,776 | MEDIUM | derived | Derived by formula
+M-STL-14 | 20mm rebar, 12m length (2.466 kg/m) | length | ₦31,663 | ₦28,704-₦34,919 | MEDIUM | derived | Derived by formula
+M-STL-15 | 25mm rebar, 12m length (3.853 kg/m) | length | ₦49,473 | ₦44,849-₦54,558 | MEDIUM | derived | Derived by formula
+M-STL-16 | 32mm rebar, 12m length (6.313 kg/m) | length | ₦83,332 | ₦66,665-₦99,998 | LOW | derived | Derived by formula
+M-STL-04 | Binding wire, 20kg roll | roll | ₦38,000 | ₦30,400-₦45,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-05 | Binding wire, per kg | kg | ₦1,900 | ₦1,520-₦2,280 | LOW | derived | Derived by formula
+M-STL-07 | BRC mesh A142, per m2 | m2 | ₦3,800 | ₦3,040-₦4,560 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-17 | BRC mesh A193, per m2 | m2 | ₦5,200 | ₦4,160-₦6,240 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-18 | BRC mesh A252, per m2 | m2 | ₦6,800 | ₦5,440-₦8,160 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-19 | Expanded metal lath, per m2 | m2 | ₦2,800 | ₦2,240-₦3,360 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-08 | Structural steel sections (UB/UC/PFC/angle), per tonne | t | ₦1,450,000 | ₦1,160,000-₦1,740,000 | LOW | derived | Judgement: ~1.35-1.4x rebar/t
+M-STL-20 | Angle iron 25x25x3, 6m (1.12 kg/m) | length | ₦9,744 | ₦7,795-₦11,693 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables)
+M-STL-21 | Angle iron 50x50x5, 6m (3.77 kg/m) | length | ₦32,799 | ₦26,239-₦39,359 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables)
+M-STL-22 | Angle iron 75x75x6, 6m (6.85 kg/m) | length | ₦59,595 | ₦47,676-₦71,514 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables)
+M-STL-23 | Flat bar 50x6, 6m (2.36 kg/m) | length | ₦20,532 | ₦16,426-₦24,638 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables)
+M-STL-24 | Square hollow section 25x25x1.5, 6m (1.06 kg/m) | length | ₦10,144 | ₦8,115-₦12,173 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables); +10% tube premium
+M-STL-25 | Square hollow section 50x50x2, 6m (2.93 kg/m) | length | ₦28,040 | ₦22,432-₦33,648 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables); +10% tube premium
+M-STL-26 | Rectangular hollow section 100x50x3, 6m (6.71 kg/m) | length | ₦64,215 | ₦51,372-₦77,058 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables)
+M-STL-27 | Black steel pipe 2" (60.3x2.9), 6m (4.11 kg/m) | length | ₦39,333 | ₦31,466-₦47,199 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables)
+M-STL-28 | Galvanised pipe 2" medium, 6m (5.03 kg/m) | length | ₦56,889 | ₦45,511-₦68,267 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables); +30% galvanising
+M-STL-29 | Galvanised pipe 1" medium, 6m (2.41 kg/m) | length | ₦27,257 | ₦21,806-₦32,709 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables); +30% galvanising
+M-STL-30 | Channel PFC 100x50, 6m (10.2 kg/m) | length | ₦88,740 | ₦70,992-₦106,488 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables)
+M-STL-31 | Universal beam 203x133x25, per m | m | ₦36,250 | ₦29,000-₦43,500 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables)
+M-STL-32 | Universal beam 254x146x31, per m | m | ₦44,950 | ₦35,960-₦53,940 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables)
+M-STL-33 | Universal column 203x203x46, per m | m | ₦66,700 | ₦53,360-₦80,040 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables)
+M-STL-34 | Steel plate 6mm, per m2 (47.1 kg) | m2 | ₦68,295 | ₦54,636-₦81,954 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables)
+M-STL-35 | Steel plate 10mm, per m2 (78.5 kg) | m2 | ₦113,825 | ₦91,060-₦136,590 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables)
+M-STL-36 | Galvanised Z/C purlin 150x65x2, per m (4.1 kg/m) | m | ₦7,728 | ₦6,183-₦9,274 | LOW | derived | Derived: structural steel N/t x section weight (BS/EN tables); +30% galvanised cold-formed
+M-STL-37 | Steel metal deck 0.9mm, per m2 | m2 | ₦18,000 | ₦14,400-₦21,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-38 | Welding electrodes E6013 2.5mm, per kg | kg | ₦2,800 | ₦2,240-₦3,360 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-39 | Cutting/grinding disc 9" | nr | ₦3,000 | ₦2,400-₦3,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-40 | Bolt & nut M16x100 grade 8.8 with washers | nr | ₦800 | ₦640-₦960 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-41 | Expansion anchor bolt M12 | nr | ₦900 | ₦720-₦1,080 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-42 | Chemical anchor resin, 400ml cartridge | nr | ₦15,000 | ₦12,000-₦18,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-06 | Wire nails, assorted, per kg | kg | ₦2,600 | ₦2,080-₦3,120 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-43 | Concrete nails, per kg | kg | ₦3,500 | ₦2,800-₦4,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-44 | Roofing nails (umbrella head), per kg | kg | ₦3,200 | ₦2,560-₦3,840 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-45 | Barbed wire, 200m roll | roll | ₦35,000 | ₦28,000-₦42,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-46 | Razor (concertina) wire 450mm, per coil (~10m) | coil | ₦25,000 | ₦20,000-₦30,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-47 | Chain-link mesh 1.8m high, 20m roll | roll | ₦75,000 | ₦60,000-₦90,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-STL-48 | Welded mesh fence panel 2.4x1.8m | nr | ₦28,000 | ₦22,400-₦33,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-01 | 2"x2"x12' hardwood | length | ₦2,500 | ₦2,000-₦3,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-02 | 2"x3"x12' hardwood | length | ₦3,500 | ₦2,800-₦4,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-03 | 2"x4"x12' hardwood (Gmelina/Akpontu) | length | ₦4,800 | ₦3,840-₦5,760 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-04 | 2"x6"x12' hardwood | length | ₦8,000 | ₦7,040-₦8,960 | MEDIUM | 2026-03-26 | BestSales (Mar 2026): mahogany 2x6x12 N8,000
+M-TMB-09 | 2"x12"x12' hardwood | length | ₦9,500 | ₦7,600-₦11,400 | LOW | 2026-02-19 | BestSales 2026: 2x12 full length N3,000-9,500
+M-TMB-10 | 3"x4"x12' hardwood | length | ₦7,500 | ₦6,000-₦9,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-11 | 1"x2"x12' batten | length | ₦1,500 | ₦1,200-₦1,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-12 | 1"x6"x12' plank | length | ₦3,300 | ₦2,640-₦3,960 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-05 | 1"x12"x12' plank (formwork) | length | ₦6,500 | ₦5,200-₦7,800 | LOW | 2026-02-19 | BestSales 2026 1x12 N2,500-4,000/ft; BetaSales 2025 hardwood N6,000
+M-TMB-13 | Dressed hardwood (Iroko/Mahogany) for joinery, per m3 | m3 | ₦750,000 | ₦600,000-₦900,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-06 | Marine board 18mm, 4'x8' film-faced | sheet | ₦32,000 | ₦25,600-₦38,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-14 | Plywood 12mm, 4'x8' | sheet | ₦18,000 | ₦14,400-₦21,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-15 | Plywood 18mm, 4'x8' | sheet | ₦26,000 | ₦20,800-₦31,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-16 | MDF 18mm, 4'x8' | sheet | ₦25,000 | ₦20,000-₦30,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-17 | HDF 3mm, 4'x8' | sheet | ₦6,000 | ₦4,800-₦7,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-18 | Particle board 18mm, 4'x8' | sheet | ₦18,000 | ₦14,400-₦21,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-19 | Bamboo prop / stick | nr | ₦1,500 | ₦1,200-₦1,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-TMB-07 | Wood preservative (Solignum-type), per litre | L | ₦4,500 | ₦3,600-₦5,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-11 | Aluminium longspan 0.40mm (market) | m2 | ₦5,600 | ₦5,150-₦6,050 | HIGH | 2026-09-01 | Ideal Roofing System, Lagos price list, Sept 2026: 0.40mm market from N5,600/m2
+M-RF-03 | Aluminium longspan 0.45mm (market) | m2 | ₦6,600 | ₦5,810-₦7,390 | MEDIUM | 2026-06-03 | Jumac Aluminium (Jun 2026): light gauges N5,600-7,400/m2
+M-RF-01 | Aluminium longspan 0.55mm, Grade A (market) | m2 | ₦8,100 | ₦7,000-₦9,000 | HIGH | 2026-09-01 | Ideal Roofing System, Lagos price list, Sept 2026: N8,100/m2
+M-RF-09 | Aluminium longspan 0.45mm, caliper | m2 | ₦11,000 | ₦8,800-₦13,200 | LOW | derived | Interpolated from Ideal Roofing caliper range
+M-RF-02 | Aluminium longspan 0.55mm, caliper (industrial) | m2 | ₦13,200 | ₦12,100-₦14,300 | HIGH | 2026-09-01 | Ideal Roofing System, Lagos price list, Sept 2026: N13,200/m2
+M-RF-10 | Aluminium longspan 0.70mm, caliper | m2 | ₦15,800 | ₦14,500-₦17,100 | HIGH | 2026-09-01 | Ideal Roofing System, Lagos price list, Sept 2026: N15,800/m2
+M-RF-04 | Step-tile / Metcopo aluminium 0.55mm (market) | m2 | ₦8,800 | ₦7,040-₦10,560 | LOW | derived | Judgement ~5-10% over longspan
+M-RF-12 | Metcopo aluminium 0.55mm, caliper | m2 | ₦14,000 | ₦11,200-₦16,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-05 | Stone-coated steel tile (Gerard-type), per piece | nr | ₦5,600 | ₦4,750-₦6,500 | MEDIUM | 2026-04-03 | Gods Promise Aluminium (Apr 2026): N4,750-6,500/piece
+M-RF-13 | Stone-coated shingle/bond profile, per piece | nr | ₦6,200 | ₦4,960-₦7,440 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-14 | Stone-coated ridge/hip cap, per piece | nr | ₦5,500 | ₦4,400-₦6,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-15 | Galvanised corrugated (zinc) sheet 0.3mm, per m2 | m2 | ₦5,000 | ₦4,000-₦6,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-16 | Polycarbonate/translucent roofing sheet, per m2 | m2 | ₦7,500 | ₦6,000-₦9,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-06 | Aluminium ridge cap / flashing, per m | m | ₦4,500 | ₦3,600-₦5,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-17 | Self-drilling roofing screws with washers, per 100 | pack | ₦6,500 | ₦5,200-₦7,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-18 | Reflective foil roof insulation, per m2 | m2 | ₦1,800 | ₦1,440-₦2,160 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-19 | Glass/rock wool insulation 50mm, per m2 | m2 | ₦4,500 | ₦3,600-₦5,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-07 | PVC fascia board, per m | m | ₦5,500 | ₦4,400-₦6,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-20 | PVC soffit panel, per m2 | m2 | ₦6,500 | ₦5,200-₦7,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-08 | Aluminium gutter, per m | m | ₦7,500 | ₦6,000-₦9,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-21 | uPVC rainwater downpipe 110mm, 5.8m length | length | ₦14,000 | ₦11,200-₦16,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RF-22 | uPVC downpipe 110mm, per m | m | ₦2,414 | ₦1,931-₦2,897 | LOW | derived | Derived by formula
+M-RF-23 | Aluminium composite panel 4mm, per m2 | m2 | ₦22,000 | ₦17,600-₦26,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-WP-01 | Torch-on APP bitumen membrane 4mm, 10 m2 roll | roll | ₦45,000 | ₦36,000-₦54,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-WP-02 | Torch-on membrane 4mm, per m2 | m2 | ₦4,500 | ₦3,600-₦5,400 | LOW | derived | Derived by formula
+M-WP-03 | Bitumen primer, per litre | L | ₦3,500 | ₦2,800-₦4,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-WP-04 | Bituminous paint (black), 20L | pail | ₦55,000 | ₦44,000-₦66,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-WP-05 | Bituminous paint, per litre | L | ₦2,750 | ₦2,200-₦3,300 | LOW | derived | Derived by formula
+M-WP-06 | Bituminous felt DPC 225mm x 20m roll | roll | ₦15,000 | ₦12,000-₦18,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-WP-07 | DPC 225mm, per m | m | ₦750 | ₦600-₦900 | LOW | derived | Derived by formula
+M-WP-08 | Polyurethane liquid membrane, 20kg | pail | ₦180,000 | ₦144,000-₦216,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-WP-09 | Polyurethane membrane, per kg | kg | ₦9,000 | ₦7,200-₦10,800 | LOW | derived | Derived by formula
+M-WP-10 | PVC waterstop 150mm, per m | m | ₦4,500 | ₦3,600-₦5,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-WP-11 | Non-woven geotextile, per m2 | m2 | ₦1,200 | ₦960-₦1,440 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-WP-12 | Polyurethane joint sealant, 600ml | nr | ₦9,000 | ₦7,200-₦10,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-01 | Floor tile 600x600 ceramic/porcelain, mid-range | m2 | ₦8,500 | ₦7,500-₦9,500 | MEDIUM | 2026-08-25 | TilesNg listings (2026): 60x60 N7,500-9,300/m2
+M-FIN-02 | Floor tile 600x600 polished porcelain (Spanish), premium | m2 | ₦22,500 | ₦18,000-₦27,000 | MEDIUM | 2026-08-25 | TilesNg listings (2026): Spanish N22,500-26,500/m2
+M-FIN-11 | Floor tile 600x600 matt anti-slip porcelain | m2 | ₦12,000 | ₦9,600-₦14,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-12 | Floor tile 400x400 ceramic | m2 | ₦5,500 | ₦4,400-₦6,600 | LOW | derived | PropertyPro/Nigerian Informer 40x40 cheapest carton; uplifted
+M-FIN-13 | Floor tile 300x300 anti-slip (wet areas) | m2 | ₦6,500 | ₦5,200-₦7,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-14 | Porcelain slab 600x1200 | m2 | ₦28,000 | ₦22,400-₦33,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-03 | Wall tile 300x600 | m2 | ₦7,500 | ₦6,000-₦9,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-15 | Tile skirting 100mm, per m | m | ₦1,800 | ₦1,440-₦2,160 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-16 | Aluminium/PVC tile trim, per m | m | ₦1,200 | ₦960-₦1,440 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-17 | Local granite slab 20mm polished, per m2 | m2 | ₦45,000 | ₦36,000-₦54,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-18 | Imported marble 20mm, per m2 | m2 | ₦85,000 | ₦68,000-₦102,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-19 | Natural stone wall cladding, per m2 | m2 | ₦18,000 | ₦14,400-₦21,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-20 | SPC vinyl click flooring 4-5mm, per m2 | m2 | ₦7,500 | ₦6,600-₦8,400 | MEDIUM | 2026-09-29 | Jiji flooring listings Sep 2026: vinyl/SPC N5,300-8,000/m2
+M-FIN-21 | Laminate flooring 8mm, per m2 | m2 | ₦9,000 | ₦7,200-₦10,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-22 | Carpet tiles (commercial), per m2 | m2 | ₦14,000 | ₦11,200-₦16,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-23 | Epoxy floor coating (2-part), per kg | kg | ₦9,500 | ₦7,600-₦11,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-24 | WPC fluted wall panel, per m2 | m2 | ₦12,000 | ₦9,600-₦14,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-04 | Emulsion paint, standard, 20L | pail | ₦50,000 | ₦45,000-₦55,000 | MEDIUM | 2026-08-25 | TilesNg listings (2026): Wall Care N47,000, Chemstar N53,000 /20L
+M-FIN-05 | Emulsion paint, per litre | L | ₦2,500 | ₦2,250-₦2,750 | MEDIUM | derived | Derived by formula
+M-FIN-25 | Silk/satin emulsion (premium), 20L | pail | ₦87,000 | ₦76,600-₦97,400 | MEDIUM | 2026-08-25 | TilesNg listings (2026): Macnugar silk N87,000/20L
+M-FIN-26 | Silk emulsion, per litre | L | ₦4,350 | ₦3,830-₦4,870 | MEDIUM | derived | Derived by formula
+M-FIN-06 | Weathershield / textured exterior paint, 20L | pail | ₦95,000 | ₦83,600-₦106,400 | MEDIUM | 2026-08-25 | TilesNg listings (2026): weathershield N96,000/20L
+M-FIN-07 | Weathershield, per litre | L | ₦4,750 | ₦4,180-₦5,320 | MEDIUM | derived | Derived by formula
+M-FIN-27 | Alkali-resistant primer/sealer, 20L | pail | ₦38,000 | ₦30,400-₦45,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-28 | Primer/sealer, per litre | L | ₦1,900 | ₦1,520-₦2,280 | LOW | derived | Derived by formula
+M-FIN-08 | Gloss paint (oil), 4L | tin | ₦28,000 | ₦22,400-₦33,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-29 | Red oxide anti-rust primer, 4L | tin | ₦22,000 | ₦17,600-₦26,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-30 | Wood varnish, 4L | tin | ₦30,000 | ₦24,000-₦36,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-31 | Thinner, 4L | tin | ₦9,000 | ₦7,200-₦10,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-32 | Textured (sand) wall coating, 25kg | pail | ₦45,000 | ₦36,000-₦54,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-08B | Gypsum board 12.5mm, 1.2x2.4m | sheet | ₦11,000 | ₦8,800-₦13,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-33 | PVC ceiling panel, per m2 | m2 | ₦5,500 | ₦4,400-₦6,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-34 | Acoustic mineral fibre tile 600x600, per m2 | m2 | ₦9,000 | ₦7,200-₦10,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-35 | Exposed T-grid suspension system, per m2 | m2 | ₦3,500 | ₦2,800-₦4,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-36 | POP cornice, per m | m | ₦2,500 | ₦2,000-₦3,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-37 | POP fibre (sisal/hemp), per kg | kg | ₦1,500 | ₦1,200-₦1,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-38 | Galvanised drywall stud/channel, 3m | length | ₦2,800 | ₦2,240-₦3,360 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-39 | Clear float glass 5mm, per m2 | m2 | ₦14,000 | ₦11,200-₦16,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-40 | Tinted/reflective glass 6mm, per m2 | m2 | ₦18,000 | ₦14,400-₦21,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-41 | Tempered glass 10mm, per m2 | m2 | ₦45,000 | ₦36,000-₦54,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-42 | Tempered glass 12mm, per m2 | m2 | ₦55,000 | ₦44,000-₦66,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-43 | Mirror 5mm, per m2 | m2 | ₦20,000 | ₦16,000-₦24,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-09 | Water, 10,000L tanker delivered | load | ₦35,000 | ₦28,000-₦42,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FIN-10 | Water, per m3 | m3 | ₦3,500 | ₦2,800-₦4,200 | LOW | derived | Derived by formula
+M-FIN-44 | Grid electricity, Band A commercial, per kWh | kWh | ₦225 | ₦180-₦270 | LOW | derived | Judgement - verify current NERC Band A tariff
+M-DW-01 | Flush door 900x2100 with hardwood frame & ironmongery (supply) | nr | ₦110,000 | ₦88,000-₦132,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-02 | Hardwood panel door with frame (supply) | nr | ₦260,000 | ₦208,000-₦312,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-03 | Steel security door, imported, 1200 (supply) | nr | ₦420,000 | ₦336,000-₦504,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-06 | Fire-rated steel door 1hr with frame & closer (supply) | nr | ₦950,000 | ₦760,000-₦1,140,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-07 | Frameless 12mm tempered glass door with patch fittings - supply & fix | m2 | ₦180,000 | ₦144,000-₦216,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-08 | Aluminium hinged/swing door with glazing - supply & fix | m2 | ₦110,000 | ₦88,000-₦132,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-04 | Aluminium casement window, 5mm glass & net - supply & fix | m2 | ₦95,000 | ₦75,000-₦120,000 | MEDIUM | 2026-08-25 | TilesNg 2026: casement 1.2x1.2m sets N95-130k (~N76k/m2 supply) + fixing
+M-DW-05 | Aluminium sliding window - supply & fix | m2 | ₦80,000 | ₦64,000-₦96,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-09 | uPVC casement window, double seal - supply & fix | m2 | ₦150,000 | ₦120,000-₦180,000 | LOW | derived | TilesNg 2026: uPVC casement set N154,000
+M-DW-10 | Stick curtain wall, tinted glass - supply & fix | m2 | ₦260,000 | ₦208,000-₦312,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-11 | Wrought-iron burglary-proof - supply & fix | m2 | ₦35,000 | ₦28,000-₦42,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-12 | Fabricated steel gate (sliding/swing), primed & painted | m2 | ₦85,000 | ₦68,000-₦102,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-13 | Mortice lock set (3-lever) | nr | ₦25,000 | ₦20,000-₦30,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-14 | Lever handle set | nr | ₦12,000 | ₦9,600-₦14,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-15 | Steel butt hinges 100mm, pair | pair | ₦3,500 | ₦2,800-₦4,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-16 | Overhead door closer | nr | ₦25,000 | ₦20,000-₦30,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-17 | Panic exit bar | nr | ₦85,000 | ₦68,000-₦102,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-18 | Built-in wardrobe (MDF/laminate), per m2 face | m2 | ₦95,000 | ₦76,000-₦114,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-19 | Kitchen base cabinets, per m run | m | ₦280,000 | ₦224,000-₦336,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-20 | Kitchen wall cabinets, per m run | m | ₦200,000 | ₦160,000-₦240,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-DW-21 | Granite kitchen worktop incl. cut-outs, per m | m | ₦120,000 | ₦96,000-₦144,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-11 | 1.0mm2 single-core Cu cable, 100m coil | coil | ₦40,000 | ₦32,000-₦48,000 | LOW | derived | Online lists (N13-28k) carry 2023 prices - not reliable
+M-EL-01 | 1.5mm2 single-core Cu cable, 100m coil | coil | ₦55,000 | ₦44,000-₦66,000 | LOW | derived | Online lists carry 2023 prices - verify
+M-EL-02 | 2.5mm2 single-core Cu cable, 100m coil | coil | ₦85,000 | ₦68,000-₦102,000 | LOW | derived | Verify - copper-sensitive
+M-EL-03 | 4mm2 single-core Cu cable, 100m coil | coil | ₦135,000 | ₦108,000-₦162,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-04 | 6mm2 single-core Cu cable, 100m coil | coil | ₦200,000 | ₦160,000-₦240,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-12 | 10mm2 single-core Cu cable, per m | m | ₦3,500 | ₦2,800-₦4,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-13 | 16mm2 4-core armoured Cu cable, per m | m | ₦22,000 | ₦17,600-₦26,400 | LOW | derived | Nigerchin list (2023) N9,870/m uplifted for copper & FX
+M-EL-14 | 25mm2 4-core armoured Cu cable, per m | m | ₦35,000 | ₦28,000-₦42,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-15 | 35mm2 4-core armoured Cu cable, per m | m | ₦48,000 | ₦38,400-₦57,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-16 | 50mm2 4-core armoured Cu cable, per m | m | ₦68,000 | ₦54,400-₦81,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-17 | 70mm2 4-core armoured Cu cable, per m | m | ₦95,000 | ₦76,000-₦114,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-18 | 2.5mm2 3-core flex, per m | m | ₦1,800 | ₦1,440-₦2,160 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-19 | Cat6 data cable, 305m box | box | ₦95,000 | ₦76,000-₦114,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-05 | 20mm PVC conduit, 3m | length | ₦1,000 | ₦800-₦1,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-20 | 25mm PVC conduit, 3m | length | ₦1,400 | ₦1,120-₦1,680 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-21 | PVC trunking 50x50, 3m | length | ₦4,500 | ₦3,600-₦5,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-22 | Perforated cable tray 300mm, 3m | length | ₦35,000 | ₦28,000-₦42,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-06 | Conduit accessories per point (box, bends, saddles) | set | ₦1,500 | ₦1,200-₦1,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-07 | 1-gang 1-way switch, mid-range | nr | ₦3,000 | ₦2,400-₦3,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-23 | 2-gang switch | nr | ₦4,000 | ₦3,200-₦4,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-08 | 13A twin switched socket | nr | ₦4,500 | ₦3,600-₦5,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-24 | 15A socket outlet (AC/cooker) | nr | ₦5,500 | ₦4,400-₦6,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-25 | 45A cooker control unit | nr | ₦12,000 | ₦9,600-₦14,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-26 | Fused spur unit | nr | ₦6,000 | ₦4,800-₦7,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-27 | Distribution board 8-way SPN (empty) | nr | ₦35,000 | ₦28,000-₦42,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-28 | Distribution board 12-way TPN (empty) | nr | ₦85,000 | ₦68,000-₦102,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-29 | MCB single-pole 6-63A | nr | ₦4,500 | ₦3,600-₦5,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-30 | RCBO 32A 30mA | nr | ₦22,000 | ₦17,600-₦26,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-31 | MCCB 100A triple-pole | nr | ₦95,000 | ₦76,000-₦114,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-32 | Manual changeover switch 100A 4-pole | nr | ₦75,000 | ₦60,000-₦90,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-33 | Automatic transfer switch 100A | nr | ₦450,000 | ₦360,000-₦540,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-34 | Copper-bonded earth rod 1.2m with clamp | nr | ₦18,000 | ₦14,400-₦21,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-09 | LED downlight 12W | nr | ₦4,500 | ₦3,600-₦5,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-35 | LED panel 600x600 40W | nr | ₦18,000 | ₦14,400-₦21,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-36 | LED batten 1200mm | nr | ₦7,000 | ₦5,600-₦8,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-37 | LED flood light 100W | nr | ₦25,000 | ₦20,000-₦30,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-38 | Wall bracket light | nr | ₦12,000 | ₦9,600-₦14,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-39 | Emergency light (maintained) | nr | ₦15,000 | ₦12,000-₦18,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-40 | Illuminated exit sign | nr | ₦18,000 | ₦14,400-₦21,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-41 | LED street light 100W with 8m galvanised pole (supply) | nr | ₦380,000 | ₦304,000-₦456,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-42 | Ceiling fan 56" | nr | ₦45,000 | ₦36,000-₦54,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-43 | Extractor fan 6" | nr | ₦18,000 | ₦14,400-₦21,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-44 | Smoke detector (standalone) | nr | ₦12,000 | ₦9,600-₦14,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-45 | Split AC 1.5HP inverter (supply) | nr | ₦650,000 | ₦520,000-₦780,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-46 | Split AC 2HP inverter (supply) | nr | ₦850,000 | ₦680,000-₦1,020,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-47 | AC copper pipe set with insulation, per m | m | ₦6,500 | ₦5,200-₦7,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-48 | Electric water heater 50L | nr | ₦150,000 | ₦120,000-₦180,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-49 | Solar panel 550W mono | nr | ₦140,000 | ₦115,000-₦165,000 | MEDIUM | 2026-09-20 | PVPro Nigeria, 'Solar Equipment Prices Lagos September 2026' (20 Sep 2026): 550W N115-165k
+M-EL-50 | Hybrid inverter 5kVA/48V | nr | ₦500,000 | ₦350,000-₦650,000 | MEDIUM | 2026-09-20 | PVPro Nigeria, 'Solar Equipment Prices Lagos September 2026' (20 Sep 2026): 5kVA hybrid N350-650k
+M-EL-51 | Hybrid inverter 11kVA | nr | ₦1,716,000 | ₦1,510,100-₦1,921,900 | MEDIUM | 2026-09-20 | PVPro Nigeria, 'Solar Equipment Prices Lagos September 2026' (20 Sep 2026): 11kVA N1,716,000
+M-EL-52 | LiFePO4 battery 5kWh 48V | nr | ₦1,500,000 | ₦995,000-₦2,148,000 | MEDIUM | 2026-09-20 | PVPro Nigeria, 'Solar Equipment Prices Lagos September 2026' (20 Sep 2026): 5kWh 48V N995k-2.15m
+M-EL-53 | LiFePO4 battery 15kWh 48V | nr | ₦2,700,000 | ₦2,300,000-₦3,100,000 | MEDIUM | 2026-09-20 | PVPro Nigeria, 'Solar Equipment Prices Lagos September 2026' (20 Sep 2026): 15kWh N2.3-3.1m
+M-EL-54 | Tubular battery 200Ah | nr | ₦175,000 | ₦154,000-₦196,000 | MEDIUM | 2026-09-20 | PVPro Nigeria, 'Solar Equipment Prices Lagos September 2026' (20 Sep 2026): from N155,000
+M-EL-55 | PV mounting rail & clamps, per panel | set | ₦25,000 | ₦20,000-₦30,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-56 | Solar DC cable 6mm2, per m | m | ₦1,200 | ₦960-₦1,440 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-57 | Concrete electric pole 9m | nr | ₦185,000 | ₦148,000-₦222,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-58 | Distribution transformer 300kVA 11/0.415kV (supply) | nr | ₦45,000,000 | ₦36,000,000-₦54,000,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-59 | Distribution transformer 500kVA 11/0.415kV (supply) | nr | ₦62,000,000 | ₦49,600,000-₦74,400,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-EL-60 | Diesel generator 60kVA soundproof (supply) | nr | ₦28,000,000 | ₦22,400,000-₦33,600,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-01 | PPR pipe 20mm, 4m | length | ₦3,800 | ₦3,040-₦4,560 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-07 | PPR pipe 25mm, 4m | length | ₦5,500 | ₦4,400-₦6,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-08 | PPR pipe 32mm, 4m | length | ₦8,500 | ₦6,800-₦10,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-09 | PPR pipe 50mm, 4m | length | ₦20,000 | ₦16,000-₦24,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-10 | PPR fittings allowance, per water point | set | ₦6,000 | ₦4,800-₦7,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-11 | uPVC pressure pipe 1/2", 5.8m | length | ₦2,800 | ₦2,240-₦3,360 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-12 | uPVC pressure pipe 1", 5.8m | length | ₦5,500 | ₦4,400-₦6,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-13 | uPVC pressure pipe 2", 5.8m | length | ₦12,000 | ₦9,600-₦14,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-14 | uPVC waste pipe 50mm, 5.8m | length | ₦6,500 | ₦5,200-₦7,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-15 | uPVC soil pipe 75mm, 5.8m | length | ₦11,000 | ₦8,800-₦13,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-02 | uPVC soil pipe 110mm, 5.8m | length | ₦19,000 | ₦15,200-₦22,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-16 | uPVC drain pipe 160mm, 5.8m | length | ₦38,000 | ₦30,400-₦45,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-17 | uPVC 110mm bend/junction | nr | ₦3,500 | ₦2,800-₦4,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-18 | Brass gate valve 1" | nr | ₦12,000 | ₦9,600-₦14,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-19 | Ball valve 3/4" | nr | ₦6,000 | ₦4,800-₦7,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-20 | Float valve 3/4" | nr | ₦9,000 | ₦7,200-₦10,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-21 | Pillar/bib tap | nr | ₦9,000 | ₦7,200-₦10,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-22 | Floor drain / gully trap | nr | ₦6,000 | ₦4,800-₦7,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-23 | WC suite, economy | nr | ₦75,000 | ₦60,000-₦90,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-03 | WC suite, close-coupled, mid-range | nr | ₦125,000 | ₦100,000-₦150,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-24 | WC one-piece, premium | nr | ₦350,000 | ₦280,000-₦420,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-25 | Wash hand basin, economy, with pillar taps | nr | ₦45,000 | ₦36,000-₦54,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-04 | Wash hand basin with pedestal & mixer | nr | ₦85,000 | ₦68,000-₦102,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-26 | Counter-top basin with mixer | nr | ₦90,000 | ₦72,000-₦108,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-27 | Urinal bowl with flush valve | nr | ₦120,000 | ₦96,000-₦144,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-05 | Stainless kitchen sink, single bowl, with mixer | nr | ₦70,000 | ₦56,000-₦84,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-28 | Stainless kitchen sink, double bowl, with mixer | nr | ₦110,000 | ₦88,000-₦132,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-29 | Acrylic bathtub 1.7m with mixer | nr | ₦280,000 | ₦224,000-₦336,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-30 | Shower mixer set with head | nr | ₦55,000 | ₦44,000-₦66,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-31 | Polyethylene water tank 1,000L | nr | ₦140,000 | ₦120,000-₦160,000 | MEDIUM | 2026-09-29 | Jiji.ng GeePee tank listings (Sep 2026): N120-160k
+M-PL-32 | Polyethylene water tank 1,500L | nr | ₦168,000 | ₦147,800-₦188,200 | MEDIUM | 2026-09-29 | Jiji.ng GeePee tank listings (Sep 2026): N165-170k
+M-PL-06 | Polyethylene water tank 2,000L | nr | ₦260,000 | ₦230,000-₦290,000 | MEDIUM | 2026-09-29 | Jiji.ng GeePee tank listings (Sep 2026): N230-290k
+M-PL-33 | Polyethylene water tank 3,000L | nr | ₦320,000 | ₦281,600-₦358,400 | MEDIUM | 2026-09-29 | Jiji.ng GeePee tank listings (Sep 2026): N310-330k
+M-PL-34 | Polyethylene water tank 4,000L | nr | ₦370,000 | ₦325,600-₦414,400 | MEDIUM | 2026-09-29 | Jiji.ng GeePee tank listings (Sep 2026): N370k
+M-PL-35 | Polyethylene water tank 5,000L | nr | ₦650,000 | ₦572,000-₦728,000 | MEDIUM | 2026-09-29 | Jiji.ng GeePee tank listings (Sep 2026): N650k
+M-PL-36 | Polyethylene water tank 10,000L | nr | ₦1,555,000 | ₦1,368,400-₦1,741,600 | MEDIUM | 2026-09-29 | Jiji.ng GeePee tank listings (Sep 2026): N1,555,000
+M-PL-37 | Surface water pump 1HP | nr | ₦95,000 | ₦76,000-₦114,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-38 | Submersible borehole pump 1.5HP (supply) | nr | ₦380,000 | ₦334,400-₦425,600 | MEDIUM | 2026-07-04 | Skillland Nigeria borehole cost guide (updated 4 Jul 2026): pump supply & install N180-600k
+M-PL-39 | Booster pressure pump set | nr | ₦250,000 | ₦200,000-₦300,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-40 | Cast-iron manhole cover & frame, medium duty | nr | ₦55,000 | ₦44,000-₦66,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-41 | Borehole drilling, Abuja basement rock, per m (subcontract) | m | ₦22,000 | ₦15,000-₦25,000 | MEDIUM | 2026-07-04 | Skillland Nigeria borehole cost guide (updated 4 Jul 2026): N15-25k/m; FCT 60-150m hard rock
+M-PL-42 | uPVC borehole casing 125mm, 5.8m | length | ₦18,000 | ₦14,400-₦21,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-PL-43 | Geophysical (VES) survey | nr | ₦100,000 | ₦88,000-₦112,000 | MEDIUM | 2026-07-04 | Skillland Nigeria borehole cost guide (updated 4 Jul 2026): N50-150k
+M-PL-44 | Steel tank stand 6m high (fabricated & erected) | nr | ₦350,000 | ₦308,000-₦392,000 | MEDIUM | 2026-07-04 | Skillland Nigeria borehole cost guide (updated 4 Jul 2026): N120-400k
+M-RD-01 | Bitumen 60/70 penetration grade, per tonne | t | ₦1,350,000 | ₦1,188,000-₦1,512,000 | MEDIUM | 2024-04-15 | Nairaland (Apr 2024) N1.29-1.3m/t; Petra Oil 2026 CIF W. Africa ~US$540/t + duty/haulage
+M-RD-02 | MC-30 cutback bitumen, 200L drum | drum | ₦290,000 | ₦232,000-₦348,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RD-03 | MC-30 cutback, per litre | L | ₦1,450 | ₦1,160-₦1,740 | LOW | derived | Derived by formula
+M-RD-04 | Bitumen emulsion (tack coat), 200L drum | drum | ₦220,000 | ₦176,000-₦264,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RD-05 | Bitumen emulsion, per litre | L | ₦1,100 | ₦880-₦1,320 | LOW | derived | Derived by formula
+M-RD-06 | Asphalt concrete wearing course, ex-plant, per tonne | t | ₦160,000 | ₦128,000-₦192,000 | LOW | 2024-04-15 | Nairaland Apr 2024 Abuja/Lagos N120.5-121.5k/t; uplifted for diesel +45% & granite since
+M-RD-07 | Asphalt concrete binder course, ex-plant, per tonne | t | ₦152,000 | ₦121,600-₦182,400 | LOW | 2024-04-15 | Nairaland Apr 2024 N115.5-118.5k/t; uplifted
+M-RD-08 | Thermoplastic road-marking material, per kg | kg | ₦1,800 | ₦1,440-₦2,160 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RD-09 | Road stud (cat's eye) | nr | ₦3,500 | ₦2,800-₦4,200 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RD-10 | Traffic sign with post (supply) | nr | ₦180,000 | ₦144,000-₦216,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RD-11 | W-beam guard rail with posts, per m | m | ₦45,000 | ₦36,000-₦54,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RD-12 | Carpet grass, per m2 | m2 | ₦1,500 | ₦1,200-₦1,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-RD-13 | Tree/shrub seedling | nr | ₦5,000 | ₦4,000-₦6,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-06 | Ready-mix C20/25, delivered Abuja (ex-pump) | m3 | ₦150,000 | ₦120,000-₦180,000 | LOW | derived | Jiji 2026 Ikorodu: C15 N124,000/m3 ex-VAT; grades derived
+M-CON-04 | Ready-mix C25/30, delivered Abuja (ex-pump) | m3 | ₦165,000 | ₦132,000-₦198,000 | LOW | 2026-09-01 | Jiji 2026: C15 N124,000/m3 ex-VAT; C25 ~+30%
+M-CON-07 | Ready-mix C30/37, delivered Abuja (ex-pump) | m3 | ₦178,000 | ₦142,400-₦213,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-08 | Ready-mix C35/45, delivered Abuja (ex-pump) | m3 | ₦192,000 | ₦153,600-₦230,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-09 | Ready-mix C40/50, delivered Abuja (ex-pump) | m3 | ₦210,000 | ₦168,000-₦252,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-05 | Concrete pump hire, per pour (<=60 m3) | pour | ₦380,000 | ₦304,000-₦456,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-01 | DPM polythene 1000g, 4m x 50m roll | roll | ₦55,000 | ₦44,000-₦66,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-02 | DPM polythene, per m2 | m2 | ₦275 | ₦220-₦330 | LOW | derived | Derived by formula
+M-CON-03 | Anti-termite chemical, per litre | L | ₦13,000 | ₦10,400-₦15,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-10 | Formwork release oil, per litre | L | ₦2,500 | ₦2,000-₦3,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-11 | Hessian/curing mat, per m2 | m2 | ₦800 | ₦640-₦960 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-12 | Scaffold safety net, per m2 | m2 | ₦1,500 | ₦1,200-₦1,800 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-13 | Corrugated galvanised sheet for hoarding, per sheet | sheet | ₦9,500 | ₦7,600-₦11,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-14 | Safety helmet | nr | ₦5,000 | ₦4,000-₦6,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-15 | Safety boots | pair | ₦22,000 | ₦17,600-₦26,400 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-16 | Hi-vis vest | nr | ₦3,000 | ₦2,400-₦3,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-17 | Full-body harness with lanyard | nr | ₦45,000 | ₦36,000-₦54,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-18 | Project signboard (fabricated & erected) | nr | ₦150,000 | ₦120,000-₦180,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-CON-19 | 20ft container (purchase, converted office) | nr | ₦5,500,000 | ₦4,400,000-₦6,600,000 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+M-FUE-01 | Diesel (AGO), pump price, per litre | L | ₦1,900 | ₦1,790-₦2,000 | HIGH | 2026-09-27 | DailyFuels Sep 2026 nat. avg N1,834; depot N1,790 Lagos-N1,900 PH (Vanguard/Parrot, 25-27 Sep 2026)
+M-FUE-02 | Petrol (PMS), pump price, per litre | L | ₦1,360 | ₦1,325-₦1,460 | HIGH | 2026-09-27 | Legit/NNPC Sep 2026 Lagos N1,385, Yobe N1,456; MRS Lagos N1,350 (27 Sep)
+M-FUE-03 | LPG (cooking/torching gas), per kg | kg | ₦1,100 | ₦970-₦1,230 | MEDIUM | 2026-09-27 | Parrot/depot report 25 Sep 2026: N1,020 Warri - N1,125 PH
+M-FUE-04 | Engine oil, per litre | L | ₦5,500 | ₦4,400-₦6,600 | LOW | derived | Desk estimate - no reliable dated 2026 source; verify with 3 supplier quotes
+
+## BoQ unit rates (net, Abuja)
+code | section | item | unit | materials | labour | plant | net rate | tender rate
+A01 | Earthworks | Clear site of bush and shrubs, remove arisings | m2 | ₦0 | ₦172 | ₦0 | ₦172 | ₦229
+A14 | Earthworks | Clear site by bulldozer incl. grubbing roots | m2 | ₦0 | ₦11.46 | ₦109 | ₦120 | ₦160
+A02 | Earthworks | Excavate trench for strip foundation by hand, n.e. 1.5m deep, normal soil | m3 | ₦0 | ₦4,585 | ₦0 | ₦4,585 | ₦6,120
+A09 | Earthworks | Excavate trench by backhoe, n.e. 1.5m deep, trim by hand | m3 | ₦0 | ₦344 | ₦4,956 | ₦5,300 | ₦7,074
+A03 | Earthworks | Bulk excavation by machine n.e. 2m deep, deposit in spoil heap on site | m3 | ₦0 | ₦115 | ₦2,776 | ₦2,890 | ₦3,858
+A10 | Earthworks | Excavate in rock using excavator-mounted breaker | m3 | ₦0 | ₦1,146 | ₦39,784 | ₦40,930 | ₦54,632
+A15 | Earthworks | Load and cart away surplus spoil to tip n.e. 10km | m3 | ₦0 | ₦57.31 | ₦8,436 | ₦8,493 | ₦11,336
+A11 | Earthworks | Keep excavations free of water - 3" pump incl. attendance | day | ₦0 | ₦2,292 | ₦23,968 | ₦26,260 | ₦35,051
+A04 | Earthworks | Backfill with selected excavated material, compacted in 150mm layers | m3 | ₦0 | ₦2,292 | ₦599 | ₦2,892 | ₦3,860
+A05 | Earthworks | Imported laterite filling, compacted in 150mm layers | m3 | ₦9,896 | ₦1,719 | ₦685 | ₦12,301 | ₦16,418
+A13 | Earthworks | Imported sand filling, compacted in 150mm layers | m3 | ₦7,332 | ₦1,376 | ₦685 | ₦9,393 | ₦12,537
+A06 | Earthworks | Hardcore bed 150mm thick, blinded with stone dust, compacted | m2 | ₦3,308 | ₦573 | ₦240 | ₦4,120 | ₦5,500
+A12 | Earthworks | Level and compact bottom of excavation / formation | m2 | ₦0 | ₦115 | ₦79.91 | ₦195 | ₦260
+A07 | Earthworks | Anti-termite treatment to formation | m2 | ₦683 | ₦34.39 | ₦0 | ₦717 | ₦957
+A08 | Earthworks | 1000g polythene DPM with 150mm laps | m2 | ₦333 | ₦57.31 | ₦0 | ₦390 | ₦521
+H01 | Demolition | Demolish 225mm blockwork wall, stack debris on site | m2 | ₦0 | ₦1,376 | ₦0 | ₦1,376 | ₦1,836
+H02 | Demolition | Break up 150mm concrete slab with excavator breaker, load debris | m2 | ₦0 | ₦458 | ₦16,577 | ₦17,035 | ₦22,738
+H03 | Demolition | Break out reinforced concrete with compressor & breakers | m3 | ₦0 | ₦9,170 | ₦51,350 | ₦60,520 | ₦80,779
+B01 | Concrete | Plain concrete 1:3:6 in blinding (site-mixed) | m3 | ₦86,480 | ₦9,334 | ₦2,863 | ₦98,677 | ₦131,709
+B02 | Concrete | Reinforced concrete 1:2:4 in foundations / bases / ground beams | m3 | ₦109,596 | ₦12,854 | ₦5,203 | ₦127,653 | ₦170,384
+B03 | Concrete | Reinforced concrete 1:2:4 in suspended slabs, beams & columns | m3 | ₦109,596 | ₦19,896 | ₦6,243 | ₦135,735 | ₦181,171
+B04 | Concrete | Reinforced concrete 1:1.5:3 (~C25) in suspended slabs & beams | m3 | ₦129,298 | ₦19,896 | ₦6,243 | ₦155,437 | ₦207,469
+B05 | Concrete | Ready-mix C25/30 placed by pump in suspended slab | m3 | ₦175,900 | ₦4,831 | ₦487 | ₦181,218 | ₦241,880
+B15 | Concrete | Ready-mix C30/37 placed by pump in columns & walls | m3 | ₦191,060 | ₦6,386 | ₦649 | ₦198,096 | ₦264,407
+B18 | Concrete | Ready-mix C35/45 placed by boom pump in raft/transfer slab | m3 | ₦195,840 | ₦3,766 | ₦5,145 | ₦204,751 | ₦273,291
+B06 | Concrete | High-yield reinforcement 12-16mm, cut, bent & fixed | t | ₦1,126,440 | ₦81,875 | ₦0 | ₦1,208,315 | ₦1,612,795
+B11 | Concrete | High-yield reinforcement 20-25mm, cut, bent & fixed | t | ₦1,139,460 | ₦62,552 | ₦0 | ₦1,202,012 | ₦1,604,382
+B12 | Concrete | Reinforcement 8-10mm links/stirrups, cut, bent & fixed | t | ₦1,190,910 | ₦115,935 | ₦0 | ₦1,306,845 | ₦1,744,307
+B10 | Concrete | BRC mesh A142 in ground slab incl. laps | m2 | ₦4,933 | ₦180 | ₦0 | ₦5,113 | ₦6,825
+B07 | Concrete | Formwork (plank) to sides of foundations & ground beams | m2 | ₦3,757 | ₦3,701 | ₦0 | ₦7,457 | ₦9,954
+B08 | Concrete | Formwork (marine board) to soffit of suspended slab incl. propping n.e. 3.5m | m2 | ₦5,844 | ₦5,551 | ₦0 | ₦11,395 | ₦15,209
+B09 | Concrete | Formwork (marine board) to columns and beams | m2 | ₦5,403 | ₦5,600 | ₦0 | ₦11,003 | ₦14,686
+B13 | Concrete | Formwork (marine board) to walls | m2 | ₦5,595 | ₦5,044 | ₦0 | ₦10,639 | ₦14,200
+B14 | Concrete | Formwork to staircase soffits, strings & risers | m2 | ₦8,256 | ₦8,679 | ₦0 | ₦16,935 | ₦22,604
+B19 | Concrete | Formwork to slab using steel props (props hired) | m2 | ₦3,958 | ₦4,487 | ₦2,100 | ₦10,545 | ₦14,075
+B16 | Concrete | Power-floated finish to concrete slab | m2 | ₦0 | ₦247 | ₦128 | ₦375 | ₦501
+B17 | Concrete | Precast lintel 150x225x1500, supply and bed in mortar | nr | ₦18,607 | ₦1,081 | ₦0 | ₦19,688 | ₦26,278
+B20 | Concrete | Rib-and-block (hollow pot) suspended slab 225mm incl. topping & rib rebar (excl. propping) | m2 | ₦34,739 | ₦3,562 | ₦365 | ₦38,665 | ₦51,608
+C01 | Masonry | 225mm hollow sandcrete blockwork in cement-sand mortar 1:6 | m2 | ₦11,109 | ₦1,670 | ₦0 | ₦12,779 | ₦17,056
+C02 | Masonry | 150mm hollow sandcrete blockwork in cement-sand mortar 1:6 | m2 | ₦8,833 | ₦1,433 | ₦0 | ₦10,266 | ₦13,703
+C05 | Masonry | 125mm hollow blockwork partition in mortar 1:6 | m2 | ₦7,268 | ₦1,253 | ₦0 | ₦8,521 | ₦11,373
+C07 | Masonry | 225mm solid block walling in mortar 1:6 | m2 | ₦13,174 | ₦1,850 | ₦0 | ₦15,024 | ₦20,053
+C03 | Masonry | 225mm hollow blockwork filled solid with 1:2:4 concrete, below DPC | m2 | ₦17,678 | ₦2,849 | ₦0 | ₦20,527 | ₦27,398
+C06 | Masonry | Half-brick burnt clay facing brickwork in mortar 1:4, pointed | m2 | ₦30,856 | ₦4,094 | ₦0 | ₦34,949 | ₦46,649
+C08 | Masonry | Bituminous felt DPC 225mm wide bedded on walls | m | ₦827 | ₦123 | ₦0 | ₦950 | ₦1,268
+C04 | Masonry | CROSS-CHECK: produce 9" hollow sandcrete block on site (machine), cured | nr | ₦583 | ₦86.46 | ₦39.97 | ₦709 | ₦946
+S01 | Steelwork | Structural steel UB/UC frame, fabricated, primed & erected | t | ₦1,595,190 | ₦221,062 | ₦611,760 | ₦2,428,012 | ₦3,240,782
+S02 | Steelwork | Light steel roof trusses (angle/SHS), fabricated, primed & erected | t | ₦1,603,500 | ₦178,488 | ₦514,400 | ₦2,296,388 | ₦3,065,096
+S03 | Steelwork | Galvanised Z-purlin 150mm fixed to trusses | m | ₦8,941 | ₦606 | ₦0 | ₦9,547 | ₦12,742
+S04 | Steelwork | Steel handrail/balustrade 1m high, 2" pipe & 25mm SHS, painted | m | ₦26,250 | ₦9,334 | ₦0 | ₦35,583 | ₦47,495
+S05 | Steelwork | Wrought-iron burglary-proof to windows, supply & fix | m2 | ₦35,000 | ₦229 | ₦0 | ₦35,229 | ₦47,022
+D01 | Roofing | Timber roof: 2x4 trusses/rafters, 2x3 purlins, 2x6 wall plate, treated (slope area) | m2 | ₦6,161 | ₦2,686 | ₦0 | ₦8,846 | ₦11,807
+D02 | Roofing | 0.55mm longspan aluminium (Grade A) on timber purlins incl. laps, ridges & fixings | m2 | ₦9,815 | ₦1,015 | ₦0 | ₦10,830 | ₦14,456
+D05 | Roofing | 0.55mm longspan aluminium, caliper grade, on purlins | m2 | ₦15,527 | ₦1,015 | ₦0 | ₦16,542 | ₦22,080
+D06 | Roofing | 0.45mm longspan aluminium (market) on purlins | m2 | ₦8,135 | ₦1,015 | ₦0 | ₦9,150 | ₦12,213
+D07 | Roofing | Step-tile/Metcopo aluminium 0.55mm on purlins | m2 | ₦10,863 | ₦1,146 | ₦0 | ₦12,009 | ₦16,029
+D08 | Roofing | 0.55mm caliper longspan on steel purlins with self-drilling screws | m2 | ₦15,897 | ₦1,015 | ₦0 | ₦16,912 | ₦22,574
+D03 | Roofing | Stone-coated steel tiles on 2x2 battens incl. fixings | m2 | ₦14,838 | ₦1,523 | ₦0 | ₦16,360 | ₦21,837
+D13 | Roofing | Stone-coated ridge/hip capping | m | ₦13,596 | ₦655 | ₦0 | ₦14,251 | ₦19,021
+D04 | Roofing | PVC fascia board fixed to rafter ends | m | ₦6,064 | ₦696 | ₦0 | ₦6,760 | ₦9,022
+D12 | Roofing | PVC soffit/eaves panels on 2x2 framing | m2 | ₦8,889 | ₦1,621 | ₦0 | ₦10,510 | ₦14,028
+D09 | Roofing | Aluminium gutter with brackets | m | ₦8,269 | ₦901 | ₦0 | ₦9,169 | ₦12,239
+D10 | Roofing | 110mm uPVC rainwater downpipe with clips | m | ₦2,661 | ₦557 | ₦0 | ₦3,218 | ₦4,295
+D11 | Roofing | Reflective foil insulation laid over purlins | m2 | ₦2,178 | ₦131 | ₦0 | ₦2,309 | ₦3,082
+W01 | Waterproofing | 4mm torch-on bitumen membrane on primed concrete slab | m2 | ₦6,418 | ₦1,146 | ₦0 | ₦7,564 | ₦10,096
+W02 | Waterproofing | Cementitious waterproofing, 2 coats, to wet areas/tanks | m2 | ₦7,219 | ₦655 | ₦0 | ₦7,874 | ₦10,509
+W03 | Waterproofing | 2 coats bituminous paint to substructure walls | m2 | ₦1,444 | ₦172 | ₦0 | ₦1,616 | ₦2,157
+W04 | Waterproofing | Polyurethane liquid membrane to roof/balcony | m2 | ₦14,175 | ₦786 | ₦0 | ₦14,961 | ₦19,969
+E01 | Finishes | 15mm internal plaster, cement-sand 1:6, to blockwork | m2 | ₦1,417 | ₦1,785 | ₦0 | ₦3,202 | ₦4,274
+E02 | Finishes | 20mm external render, cement-sand 1:4 | m2 | ₦2,477 | ₦2,231 | ₦0 | ₦4,708 | ₦6,284
+E03 | Finishes | 40mm cement-sand 1:3 floor screed | m2 | ₦4,987 | ₦1,318 | ₦0 | ₦6,305 | ₦8,416
+E04 | Finishes | 600x600 ceramic floor tiles (mid-range) on adhesive, grouted | m2 | ₦11,870 | ₦2,006 | ₦0 | ₦13,875 | ₦18,520
+E05 | Finishes | 600x600 polished porcelain floor tiles (premium) on adhesive, grouted | m2 | ₦28,995 | ₦2,374 | ₦0 | ₦31,369 | ₦41,870
+E10 | Finishes | 600x600 matt anti-slip porcelain floor tiles on adhesive | m2 | ₦17,655 | ₦2,252 | ₦0 | ₦19,907 | ₦26,570
+E11 | Finishes | 400x400 ceramic floor tiles on adhesive | m2 | ₦8,712 | ₦1,883 | ₦0 | ₦10,595 | ₦14,142
+E06 | Finishes | 300x600 wall tiles on adhesive, grouted | m2 | ₦11,239 | ₦2,497 | ₦0 | ₦13,736 | ₦18,334
+E15 | Finishes | 100mm tile skirting on adhesive | m | ₦2,340 | ₦368 | ₦0 | ₦2,709 | ₦3,616
+E12 | Finishes | 20mm local polished granite flooring on mortar bed | m2 | ₦54,865 | ₦4,863 | ₦0 | ₦59,729 | ₦79,723
+E13 | Finishes | 20mm imported marble flooring on mortar bed | m2 | ₦98,865 | ₦5,420 | ₦0 | ₦104,285 | ₦139,195
+E14 | Finishes | SPC vinyl click flooring on underlay | m2 | ₦8,100 | ₦737 | ₦0 | ₦8,837 | ₦11,795
+E26 | Finishes | 8mm laminate flooring on underlay | m2 | ₦9,720 | ₦835 | ₦0 | ₦10,555 | ₦14,088
+E27 | Finishes | Carpet tiles on adhesive | m2 | ₦14,700 | ₦614 | ₦0 | ₦15,314 | ₦20,440
+E25 | Finishes | 2-coat epoxy floor coating | m2 | ₦5,985 | ₦614 | ₦0 | ₦6,599 | ₦8,808
+E24 | Finishes | Natural stone wall cladding on adhesive | m2 | ₦24,480 | ₦2,800 | ₦0 | ₦27,280 | ₦36,412
+E07 | Finishes | Skim coat + 3 coats emulsion to internal plastered walls | m2 | ₦1,601 | ₦774 | ₦0 | ₦2,375 | ₦3,170
+E16 | Finishes | Sealer + skim + 3 coats silk emulsion to internal walls | m2 | ₦2,286 | ₦876 | ₦0 | ₦3,162 | ₦4,221
+E08 | Finishes | 2 coats weathershield paint to external render | m2 | ₦998 | ₦614 | ₦0 | ₦1,612 | ₦2,151
+E18 | Finishes | Sand-textured coating + 2 coats weathershield, external | m2 | ₦3,832 | ₦1,240 | ₦0 | ₦5,073 | ₦6,771
+E17 | Finishes | Knot, prime & 3 coats gloss to wood or metal | m2 | ₦2,698 | ₦921 | ₦0 | ₦3,620 | ₦4,831
+E19 | Finishes | POP screeding (skimming) to walls/ceilings | m2 | ₦1,134 | ₦827 | ₦0 | ₦1,961 | ₦2,617
+E20 | Finishes | Plain POP false ceiling on 2x2 timber frame | m2 | ₦5,770 | ₦2,595 | ₦0 | ₦8,366 | ₦11,166
+E09 | Finishes | 12.5mm gypsum board ceiling on 2x2 frame, POP-jointed | m2 | ₦6,424 | ₦1,531 | ₦0 | ₦7,955 | ₦10,617
+E21 | Finishes | PVC ceiling panels on 2x2 frame | m2 | ₦7,733 | ₦1,003 | ₦0 | ₦8,736 | ₦11,660
+E22 | Finishes | 600x600 acoustic ceiling tiles on exposed T-grid | m2 | ₦13,125 | ₦1,003 | ₦0 | ₦14,128 | ₦18,857
+E23 | Finishes | POP cornice | m | ₦2,889 | ₦475 | ₦0 | ₦3,364 | ₦4,490
+E28 | Finishes | Gypsum drywall partition, 12.5mm board both sides on metal studs | m2 | ₦12,316 | ₦2,243 | ₦0 | ₦14,560 | ₦19,434
+J01 | Doors & windows | Flush door 900x2100 with frame & ironmongery, supply & fix | nr | ₦111,236 | ₦12,281 | ₦0 | ₦123,517 | ₦164,864
+J02 | Doors & windows | Hardwood panel door with frame, lock, handles & hinges, supply & fix | nr | ₦310,125 | ₦19,159 | ₦0 | ₦329,284 | ₦439,510
+J03 | Doors & windows | Steel security door 1200, supply & fix with grouting | nr | ₦424,059 | ₦9,661 | ₦0 | ₦433,720 | ₦578,907
+J10 | Doors & windows | Fire-rated steel door 1hr with closer, supply & fix | nr | ₦953,708 | ₦9,661 | ₦0 | ₦963,369 | ₦1,285,854
+J04 | Doors & windows | Aluminium casement window, 5mm glass & net, s&f incl. making good | m2 | ₦95,247 | ₦737 | ₦0 | ₦95,984 | ₦128,114
+J05 | Doors & windows | Aluminium sliding window, s&f incl. making good | m2 | ₦80,247 | ₦737 | ₦0 | ₦80,984 | ₦108,093
+J06 | Doors & windows | uPVC casement window, s&f incl. making good | m2 | ₦150,247 | ₦737 | ₦0 | ₦150,984 | ₦201,526
+J07 | Doors & windows | Frameless 12mm tempered glass door, s&f | m2 | ₦180,000 | ₦344 | ₦0 | ₦180,344 | ₦240,713
+J08 | Doors & windows | Stick curtain wall, tinted glass, s&f | m2 | ₦260,000 | ₦229 | ₦0 | ₦260,229 | ₦347,340
+J09 | Doors & windows | Aluminium hinged door with glazing, s&f | m2 | ₦110,000 | ₦737 | ₦0 | ₦110,737 | ₦147,806
+J11 | Doors & windows | Kitchen base cabinets with granite worktop, installed | m | ₦400,000 | ₦9,989 | ₦0 | ₦409,989 | ₦547,231
+J12 | Doors & windows | Kitchen wall cabinets, installed | m | ₦200,000 | ₦5,895 | ₦0 | ₦205,895 | ₦274,818
+J13 | Doors & windows | Built-in wardrobe, installed | m2 | ₦95,000 | ₦4,421 | ₦0 | ₦99,421 | ₦132,702
+J14 | Doors & windows | Steel sliding/swing gate, fabricated & installed | m2 | ₦86,236 | ₦1,801 | ₦0 | ₦88,037 | ₦117,507
+F01 | Electrical | Lighting point: 1.5mm2 in 20mm conduit (avg 8m), switch share, LED downlight | pt | ₦24,660 | ₦4,372 | ₦0 | ₦29,032 | ₦38,751
+F02 | Electrical | 13A socket point: 2.5mm2 in 20mm conduit (avg 10m), twin socket | pt | ₦36,625 | ₦5,281 | ₦0 | ₦41,906 | ₦55,934
+F22 | Electrical | AC/cooker point: 4mm2 in 25mm conduit (avg 12m), 15A outlet | pt | ₦64,190 | ₦6,796 | ₦0 | ₦70,986 | ₦94,748
+F23 | Electrical | 12-way TPN distribution board with 12 MCBs, installed | nr | ₦139,000 | ₦21,124 | ₦0 | ₦160,124 | ₦213,725
+F24 | Electrical | 100A 4-pole manual changeover switch, installed | nr | ₦75,000 | ₦13,591 | ₦0 | ₦88,591 | ₦118,247
+F25 | Electrical | 16mm2 4-core armoured sub-main cable laid in trench/on tray | m | ₦22,660 | ₦1,367 | ₦0 | ₦24,027 | ₦32,070
+F26 | Electrical | 25mm2 4-core armoured cable laid | m | ₦36,050 | ₦1,633 | ₦0 | ₦37,683 | ₦50,298
+F27 | Electrical | Earthing: copper-bonded rod, 10mm2 conductor, inspection pit | nr | ₦58,458 | ₦11,381 | ₦0 | ₦69,839 | ₦93,217
+F28 | Electrical | LED panel 600x600 fitting, supply & fix | nr | ₦18,000 | ₦1,515 | ₦0 | ₦19,515 | ₦26,047
+F29 | Electrical | 56" ceiling fan with regulator, supply & fix | nr | ₦45,000 | ₦4,544 | ₦0 | ₦49,544 | ₦66,129
+F30 | Electrical | Split AC 1.5HP inverter, supply & install (5m pipe run) | nr | ₦684,125 | ₦21,942 | ₦0 | ₦706,068 | ₦942,421
+F31 | Electrical | LED street light 100W on 8m pole with concrete base, installed | nr | ₦402,413 | ₦25,054 | ₦46,430 | ₦473,897 | ₦632,532
+F32 | Electrical | 5kVA hybrid solar system: 8x550W, 5kVA inverter, 10kWh LiFePO4, installed | nr | ₦4,888,400 | ₦72,050 | ₦0 | ₦4,960,450 | ₦6,620,945
+F33 | Electrical | Smoke detector, supply & fix | nr | ₦12,000 | ₦1,515 | ₦0 | ₦13,515 | ₦18,039
+F03 | Plumbing | WC suite (mid-range), supplied, fixed & connected | nr | ₦132,980 | ₦9,825 | ₦0 | ₦142,805 | ₦190,609
+F06 | Plumbing | WC suite (economy), supplied, fixed & connected | nr | ₦82,980 | ₦9,825 | ₦0 | ₦92,805 | ₦123,871
+F07 | Plumbing | WC one-piece (premium), supplied, fixed & connected | nr | ₦357,980 | ₦11,217 | ₦0 | ₦369,197 | ₦492,784
+F04 | Plumbing | Wash hand basin with pedestal & mixer, fixed & connected | nr | ₦93,978 | ₦7,696 | ₦0 | ₦101,674 | ₦135,709
+F05 | Plumbing | Single-bowl stainless kitchen sink with mixer, fixed & connected | nr | ₦79,975 | ₦7,696 | ₦0 | ₦87,671 | ₦117,019
+F08 | Plumbing | Acrylic bathtub 1.7m with mixer, fixed & connected | nr | ₦286,038 | ₦16,866 | ₦0 | ₦302,904 | ₦404,300
+F09 | Plumbing | Shower mixer set with head & floor drain, installed | nr | ₦64,990 | ₦9,825 | ₦0 | ₦74,815 | ₦99,859
+F10 | Plumbing | Urinal with flush valve, fixed & connected | nr | ₦124,042 | ₦9,825 | ₦0 | ₦133,868 | ₦178,679
+F11 | Plumbing | Electric water heater 50L, installed | nr | ₦155,775 | ₦9,989 | ₦0 | ₦165,764 | ₦221,253
+F12 | Plumbing | Cold water point, 20mm PPR (avg 6m run) | pt | ₦12,384 | ₦3,783 | ₦0 | ₦16,167 | ₦21,578
+F13 | Plumbing | Hot water point, 25mm PPR (avg 6m run) | pt | ₦15,240 | ₦4,339 | ₦0 | ₦19,579 | ₦26,134
+F14 | Plumbing | Soil & waste point, uPVC 110/50mm | pt | ₦20,388 | ₦4,912 | ₦0 | ₦25,300 | ₦33,769
+F15 | Plumbing | 2,000L tank on 6m steel stand, installed & connected | nr | ₦648,325 | ₦14,574 | ₦0 | ₦662,899 | ₦884,802
+F16 | Plumbing | 1HP surface pump with valves, installed | nr | ₦119,000 | ₦11,381 | ₦0 | ₦130,381 | ₦174,025
+F17 | Plumbing | Borehole drilling in basement rock, Abuja (subcontract) | m | ₦22,000 | ₦0 | ₦0 | ₦22,000 | ₦29,364
+F18 | Plumbing | Complete borehole 120m: survey, drilling, casing, 1.5HP pump, tank stand & 2,000L tank | nr | ₦4,171,525 | ₦87,115 | ₦0 | ₦4,258,640 | ₦5,684,206
+F19 | Plumbing | Inspection chamber 600x600x750 in 150mm block with cover | nr | ₦86,545 | ₦22,598 | ₦0 | ₦109,142 | ₦145,678
+F20 | Plumbing | 110mm uPVC underground drain on sand bed (excl. trench) | m | ₦3,942 | ₦1,146 | ₦0 | ₦5,088 | ₦6,792
+R01 | Roads & external | Scarify, water & compact subgrade to 95% MDD | m2 | ₦0 | ₦22.93 | ₦558 | ₦581 | ₦775
+R02 | Roads & external | Laterite sub-base, spread & compacted in layers (compacted volume) | m3 | ₦9,896 | ₦229 | ₦3,525 | ₦13,650 | ₦18,220
+R03 | Roads & external | Crushed stone base course, compacted (compacted volume) | m3 | ₦30,608 | ₦287 | ₦3,772 | ₦34,666 | ₦46,271
+R04 | Roads & external | Prime coat MC-30 at 1.0 L/m2 | m2 | ₦1,522 | ₦11.46 | ₦120 | ₦1,654 | ₦2,208
+R05 | Roads & external | Tack coat (emulsion) at 0.3 L/m2 | m2 | ₦346 | ₦5.73 | ₦67.92 | ₦420 | ₦561
+R06 | Roads & external | Asphalt wearing course 50mm, laid & compacted | m2 | ₦19,364 | ₦58.95 | ₦1,064 | ₦20,487 | ₦27,344
+R07 | Roads & external | Asphalt binder course 60mm, laid & compacted | m2 | ₦22,075 | ₦58.95 | ₦1,163 | ₦23,297 | ₦31,096
+R08 | Roads & external | Precast road kerb 900x300x150 on concrete bed & haunch | m | ₦15,738 | ₦1,670 | ₦0 | ₦17,408 | ₦23,236
+R09 | Roads & external | Precast 600mm U-drain with cover, laid on concrete bed | m | ₦59,561 | ₦2,374 | ₦5,804 | ₦67,739 | ₦90,414
+R10 | Roads & external | In-situ RC drain 600x600 internal, 150mm walls & base, incl. excavation, formwork & rebar | m | ₦80,967 | ₦19,306 | ₦1,873 | ₦102,146 | ₦136,339
+R11 | Roads & external | 900mm precast culvert pipe laid with 1:3:6 surround | m | ₦187,443 | ₦5,895 | ₦20,820 | ₦214,158 | ₦285,847
+R12 | Roads & external | Thermoplastic road marking, 100mm line | m | ₦662 | ₦11.46 | ₦37.98 | ₦711 | ₦949
+G01 | Roads & external | 60mm interlocking paving on 50mm sand bed, compacted | m2 | ₦9,534 | ₦1,433 | ₦200 | ₦11,166 | ₦14,904
+G02 | Roads & external | 80mm interlocking paving on 50mm sand bed, compacted | m2 | ₦11,634 | ₦1,554 | ₦200 | ₦13,388 | ₦17,869
+R13 | Roads & external | Chain-link fence 1.8m on angle posts @3m with 3 lines barbed wire | m | ₦10,925 | ₦1,818 | ₦0 | ₦12,743 | ₦17,008
+R14 | Roads & external | 225mm block fence wall 2.4m high incl. foundation, piers, plaster both sides & razor wire | m | ₦65,446 | ₦17,710 | ₦0 | ₦83,156 | ₦110,992
+R16 | Roads & external | Carpet grass laid on 100mm topsoil, watered | m2 | ₦2,422 | ₦368 | ₦0 | ₦2,790 | ₦3,725
+K01 | Marine & dredging | Dredge & hydraulically place sand fill by 12" CSD (in-situ m3) | m3 | ₦0 | ₦11.46 | ₦3,489 | ₦3,501 | ₦4,672
+
+## Labour
+code | trade | type | wage | all-in day
+L-LAB | Unskilled labourer | Craft | ₦7,000/day | ₦9,170
+L-MAS | Mason / bricklayer | Craft | ₦15,000/day | ₦19,650
+L-PLA | Plasterer / screeder | Craft | ₦13,500/day | ₦17,685
+L-CFN | Concrete finisher (power float) | Craft | ₦14,500/day | ₦18,995
+L-CAR | Carpenter (formwork & roof) | Craft | ₦17,000/day | ₦22,270
+L-JOI | Joiner / cabinet maker | Craft | ₦18,000/day | ₦23,580
+L-IRB | Iron bender / steel fixer | Craft | ₦15,000/day | ₦19,650
+L-ELE | Electrician | Craft | ₦18,500/day | ₦24,235
+L-ELH | Electrician's mate | Craft | ₦9,000/day | ₦11,790
+L-PLU | Plumber | Craft | ₦17,000/day | ₦22,270
+L-PLH | Plumber's mate | Craft | ₦9,000/day | ₦11,790
+L-TIL | Tiler | Craft | ₦15,000/day | ₦19,650
+L-MRB | Marble/granite fitter & polisher | Craft | ₦17,000/day | ₦22,270
+L-PAI | Painter | Craft | ₦12,500/day | ₦16,375
+L-POP | POP / ceiling installer | Craft | ₦14,500/day | ₦18,995
+L-ROF | Roofer (sheeting) | Craft | ₦16,000/day | ₦20,960
+L-WPR | Waterproofing applicator | Craft | ₦16,000/day | ₦20,960
+L-WEL | Welder / fabricator | Craft | ₦18,000/day | ₦23,580
+L-SER | Steel erector | Craft | ₦20,000/day | ₦26,200
+L-RIG | Rigger / banksman | Craft | ₦16,000/day | ₦20,960
+L-SCF | Scaffolder | Craft | ₦14,000/day | ₦18,340
+L-ALU | Aluminium fabricator / glazier | Craft | ₦18,000/day | ₦23,580
+L-HVC | AC / HVAC technician | Craft | ₦20,000/day | ₦26,200
+L-LVT | Low-current / CCTV technician | Craft | ₦18,000/day | ₦23,580
+L-MOU | Block moulder | Craft | ₦12,000/day | ₦15,720
+L-INT | Interlock/paving layer | Craft | ₦13,000/day | ₦17,030
+L-PIP | Pipe layer (drainage) | Craft | ₦14,000/day | ₦18,340
+L-LSC | Landscaper / gardener | Craft | ₦9,000/day | ₦11,790
+L-ASP | Asphalt crew hand (raker/lute) | Craft | ₦12,000/day | ₦15,720
+L-CHN | Chainman / survey assistant | Craft | ₦8,000/day | ₦10,480
+L-SEC | Watchman / security guard | Craft | ₦7,000/day | ₦9,170
+L-STK | Storekeeper | Craft | ₦9,500/day | ₦12,445
+L-GEN | Generator attendant | Craft | ₦9,000/day | ₦11,790
+L-OPR | Plant operator - general (roller/loader) | Operator | ₦25,000/day | ₦32,750
+L-OPX | Excavator / backhoe operator | Operator | ₦30,000/day | ₦39,300
+L-OPD | Dozer / grader operator | Operator | ₦32,000/day | ₦41,920
+L-CRO | Crane operator | Operator | ₦40,000/day | ₦52,400
+L-PAV | Asphalt paver screed operator | Operator | ₦30,000/day | ₦39,300
+L-DRV | Heavy goods driver (tipper/trailer) | Operator | ₦20,000/day | ₦26,200
+L-DRL | Light vehicle driver | Operator | ₦12,000/day | ₦15,720
+L-DRD | Dredge master / operator | Operator | ₦45,000/day | ₦58,950
+L-FOR | Foreman / site supervisor | Staff | ₦300,000/month | ₦14,458
+L-SEN | Site engineer (COREN-registered) | Staff | ₦450,000/month | ₦21,687
+L-QSS | Quantity surveyor | Staff | ₦450,000/month | ₦21,687
+L-SMG | Site / construction manager | Staff | ₦750,000/month | ₦36,144
+L-PMG | Project manager | Staff | ₦1,000,000/month | ₦48,192
+L-SVY | Land surveyor | Staff | ₦400,000/month | ₦19,277
+L-HSE | HSE officer | Staff | ₦350,000/month | ₦16,867
+L-LAT | Materials lab technician | Staff | ₦250,000/month | ₦12,048
+L-TMK | Timekeeper / site clerk | Staff | ₦180,000/month | ₦8,675
+L-ADM | Site admin / accounts officer | Staff | ₦250,000/month | ₦12,048
+
+## Plant hire
+code | plant | dry hire | fuel L/day | all-in | typical output
+P-EXM | Mini excavator 3-5t | ₦150,000/day | 30 | ₦252,000/day | 60-100 m3/day
+P-EX14 | Hydraulic excavator 14t | ₦300,000/day | 100 | ₦548,300/day | 180-250 m3/day
+P-EXC20 | Hydraulic excavator 20-22t (CAT 320/215 class) | ₦480,000/day | 150 | ₦832,800/day | 250-350 m3/day bulk dig
+P-EX30 | Hydraulic excavator 30t | ₦650,000/day | 220 | ₦1,149,100/day | 350-500 m3/day
+P-EXLR | Long-reach excavator | ₦750,000/day | 180 | ₦1,165,500/day | drain/canal work
+P-EXAM | Amphibious / swamp excavator | ₦1,400,000/day | 200 | ₦1,857,300/day | swamp/creek work
+P-EXBR | Excavator 20t with hydraulic breaker | ₦600,000/day | 170 | ₦994,600/day | 20-40 m3/day rock
+P-BHL | Backhoe loader (JCB 3CX/3DX class) | ₦310,000/day | 70 | ₦495,600/day | 80-120 m3/day trench
+P-SSL | Skid-steer loader (Bobcat class) | ₦180,000/day | 40 | ₦296,350/day | site clearing/loading
+P-WL3 | Wheel loader 3t (SDLG class) | ₦220,000/day | 100 | ₦461,750/day | 300-400 m3/day loading
+P-WL5 | Wheel loader 5t | ₦350,000/day | 140 | ₦675,350/day | 500-700 m3/day loading
+P-DOZ | Bulldozer D6 class | ₦450,000/day | 180 | ₦868,120/day | 0.8-1.2 ha/day clearing
+P-DZ7 | Bulldozer D7 class | ₦550,000/day | 220 | ₦1,051,720/day | 1.2-1.8 ha/day clearing
+P-DZ8 | Bulldozer D8 class | ₦750,000/day | 280 | ₦1,377,120/day | heavy dozing
+P-GRD | Motor grader (CAT 140 class) | ₦400,000/day | 140 | ₦734,520/day | 2,500-4,000 m2/day
+P-ROL | Vibratory roller 10-12t | ₦280,000/day | 80 | ₦479,950/day | 600-1,000 m3/day
+P-RL18 | Vibratory roller 16-20t | ₦380,000/day | 110 | ₦642,650/day | 1,000-1,500 m3/day
+P-RLT | Tandem asphalt roller 3-8t | ₦180,000/day | 35 | ₦285,900/day | asphalt / small areas
+P-RLP | Pneumatic-tyred roller | ₦300,000/day | 80 | ₦499,950/day | asphalt finishing
+P-RLS | Padfoot / sheepsfoot roller 12t | ₦300,000/day | 90 | ₦520,850/day | clay fill
+P-PLT | Plate compactor (petrol) | ₦15,000/day | 6 | ₦23,976/day | 80-120 m2/day/150mm layer
+P-RAM | Jumping-jack rammer (petrol) | ₦15,000/day | 4 | ₦20,984/day | trench backfill
+P-TP10 | Tipper truck 10t | ₦120,000/day | 90 | ₦334,300/day | 5-7 trips/day local
+P-TIP | Tipper truck 20t | ₦150,000/day | 120 | ₦427,000/day | 4-6 trips/day local
+P-TP30 | Tipper truck 30t | ₦220,000/day | 160 | ₦580,600/day | 3-5 trips/day
+P-WTK | Water tanker 10,000L | ₦150,000/day | 90 | ₦364,300/day | 6-8 loads/day
+P-FUB | Fuel bowser 10,000L | ₦180,000/day | 80 | ₦373,400/day | -
+P-FLB | Flatbed trailer | ₦250,000/day | 150 | ₦589,700/day | -
+P-LOW | Low-bed mobilisation, per trip <=50km | ₦480,000/trip | 0 | ₦480,000/trip | per trip
+P-PKP | Pickup / site van | ₦35,000/day | 25 | ₦88,120/day | -
+P-BUS | 18-seater staff bus | ₦60,000/day | 40 | ₦159,320/day | -
+P-CRN | Mobile crane 25t | ₦450,000/day | 120 | ₦753,200/day | -
+P-CR50 | Mobile crane 50t | ₦900,000/day | 180 | ₦1,328,600/day | -
+P-CR80 | Mobile crane 80t | ₦1,600,000/day | 220 | ₦2,112,200/day | -
+P-TWC | Tower crane (hire, per day equivalent) | ₦400,000/day | 0 | ₦452,400/day | excl. erection/dismantle & power
+P-HIAB | Hiab / truck-mounted crane 10t | ₦250,000/day | 90 | ₦464,300/day | -
+P-FKL | Forklift 3t | ₦100,000/day | 35 | ₦205,900/day | -
+P-TLH | Telehandler 14-17m | ₦280,000/day | 60 | ₦438,150/day | -
+P-HST | Material hoist (electric) | ₦35,000/day | 0 | ₦35,000/day | needs generator
+P-SCF | Tubular steel scaffold, per 100 m2 elevation | ₦17,000/day | 0 | ₦17,000/day | equiv. N1,200/m2/week
+P-PRP | Adjustable steel props, per 100 nr | ₦15,000/day | 0 | ₦15,000/day | N150/prop/day
+P-MIX | Concrete mixer, 1-bag (petrol) | ₦25,000/day | 12 | ₦42,952/day | 10-15 m3/day
+P-MX2 | Concrete mixer, 2-bag (diesel) | ₦40,000/day | 20 | ₦81,800/day | 20-25 m3/day
+P-BTP | Batching plant 60 m3/hr | ₦1,200,000/day | 300 | ₦1,859,750/day | 300-400 m3/day
+P-TMX | Transit mixer 9 m3 | ₦220,000/day | 120 | ₦497,000/day | 5-7 loads/day
+P-CPB | Concrete boom pump 37m | ₦1,100,000/day | 150 | ₦1,446,250/day | 300-500 m3/day
+P-CPL | Concrete line (static) pump | ₦450,000/day | 90 | ₦670,850/day | 150-250 m3/day
+P-VIB | Poker vibrator (petrol) | ₦12,000/day | 5 | ₦19,480/day | -
+P-FLT | Power float / trowel (petrol) | ₦20,000/day | 8 | ₦31,968/day | 200-300 m2/day
+P-CCT | Concrete floor saw (petrol) | ₦25,000/day | 8 | ₦36,968/day | -
+P-BBM | Bar bending machine (electric) | ₦20,000/day | 0 | ₦20,000/day | needs generator
+P-BLM | Vibrating block machine (petrol) | ₦15,000/day | 6 | ₦23,976/day | 500-700 blocks/day
+P-GN5 | Generator 5kVA (petrol) | ₦12,000/day | 12 | ₦29,952/day | -
+P-GEN | Generator 20kVA (diesel) | ₦35,000/day | 40 | ₦118,600/day | -
+P-GN60 | Generator 60kVA (diesel) | ₦70,000/day | 90 | ₦269,890/day | -
+P-GN100 | Generator 100kVA (diesel) | ₦110,000/day | 150 | ₦435,290/day | -
+P-GN250 | Generator 250kVA (diesel) | ₦220,000/day | 320 | ₦900,590/day | -
+P-WLG | Welding generator 400A (diesel) | ₦45,000/day | 40 | ₦128,600/day | -
+P-CMP | Air compressor 375cfm with 2 breakers | ₦120,000/day | 90 | ₦308,100/day | demolition/breaking
+P-PM2 | Dewatering pump 2" (petrol) | ₦8,000/day | 5 | ₦15,480/day | -
+P-PMP | Dewatering pump 3" (petrol) | ₦12,000/day | 8 | ₦23,968/day | -
+P-PM6 | Dewatering pump 6" (diesel) | ₦45,000/day | 60 | ₦170,400/day | -
+P-PAV | Asphalt paver (tracked) | ₦1,200,000/day | 150 | ₦1,552,800/day | 300-500 t/day
+P-BDS | Bitumen distributor / sprayer | ₦350,000/day | 80 | ₦543,400/day | 6,000-10,000 m2/day
+P-CHS | Chip spreader | ₦300,000/day | 70 | ₦479,050/day | -
+P-BRM | Mechanical road broom | ₦80,000/day | 30 | ₦175,450/day | 6,000-10,000 m2/day
+P-MIL | Cold milling machine | ₦2,500,000/day | 300 | ₦3,159,750/day | 2,000-4,000 m2/day
+P-LMK | Road line-marking machine | ₦80,000/day | 10 | ₦94,960/day | 2,000-3,000 m/day
+P-PIL | Bored piling rig (600-900mm) | ₦2,800,000/day | 300 | ₦3,459,750/day | -
+P-CSD | Cutter-suction dredger 12" | ₦3,500,000/day | 800 | ₦5,230,950/day | 1,200-2,000 m3/day
+P-SWB | Swamp buggy | ₦1,800,000/day | 250 | ₦2,361,800/day | -
+P-BOT | Work boat with outboard | ₦120,000/day | 60 | ₦225,480/day | -
+P-TST | Total station | ₦25,000/day | 0 | ₦25,000/day | -
+P-LVL | Automatic level with staff | ₦8,000/day | 0 | ₦8,000/day | -
+P-GNS | GNSS RTK kit | ₦45,000/day | 0 | ₦45,000/day | -
+P-DRN | Drone survey (per day incl. pilot) | ₦150,000/day | 0 | ₦150,000/day | -
+P-CTN | 20ft container office (hire) | ₦6,000/day | 0 | ₦6,000/day | -
+P-TLT | Portable toilet (hire & service) | ₦3,000/day | 0 | ₦3,000/day | -
+
+## Location factors (materials, labour, plant; Abuja = 1.00)
+Abuja (FCT): 1.00, 1.00, 1.00
+Lagos: 1.06, 1.08, 1.05
+Port Harcourt: 1.08, 0.95, 1.08
+Ibadan: 0.95, 0.80, 0.95
+Osogbo (Osun): 0.96, 0.75, 0.97
+Kano: 0.93, 0.75, 0.95
+Kaduna: 0.94, 0.78, 0.95
+Enugu: 0.98, 0.80, 0.98
+Benin City: 0.99, 0.82, 1.00
+Uyo: 1.03, 0.85, 1.03
+Jos: 0.95, 0.78, 0.97
+Riverine / creek site: 1.30, 1.10, 1.40
+
+## Update log
+2026-09-29: v2 published: 372 materials, 51 labour grades, 78 plant items, 160 build-ups. Base prices researched 29 Sep 2026.

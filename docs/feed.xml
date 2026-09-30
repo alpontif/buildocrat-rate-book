@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Buildocrat Rate Book - Nigeria construction price updates</title>
+  <link href="https://rates.buildocrat.store/feed.xml" rel="self"/>
+  <link href="https://rates.buildocrat.store/"/>
+  <id>https://rates.buildocrat.store/</id>
+  <updated>2026-09-29T06:00:00+01:00</updated>
+  <author><name>Buildocrat Property Technologies Ltd</name></author>
+  <entry>
+    <title>Price update 2026-09-29</title>
+    <id>https://rates.buildocrat.store/updates/#2026-09-29</id>
+    <link href="https://rates.buildocrat.store/updates/"/>
+    <updated>2026-09-29T06:00:00+01:00</updated>
+    <summary>v2 published: 372 materials, 51 labour grades, 78 plant items, 160 build-ups. Base prices researched 29 Sep 2026.</summary>
+  </entry>
+</feed>

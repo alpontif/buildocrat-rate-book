@@ -21,25 +21,36 @@ body = tpl.replace("__ENGINE__", eng).replace("__DATA__", raw.replace("</", "<\\
 # 1) artifact fragment
 open(p("rate-book.html"), "w", encoding="utf-8").write(body)
 
-# 2) standalone website
-title_end = body.index("</title>") + len("</title>")
-title, rest = body[:title_end], body[title_end:]
+# 2) standalone website: crawlable multi-page site + SEO/AI files (site_build.py)
+from site_build import Site, EXTRA_CSS, BASE, HUBS
+cfg = json.load(open(p("site-config.json"))) if os.path.exists(p("site-config.json")) else {}
+os.makedirs(p("docs"), exist_ok=True)
+site = Site(p("docs"), data, cfg)
+bung = site.build_all(tpl)
 upd = data["meta"]["updated"]
-desc = ("Buildocrat's Nigeria Construction Rate Book: current material, labour and plant prices and "
-        f"{len(data['items'])} first-principles BoQ unit rates for Abuja and 11 other locations. Prices as at {upd}.")
+title_end = body.index("</title>") + len("</title>")
+rest = body[title_end:]
+watch, view, summary, browse = site.home_inserts(bung)
+def inject(src, a, b):
+    assert src.count(a) == 1, a
+    return src.replace(a, b)
+rest = inject(rest, '<section class="watch" id="watch" aria-label="Key price indicators"></section>',
+              f'<section class="watch" id="watch" aria-label="Key price indicators">{watch}</section>')
+rest = inject(rest, '<main id="view"></main>', f'<main id="view">{view}</main>')
+rest = inject(rest, "  </header>\n", "  </header>\n  " + summary + "\n", ) if rest.count("  </header>\n") == 1 else rest
+rest = inject(rest, "  <footer>", browse + "\n  <footer>")
+home_title = f"Building material prices & BoQ rates in Nigeria ({site.mon}) | Buildocrat Rate Book"
+home_desc = (f"Current building material prices in Nigeria as at {site.date_long}: cement {site.primary_sentence('M-CEM-01')}, iron rods, blocks, sand, granite, roofing; "
+             f"labour and equipment hire rates; and {len(data['items'])} BoQ unit rates for Abuja, Lagos and 10 more locations. Updated weekly by Buildocrat.")
+home_graph = [site.dataset(), {"@type": "WebPage", "@id": BASE + "/", "url": BASE + "/", "name": home_title, "description": home_desc,
+              "isPartOf": {"@id": BASE + "/#website"}, "about": {"@id": BASE + "/#dataset"}, "publisher": {"@id": BASE + "/#org"},
+              "inLanguage": "en-NG", "datePublished": "2026-09-29", "dateModified": upd, "primaryImageOfPage": BASE + "/og.png"}]
 head = f"""<!doctype html>
 <html lang="en-NG">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-{title}
-<meta name="description" content="{desc}">
-<meta property="og:title" content="Nigeria Construction Rate Book - Buildocrat">
-<meta property="og:description" content="{desc}">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://rates.buildocrat.store/">
-<link rel="canonical" href="https://rates.buildocrat.store/">
-<meta name="theme-color" content="#0C6A4C">
+{site.head_meta(BASE + "/", home_title, home_desc, home_graph)}
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -47,8 +58,7 @@ head = f"""<!doctype html>
 <meta name="apple-mobile-web-app-title" content="Rate Book">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
-<link rel="alternate icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230C6A4C'/%3E%3Ctext x='16' y='23' font-family='Arial' font-weight='700' font-size='20' text-anchor='middle' fill='white'%3EB%3C/text%3E%3C/svg%3E">
-<style>html{{color-scheme:light dark}}[hidden]{{display:none!important}}img{{max-width:100%}}</style>
+<style>html{{color-scheme:light dark}}[hidden]{{display:none!important}}img{{max-width:100%}}{EXTRA_CSS}</style>
 </head>
 <body>
 """
@@ -110,4 +120,4 @@ self.addEventListener("fetch", e => {
 """ % ver
 open(p("docs", "sw.js"), "w").write(sw)
 shutil.copy(p("rate-data.json"), p("docs", "rate-data.json"))
-print("built", len(body), "bytes; prices as at", upd)
+print("built", len(body), "bytes; prices as at", upd, "|", len(site.pages), "pages; bungalow", round(bung["total"]))
