@@ -39,6 +39,7 @@ rest = inject(rest, '<section class="watch" id="watch" aria-label="Key price ind
 rest = inject(rest, '<main id="view"></main>', f'<main id="view">{view}</main>')
 rest = inject(rest, "  </header>\n", "  </header>\n  " + summary + "\n", ) if rest.count("  </header>\n") == 1 else rest
 rest = inject(rest, "  <footer>", browse + "\n  <footer>")
+rest = rest.replace('<a href="#about" data-goto="about">About Buildocrat</a></div>', '<a href="#about" data-goto="about">About Buildocrat</a> &middot; <a href="privacy/">Privacy</a></div>', 1)
 home_title = f"Building material prices & BoQ rates in Nigeria ({site.mon}) | Buildocrat Rate Book"
 home_desc = (f"Current building material prices in Nigeria as at {site.date_long}: cement {site.primary_sentence('M-CEM-01')}, iron rods, blocks, sand, granite, roofing; "
              f"labour and equipment hire rates; and {len(data['items'])} BoQ unit rates for Abuja, Lagos and 10 more locations. Updated weekly by Buildocrat.")

@@ -27,6 +27,7 @@
 <meta name="theme-color" content="#0C6A4C">
 <link rel="alternate" type="application/atom+xml" title="Buildocrat Rate Book - weekly price updates" href="https://rates.buildocrat.store/feed.xml">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://rates.buildocrat.store/#org", "name": "Buildocrat Property Technologies Ltd", "alternateName": "Buildocrat", "url": "https://buildocrat.store", "logo": "https://rates.buildocrat.store/icons/icon-512.png", "email": "buildocrat@gmail.com", "telephone": "+234-701-802-4292", "address": {"@type": "PostalAddress", "streetAddress": "No 30 Anthony Enahoro Street, Utako", "addressLocality": "Abuja", "addressRegion": "FCT", "addressCountry": "NG"}, "identifier": {"@type": "PropertyValue", "propertyID": "CAC RC", "value": "7019619"}, "founder": {"@type": "Person", "name": "Engr. Kola Ibrahim", "jobTitle": "Founder and Managing Director", "honorificSuffix": "MNSE, R.COREN, PMP", "sameAs": ["https://www.linkedin.com/in/kolaibrahim/"]}, "areaServed": {"@type": "Country", "name": "Nigeria"}, "knowsAbout": ["construction cost estimating", "building material prices in Nigeria", "bill of quantities", "construction material price locking"]}, {"@type": "WebSite", "@id": "https://rates.buildocrat.store/#website", "url": "https://rates.buildocrat.store/", "name": "Nigeria Construction Rate Book", "alternateName": "Buildocrat Rate Book", "inLanguage": "en-NG", "publisher": {"@id": "https://rates.buildocrat.store/#org"}}, {"@type": "Dataset", "@id": "https://rates.buildocrat.store/#dataset", "name": "Nigeria Construction Rate Book - building material prices, labour, plant hire and BoQ unit rates", "description": "Weekly-updated construction cost data for Nigeria: 372 building material prices, 51 labour grades, 78 plant and equipment hire rates and 160 first-principles bill of quantities (BoQ) unit rates, with location factors for 12 Nigerian locations. Abuja base prices in naira (NGN).", "url": "https://rates.buildocrat.store/data/", "sameAs": "https://rates.buildocrat.store/", "creator": {"@id": "https://rates.buildocrat.store/#org"}, "publisher": {"@id": "https://rates.buildocrat.store/#org"}, "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "inLanguage": "en-NG", "datePublished": "2026-09-29", "dateModified": "2026-09-29", "temporalCoverage": "2026-09-29/..", "spatialCoverage": {"@type": "Place", "name": "Nigeria", "address": {"@type": "PostalAddress", "addressCountry": "NG"}}, "keywords": ["Nigeria", "construction costs", "building materials prices", "cement price", "iron rod price", "BoQ rates", "unit rates", "labour rates", "equipment hire", "quantity surveying"], "variableMeasured": ["Material price (NGN)", "Labour daily wage (NGN)", "Plant hire day rate (NGN)", "BoQ unit rate (NGN)"], "measurementTechnique": "Dated market price research; first-principles rate build-ups (materials x waste + labour hours + plant days)", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://rates.buildocrat.store/data/rate-data.json"}, {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://rates.buildocrat.store/data/materials.csv"}, {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://rates.buildocrat.store/data/composite-rates.csv"}, {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://rates.buildocrat.store/data/labour.csv"}, {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://rates.buildocrat.store/data/plant.csv"}]}, {"@type": "WebPage", "@id": "https://rates.buildocrat.store/", "url": "https://rates.buildocrat.store/", "name": "Building material prices & BoQ rates in Nigeria (Sep 2026) | Buildocrat Rate Book", "description": "Current building material prices in Nigeria as at 29 September 2026: cement ₦12,000 per bag, iron rods, blocks, sand, granite, roofing; labour and equipment hire rates; and 160 BoQ unit rates for Abuja, Lagos and 10 more locations. Updated weekly by Buildocrat.", "isPartOf": {"@id": "https://rates.buildocrat.store/#website"}, "about": {"@id": "https://rates.buildocrat.store/#dataset"}, "publisher": {"@id": "https://rates.buildocrat.store/#org"}, "inLanguage": "en-NG", "datePublished": "2026-09-29", "dateModified": "2026-09-29", "primaryImageOfPage": "https://rates.buildocrat.store/og.png"}]}</script>
+
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -260,7 +261,7 @@ footer .fbrand span{color:var(--accent)}
   <footer>
     <div class="fbrand">Build<span>ocrat</span></div>
     <div>The Nigeria Construction Rate Book is published by Buildocrat. Key prices are re-checked weekly against dated market sources.</div>
-    <div class="fcorp">Buildocrat Property Technologies Ltd &middot; RC 7019619 &middot; No 30 Anthony Enahoro Street, Utako, Abuja &middot; WhatsApp <span class="sel">+234 701 802 4292</span> &middot; <span class="sel">buildocrat@gmail.com</span> &middot; <a href="#about" data-goto="about">About Buildocrat</a></div>
+    <div class="fcorp">Buildocrat Property Technologies Ltd &middot; RC 7019619 &middot; No 30 Anthony Enahoro Street, Utako, Abuja &middot; WhatsApp <span class="sel">+234 701 802 4292</span> &middot; <span class="sel">buildocrat@gmail.com</span> &middot; <a href="#about" data-goto="about">About Buildocrat</a> &middot; <a href="privacy/">Privacy</a></div>
     <div>Indicative market rates for budgeting and first-pass BoQ pricing. Base location Abuja; other locations use judgement-based factors. Confirm LOW-confidence items with at least three supplier quotes before relying on them in a tender. Rates are net of overheads and profit unless the tender option is on.</div>
   </footer>
 </div>
@@ -329,6 +330,7 @@ if (typeof module !== "undefined") module.exports = { buildEngine };
 const DATA = JSON.parse(document.getElementById("rate-data").textContent);
 const P = DATA.params;
 const E = buildEngine(DATA);
+const track = (n, p) => { try { if (typeof window.gtag === "function") window.gtag("event", n, p || {}); } catch (e) {} };
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt = v => (v == null || isNaN(v)) ? "-" : "₦" + Math.round(v).toLocaleString("en-NG");
@@ -485,7 +487,7 @@ function viewEst(){
 function bindEst(){
   $("#addform").addEventListener("submit", e => { e.preventDefault(); const code = $("#additem").value.split(" ")[0].trim().toUpperCase(); const q = parseFloat($("#addqty").value) || 1;
     if (!DATA.items.find(i => i.c === code)) { $("#additem").setCustomValidity("Pick an item from the list"); $("#additem").reportValidity(); return; }
-    if (isExample()) lines = []; lines.push({c: code, q}); saveEst(); render(); });
+    if (isExample()) lines = []; lines.push({c: code, q}); saveEst(); track("estimator_add_line", {item_code: code}); render(); });
   $("#additem").addEventListener("input", e => e.target.setCustomValidity(""));
   $("#clear").addEventListener("click", () => { lines = []; saveEst(); render(); });
   document.querySelectorAll(".qty").forEach(el => el.addEventListener("change", e => { lines[+e.target.dataset.i].q = parseFloat(e.target.value) || 0; saveEst(); render(); }));
@@ -577,15 +579,15 @@ function goTab(t){ state.tab = t; document.querySelectorAll("#tabs button").forE
 document.addEventListener("click", e => { const g = e.target.closest("[data-goto]"); if (g) { e.preventDefault(); goTab(g.dataset.goto); } });
 document.getElementById("tabs").addEventListener("click", e => {
   const b = e.target.closest("button[data-tab]"); if (!b) return;
-  state.tab = b.dataset.tab; document.querySelectorAll("#tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+  state.tab = b.dataset.tab; track("tab_view", {tab: state.tab}); document.querySelectorAll("#tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
   setSections(); render();
 });
 $("#q").addEventListener("input", e => { state.q = e.target.value.trim(); render(); });
 $("#sec").addEventListener("change", e => { state.sec = e.target.value; render(); });
 $("#conf").addEventListener("change", e => { state.conf = e.target.value; render(); });
-$("#loc").addEventListener("change", e => { state.loc = e.target.value; store.set("rb-loc", state.loc); render(); });
+$("#loc").addEventListener("change", e => { state.loc = e.target.value; track("location_change", {location: state.loc}); store.set("rb-loc", state.loc); render(); });
 $("#tender").addEventListener("change", e => { state.tender = e.target.checked; render(); });
-function toggleRow(tr){ const c = tr.dataset.c; state.open.has(c) ? state.open.delete(c) : state.open.add(c); render(); }
+function toggleRow(tr){ const c = tr.dataset.c; if (!state.open.has(c)) track("buildup_open", {item_code: c}); state.open.has(c) ? state.open.delete(c) : state.open.add(c); render(); }
 $("#view").addEventListener("click", e => { const tr = e.target.closest("tr.item"); if (tr) toggleRow(tr); });
 $("#view").addEventListener("keydown", e => { const tr = e.target.closest("tr.item"); if (tr && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); toggleRow(tr); } });
 document.querySelectorAll("#tabs button").forEach(x => x.setAttribute("aria-selected", x.dataset.tab === state.tab));
@@ -599,7 +601,7 @@ setSections(); render();
   if (embedded || standalone || !("serviceWorker" in navigator)) return;
   let deferred = null;
   window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; btn.hidden = false; });
-  window.addEventListener("appinstalled", () => { btn.hidden = true; deferred = null; });
+  window.addEventListener("appinstalled", () => { btn.hidden = true; deferred = null; track("app_installed"); });
   const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
   if (ios) btn.hidden = false;
   btn.addEventListener("click", async () => {

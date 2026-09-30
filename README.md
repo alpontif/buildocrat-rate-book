@@ -114,3 +114,10 @@ The cache version changes on every rebuild. When a weekly price update is pushed
 - `indexnow_key`: keep as is.
 
 **IndexNow:** `.github/workflows/indexnow.yml` notifies Bing and other IndexNow search engines after every data push.
+
+## Measuring performance
+- **Google Analytics 4:** put the Measurement ID (`G-XXXXXXX`) in `site-config.json` as `ga4_measurement_id`, then run `python3 assemble.py` and push. Nothing is tracked until this is set.
+  - Custom events tracked: `whatsapp_click` (Price Lock leads; mark it as a key event), `data_download`, `open_rate_book`, `buildup_open`, `estimator_add_line`, `tab_view`, `location_change` and `app_installed`.
+- **Cloudflare Web Analytics** (optional, cookieless): set `cloudflare_web_analytics_token`.
+- **Google Search Console and Bing Webmaster Tools** give search queries, impressions, clicks and ranking position.
+- **Privacy notice:** `/privacy/` (built automatically).

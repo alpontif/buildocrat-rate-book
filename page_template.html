@@ -190,6 +190,7 @@ __ENGINE__
 const DATA = JSON.parse(document.getElementById("rate-data").textContent);
 const P = DATA.params;
 const E = buildEngine(DATA);
+const track = (n, p) => { try { if (typeof window.gtag === "function") window.gtag("event", n, p || {}); } catch (e) {} };
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt = v => (v == null || isNaN(v)) ? "-" : "₦" + Math.round(v).toLocaleString("en-NG");
@@ -346,7 +347,7 @@ function viewEst(){
 function bindEst(){
   $("#addform").addEventListener("submit", e => { e.preventDefault(); const code = $("#additem").value.split(" ")[0].trim().toUpperCase(); const q = parseFloat($("#addqty").value) || 1;
     if (!DATA.items.find(i => i.c === code)) { $("#additem").setCustomValidity("Pick an item from the list"); $("#additem").reportValidity(); return; }
-    if (isExample()) lines = []; lines.push({c: code, q}); saveEst(); render(); });
+    if (isExample()) lines = []; lines.push({c: code, q}); saveEst(); track("estimator_add_line", {item_code: code}); render(); });
   $("#additem").addEventListener("input", e => e.target.setCustomValidity(""));
   $("#clear").addEventListener("click", () => { lines = []; saveEst(); render(); });
   document.querySelectorAll(".qty").forEach(el => el.addEventListener("change", e => { lines[+e.target.dataset.i].q = parseFloat(e.target.value) || 0; saveEst(); render(); }));
@@ -438,15 +439,15 @@ function goTab(t){ state.tab = t; document.querySelectorAll("#tabs button").forE
 document.addEventListener("click", e => { const g = e.target.closest("[data-goto]"); if (g) { e.preventDefault(); goTab(g.dataset.goto); } });
 document.getElementById("tabs").addEventListener("click", e => {
   const b = e.target.closest("button[data-tab]"); if (!b) return;
-  state.tab = b.dataset.tab; document.querySelectorAll("#tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+  state.tab = b.dataset.tab; track("tab_view", {tab: state.tab}); document.querySelectorAll("#tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
   setSections(); render();
 });
 $("#q").addEventListener("input", e => { state.q = e.target.value.trim(); render(); });
 $("#sec").addEventListener("change", e => { state.sec = e.target.value; render(); });
 $("#conf").addEventListener("change", e => { state.conf = e.target.value; render(); });
-$("#loc").addEventListener("change", e => { state.loc = e.target.value; store.set("rb-loc", state.loc); render(); });
+$("#loc").addEventListener("change", e => { state.loc = e.target.value; track("location_change", {location: state.loc}); store.set("rb-loc", state.loc); render(); });
 $("#tender").addEventListener("change", e => { state.tender = e.target.checked; render(); });
-function toggleRow(tr){ const c = tr.dataset.c; state.open.has(c) ? state.open.delete(c) : state.open.add(c); render(); }
+function toggleRow(tr){ const c = tr.dataset.c; if (!state.open.has(c)) track("buildup_open", {item_code: c}); state.open.has(c) ? state.open.delete(c) : state.open.add(c); render(); }
 $("#view").addEventListener("click", e => { const tr = e.target.closest("tr.item"); if (tr) toggleRow(tr); });
 $("#view").addEventListener("keydown", e => { const tr = e.target.closest("tr.item"); if (tr && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); toggleRow(tr); } });
 document.querySelectorAll("#tabs button").forEach(x => x.setAttribute("aria-selected", x.dataset.tab === state.tab));
@@ -460,7 +461,7 @@ setSections(); render();
   if (embedded || standalone || !("serviceWorker" in navigator)) return;
   let deferred = null;
   window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; btn.hidden = false; });
-  window.addEventListener("appinstalled", () => { btn.hidden = true; deferred = null; });
+  window.addEventListener("appinstalled", () => { btn.hidden = true; deferred = null; track("app_installed"); });
   const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
   if (ios) btn.hidden = false;
   btn.addEventListener("click", async () => {

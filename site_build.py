@@ -179,6 +179,24 @@ class Site:
                     {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": BASE + "/data/labour.csv"},
                     {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": BASE + "/data/plant.csv"}]}
 
+    def analytics(self):
+        """Analytics tags, only when IDs are set in site-config.json. Also tracks key actions on every page."""
+        ga = (self.cfg.get("ga4_measurement_id") or "").strip()
+        cf = (self.cfg.get("cloudflare_web_analytics_token") or "").strip()
+        out = ""
+        if ga:
+            out += (f'<script async src="https://www.googletagmanager.com/gtag/js?id={e(ga)}"></script>\n'
+                    f'<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","{e(ga)}");</script>\n')
+        if cf:
+            out += f"<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js\" data-cf-beacon='{{\"token\": \"{e(cf)}\"}}'></script>\n"
+        if ga:
+            out += """<script>document.addEventListener("click",function(ev){var a=ev.target.closest&&ev.target.closest("a");if(!a||typeof gtag!=="function")return;var h=a.getAttribute("href")||"";
+if(h.indexOf("wa.me/")>-1)gtag("event","whatsapp_click",{link_text:(a.textContent||"").trim().slice(0,60),page_path:location.pathname});
+else if(/\\.(csv|json|txt)$/.test(h))gtag("event","data_download",{file_name:h.split("/").pop()});
+else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_rate_book",{page_path:location.pathname});},true);</script>
+"""
+        return out
+
     def head_meta(self, url, title, desc, extra_graph=()):
         g = [self.org(), self.website()] + list(extra_graph)
         v = self.cfg.get("google_site_verification"); b = self.cfg.get("bing_site_verification")
@@ -206,7 +224,8 @@ class Site:
 <meta name="author" content="Buildocrat Property Technologies Ltd">
 <meta name="theme-color" content="#0C6A4C">
 {ver}<link rel="alternate" type="application/atom+xml" title="Buildocrat Rate Book - weekly price updates" href="{BASE}/feed.xml">
-<script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@graph": g}, ensure_ascii=False)}</script>"""
+<script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@graph": g}, ensure_ascii=False)}</script>
+{self.analytics()}"""
 
     def nav(self, pre, current=""):
         links = [("", "Interactive rate book"), ("prices/", "Material prices"), ("rates/", "BoQ rates"), ("labour/", "Labour"),
@@ -219,7 +238,7 @@ class Site:
     def footer(self, pre):
         return f"""<footer>
     <div class="fbrand">Build<span>ocrat</span></div>
-    <div>The Nigeria Construction Rate Book is published by Buildocrat. Prices as at {self.date_long}; key prices are re-checked every week against dated market sources. <a href="{pre}updates/">Update log</a> &middot; <a href="{pre}data/">Download the data</a> &middot; <a href="{pre}methodology/">Methodology</a></div>
+    <div>The Nigeria Construction Rate Book is published by Buildocrat. Prices as at {self.date_long}; key prices are re-checked every week against dated market sources. <a href="{pre}updates/">Update log</a> &middot; <a href="{pre}data/">Download the data</a> &middot; <a href="{pre}methodology/">Methodology</a> &middot; <a href="{pre}privacy/">Privacy</a></div>
     <div class="fcorp">Buildocrat Property Technologies Ltd &middot; RC 7019619 &middot; No 30 Anthony Enahoro Street, Utako, Abuja &middot; WhatsApp <span class="sel">+234 701 802 4292</span> &middot; <span class="sel">buildocrat@gmail.com</span> &middot; <a href="{pre}about/">About Buildocrat</a></div>
     <div>Indicative market rates for budgeting and first-pass BoQ pricing. Confirm LOW-confidence items with at least three supplier quotes before relying on them in a tender.</div>
   </footer>"""
@@ -622,6 +641,20 @@ class Site:
         self.page(path, f"Construction price updates for Nigeria - weekly log | Buildocrat", "Weekly log of changes to Nigerian construction prices in the Buildocrat rate book: cement, iron rods, diesel, roofing, blocks, sand and granite.",
                   "Weekly price updates", body, [("Updates", path)], priority="0.7", current="")
 
+    def build_privacy(self):
+        path = "privacy/"
+        on = bool((self.cfg.get("ga4_measurement_id") or "").strip() or (self.cfg.get("cloudflare_web_analytics_token") or "").strip())
+        body = f"""    <p class="answer">Buildocrat uses {'Google Analytics' if (self.cfg.get('ga4_measurement_id') or '').strip() else 'privacy-friendly analytics'} to count visits and see which prices and tools people use, so we can improve the rate book. We do not sell data or use it for advertising.</p>
+    <h2>What we collect</h2>
+    <ul><li>Pages visited, how visitors arrived (for example from Google or an AI assistant), approximate location (country or city), device and browser type.</li>
+    <li>Actions such as opening a rate build-up, adding a line to the estimator, downloading data or tapping the WhatsApp button.</li>
+    <li>Estimator lines and your chosen location are saved only in your own browser and are never sent to us.</li></ul>
+    <h2>What we do not collect</h2><p>We do not ask for your name, phone number or email on this site. If you contact us on WhatsApp or by email, we use your details only to reply.</p>
+    <h2>Your choices</h2><p>You can block analytics with your browser's privacy settings or an ad-blocker; the rate book works the same. For questions or requests under the Nigeria Data Protection Act 2023, contact buildocrat@gmail.com.</p>
+    <p class="muted">Controller: Buildocrat Property Technologies Ltd (RC 7019619), No 30 Anthony Enahoro Street, Utako, Abuja. Analytics active: {'yes' if on else 'not yet'}.</p>"""
+        self.page(path, "Privacy notice | Buildocrat Rate Book", "How the Buildocrat Nigeria Construction Rate Book measures visits and handles data.",
+                  "Privacy notice", body, [("Privacy", path)], priority="0.3")
+
     def build_data(self):
         path = "data/"; pre = "../"
         body = f"""    <p class="answer">The full rate book is free to download and reuse under the <a href="{LICENSE_URL}" rel="license">Creative Commons Attribution 4.0</a> licence. Please credit "Buildocrat Nigeria Construction Rate Book" with a link to {BASE}.</p>
@@ -838,7 +871,7 @@ When citing, please use: "Buildocrat Nigeria Construction Rate Book ({BASE}), pr
         self.build_rates_index(); self.build_rate_pages()
         self.build_labour(); self.build_plant(); self.build_locations()
         bung = self.build_guide()
-        self.build_method(); self.build_about(); self.build_updates(); self.build_data()
+        self.build_method(); self.build_about(); self.build_updates(); self.build_data(); self.build_privacy()
         self.write_csvs(); self.write_llms(bung); self.write_feed(); self.write_404()
         self.write_sitemap_robots()
         self.og_image()
