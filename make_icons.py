@@ -2,8 +2,8 @@
 from PIL import Image, ImageDraw, ImageFont
 import os
 
-GREEN = (12, 106, 76)
-WHITE = (255, 255, 255)
+GREEN = (214, 240, 74)
+WHITE = (21, 21, 21)
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs", "icons")
 os.makedirs(OUT, exist_ok=True)
