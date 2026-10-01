@@ -109,7 +109,9 @@ td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
 tbody tr:last-child td{border-bottom:0}
 td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td.code{font:600 13px var(--body);white-space:nowrap;color:var(--muted);letter-spacing:.02em}
-td.src{font-size:13px;color:var(--muted);max-width:360px}
+td.src{font-size:13px;color:var(--muted);width:280px;min-width:220px;max-width:300px}
+.clamp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.note2{font-size:13px;color:var(--muted);margin-top:2px;max-width:60ch}
 tr.sec td{background:var(--sunk);font:600 18px/1.2 var(--display);letter-spacing:.01em;color:var(--ink);padding-block:12px 8px}
 tr.item{cursor:pointer}
 tr.item:hover td{background:var(--accent-soft)}
@@ -433,7 +435,7 @@ function viewMats(){
     if (!match(r.c + " " + r.d + " " + r.cat)) return;
     if (r.g !== g) { g = r.g; h += `<tr class="sec"><td colspan="8">${esc(g)}</td></tr>`; }
     const lo = E.rate(r.c, "lo") * f.m, hi = E.rate(r.c, "hi") * f.m; n++;
-    h += `<tr><td class="code hm">${r.c}</td><td>${esc(r.d)}${r.n ? `<div class="range hm">${esc(r.n)}</div>` : ""}</td><td>${esc(r.u)}</td><td class="n"><b>${fmt2(E.rate(r.c) * f.m)}</b><div class="range">${fmt2(lo)} - ${fmt2(hi)}</div></td><td class="n hm">${r.w ? (r.w * 100).toFixed(0) + "%" : "-"}</td><td>${confChip(r.conf)}</td><td class="hm">${staleChip(r.set)}</td><td class="src hm">${esc(r.src)}${r.ev ? ` <span class="muted">(${esc(r.ev)})</span>` : ""}</td></tr>`;
+    h += `<tr><td class="code hm">${r.c}</td><td>${esc(r.d)}${r.n ? `<div class="note2 hm">${esc(r.n)}</div>` : ""}</td><td>${esc(r.u)}</td><td class="n"><b>${fmt2(E.rate(r.c) * f.m)}</b><div class="range">${fmt2(lo)} - ${fmt2(hi)}</div></td><td class="n hm">${r.w ? (r.w * 100).toFixed(0) + "%" : "-"}</td><td>${confChip(r.conf)}</td><td class="hm">${staleChip(r.set)}</td><td class="src hm" title="${esc(r.src)}"><span class="clamp">${esc(r.src)}${r.ev ? ` (${esc(r.ev)})` : ""}</span></td></tr>`;
   });
   $("#count").textContent = n + " of " + DATA.resources.length + " materials and equipment";
   return `<div class="tablebox"><table><thead><tr><th class="hm">Code</th><th>Description</th><th>Unit</th><th class="n">Price (range)</th><th class="n hm">Waste</th><th>Confidence</th><th class="hm">Age</th><th class="hm">Evidence</th></tr></thead><tbody>${h}</tbody></table></div>`;
@@ -447,7 +449,7 @@ function viewLab(){
     if (l.g !== g) { g = l.g; h += `<tr class="sec"><td colspan="8">${esc(g)}</td></tr>`; }
     const day = E.labDay(l) * f.l; n++;
     const wage = l.cat === "Staff" ? `${fmt(l.mon * f.l)}/month` : `${fmt(l.day * f.l)}/day<div class="range">${fmt(l.lo * f.l)} - ${fmt(l.hi * f.l)}</div>`;
-    h += `<tr><td class="code hm">${l.c}</td><td>${esc(l.d)}</td><td class="hm">${esc(l.cat)}</td><td class="n hm">${wage}</td><td class="n"><b>${fmt(day)}</b></td><td class="n hm">${fmt(day / P.hrs)}</td><td>${confChip(l.conf)}</td><td class="src hm">${esc(l.src)}</td></tr>`;
+    h += `<tr><td class="code hm">${l.c}</td><td>${esc(l.d)}</td><td class="hm">${esc(l.cat)}</td><td class="n hm">${wage}</td><td class="n"><b>${fmt(day)}</b></td><td class="n hm">${fmt(day / P.hrs)}</td><td>${confChip(l.conf)}</td><td class="src hm" title="${esc(l.src)}"><span class="clamp">${esc(l.src)}</span></td></tr>`;
   });
   $("#count").textContent = n + " of " + DATA.labour.length + " grades";
   return `<p class="muted" style="margin:14px 0 0">All-in = wage plus ${Math.round(P.craftUplift*100)}% for feeding, transport, non-productive time, statutory cover and small tools. Staff: monthly salary / ${P.dpm} plus ${(P.staffOncost*100).toFixed(1)}% pension, NSITF, ITF, HMO and leave.</p><div class="tablebox"><table><thead><tr><th class="hm">Code</th><th>Trade / grade</th><th class="hm">Type</th><th class="n hm">Wage</th><th class="n">All-in / day</th><th class="n hm">All-in / hr</th><th>Confidence</th><th class="hm">Evidence</th></tr></thead><tbody>${h}</tbody></table></div>`;
@@ -460,7 +462,7 @@ function viewPlant(){
     if (!match(p.c + " " + p.d)) return;
     if (p.g !== g) { g = p.g; h += `<tr class="sec"><td colspan="9">${esc(g)}</td></tr>`; }
     const x = E.plantParts(p); n++;
-    h += `<tr><td class="code hm">${p.c}</td><td>${esc(p.d)}</td><td class="n hm">${fmt(x.dry * f.p)}<div class="range">${fmt(p.lo * f.p)} - ${fmt(p.hi * f.p)}</div></td><td class="n hm">${fmt(x.fuel * f.p)}${p.fuel ? `<div class="range">${p.lpd} L/day</div>` : ""}</td><td class="n hm">${fmt(x.op * f.p)}</td><td class="n"><b>${fmt(x.total * f.p)}</b><div class="range">per ${esc(p.u)}</div></td><td class="muted hm">${esc(p.out)}</td><td>${confChip(p.conf)}</td><td class="src hm">${esc(p.src)}</td></tr>`;
+    h += `<tr><td class="code hm">${p.c}</td><td>${esc(p.d)}</td><td class="n hm">${fmt(x.dry * f.p)}<div class="range">${fmt(p.lo * f.p)} - ${fmt(p.hi * f.p)}</div></td><td class="n hm">${fmt(x.fuel * f.p)}${p.fuel ? `<div class="range">${p.lpd} L/day</div>` : ""}</td><td class="n hm">${fmt(x.op * f.p)}</td><td class="n"><b>${fmt(x.total * f.p)}</b><div class="range">per ${esc(p.u)}</div></td><td class="muted hm">${esc(p.out)}</td><td>${confChip(p.conf)}</td><td class="src hm" title="${esc(p.src)}"><span class="clamp">${esc(p.src)}</span></td></tr>`;
   });
   $("#count").textContent = n + " of " + DATA.plant.length + " plant items";
   return `<p class="muted" style="margin:14px 0 0">All-in wet rate = dry hire + fuel at today's diesel/petrol price plus ${P.lube*100}% lubricants + operator all-in. Mobilisation is priced separately (P-LOW).</p><div class="tablebox"><table><thead><tr><th class="hm">Code</th><th>Plant</th><th class="n hm">Dry hire</th><th class="n hm">Fuel + lube</th><th class="n hm">Operator</th><th class="n">All-in</th><th class="hm">Typical output</th><th>Confidence</th><th class="hm">Evidence</th></tr></thead><tbody>${h}</tbody></table></div>`;
