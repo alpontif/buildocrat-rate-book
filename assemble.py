@@ -34,12 +34,14 @@ watch, view, summary, browse = site.home_inserts(bung)
 def inject(src, a, b):
     assert src.count(a) == 1, a
     return src.replace(a, b)
-rest = inject(rest, '<section class="watch" id="watch" aria-label="Key price indicators"></section>',
-              f'<section class="watch" id="watch" aria-label="Key price indicators">{watch}</section>')
+rest = inject(rest, '<ul class="watch" id="watch"></ul>', f'<ul class="watch" id="watch">{watch}</ul>')
 rest = inject(rest, '<main id="view"></main>', f'<main id="view">{view}</main>')
-rest = inject(rest, "  </header>\n", "  </header>\n  " + summary + "\n", ) if rest.count("  </header>\n") == 1 else rest
+rest = inject(rest, "<!--SITENAV-->", site.nav(""))
+rest = inject(rest, "<!--HEROFACT-->", summary)
 rest = inject(rest, "  <footer>", browse + "\n  <footer>")
-rest = rest.replace('<a href="#about" data-goto="about">About Buildocrat</a></div>', '<a href="#about" data-goto="about">About Buildocrat</a> &middot; <a href="privacy/">Privacy</a></div>', 1)
+rest = rest.replace('<a href="#about" data-goto="about">About Buildocrat</a></div>', '<a href="#about" data-goto="about">About Buildocrat</a>. <a href="privacy/">Privacy notice</a></div>', 1)
+site_map = {"items": site.item_path, "hubs": {c: f"prices/{h['slug']}/" for c, h in site.hub_of.items()}}
+rest = inject(rest, '<script id="rate-data"', "<script>window.RB_SITE=" + json.dumps(site_map, separators=(",", ":")) + ';</script>\n<script id="rate-data"')
 home_title = f"Building material prices & BoQ rates in Nigeria ({site.mon}) | Buildocrat Rate Book"
 home_desc = (f"Current building material prices in Nigeria as at {site.date_long}: cement {site.primary_sentence('M-CEM-01')}, iron rods, blocks, sand, granite, roofing; "
              f"labour and equipment hire rates; and {len(data['items'])} BoQ unit rates for Abuja, Lagos and 10 more locations. Updated weekly by Buildocrat.")
@@ -59,7 +61,7 @@ head = f"""<!doctype html>
 <meta name="apple-mobile-web-app-title" content="Rate Book">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
-<style>html{{color-scheme:light dark}}[hidden]{{display:none!important}}img{{max-width:100%}}{EXTRA_CSS}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n<style>html{{color-scheme:light dark}}[hidden]{{display:none!important}}img{{max-width:100%}}{EXTRA_CSS}</style>
 </head>
 <body>
 """
@@ -82,8 +84,8 @@ manifest = {
   "id": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#EEF2F0",
-  "theme_color": "#0C6A4C",
+  "background_color": "#ECEFEB",
+  "theme_color": "#0B5D43",
   "lang": "en-NG",
   "categories": ["business", "productivity", "utilities"],
   "icons": [

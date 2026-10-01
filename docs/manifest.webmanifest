@@ -7,8 +7,8 @@
   "id": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#EEF2F0",
-  "theme_color": "#0C6A4C",
+  "background_color": "#ECEFEB",
+  "theme_color": "#0B5D43",
   "lang": "en-NG",
   "categories": [
     "business",

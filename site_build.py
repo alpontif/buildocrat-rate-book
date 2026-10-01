@@ -138,34 +138,36 @@ BUNGALOW = [("A01", 450), ("A02", 38), ("A04", 20), ("A07", 150), ("A08", 150), 
 BUNGALOW_GFA = 140
 
 EXTRA_CSS = """
-.sitehead{display:grid;gap:4px}
-.brandbar a{text-decoration:none}
-.sitenav{display:flex;gap:6px 16px;flex-wrap:wrap;padding-block:10px;border-block:1px solid var(--line);font:600 14px var(--display);letter-spacing:.05em;text-transform:uppercase}
-.sitenav a{color:var(--ink);text-decoration:none}
-.sitenav a:hover,.sitenav a[aria-current="page"]{color:var(--accent)}
-.crumbs{font-size:13px;color:var(--muted);margin:14px 0 4px}
+.crumbs{font-size:14px;color:var(--muted);margin:18px 0 6px}
 .crumbs a{color:var(--muted)}
 main.static{display:block}
-main.static h1{font-size:clamp(28px,4.4vw,44px);line-height:1.05;margin:4px 0 10px}
-main.static h2{margin:30px 0 8px}
-main.static h3{font:700 16px/1.35 var(--body);margin:18px 0 4px}
-main.static p,main.static li{max-width:76ch}
-main.static a{color:var(--accent)}
+main.static h1{font-size:clamp(34px,5vw,56px);line-height:1;margin:6px 0 14px;max-width:22ch}
+main.static h2{margin:40px 0 10px}
+main.static h3{font:700 17px/1.35 var(--body);margin:20px 0 4px}
+main.static p,main.static li{max-width:72ch}
 main.static a.btn,.browse a.btn{color:var(--accent-ink)}
-.answer{font-size:17px;line-height:1.5;max-width:76ch;background:var(--surface);border-left:4px solid var(--accent);padding:12px 16px;margin:12px 0 6px}
-.meta{font:12.5px var(--mono);color:var(--muted)}
-.linkgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px;margin:12px 0;padding:0;list-style:none}
-.linkgrid li{max-width:none}
-.linkgrid a{display:block;height:100%;padding:10px 12px;background:var(--surface);border:1px solid var(--line);color:var(--ink);text-decoration:none}
-.linkgrid a:hover{border-color:var(--accent)}
-.linkgrid small{display:block;color:var(--muted);font-size:12.5px}
-.cite{font-size:13px;color:var(--muted);border-top:1px dashed var(--line);padding-top:10px;margin-top:26px}
-.btnlink{display:inline-block;text-decoration:none;margin:6px 0}
-.faq h3{margin-top:14px}
+.meta{font-size:14px;color:var(--muted);margin:0}
+.answer{font-size:18px;line-height:1.55;max-width:70ch;margin:0 0 10px}
+.pricecard{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 28px;align-items:end;background:var(--board);color:var(--board-ink);border-top:6px solid var(--plant);border-radius:2px 2px 6px 6px;padding:22px 26px;margin:6px 0 18px;max-width:880px}
+.pricecard .pc-k{margin:0;color:var(--board-muted);font-size:16px;grid-column:1/-1}
+.pricecard .pc-v{margin:0;font:700 clamp(40px,6vw,64px)/1 var(--display);letter-spacing:-.005em}
+.pricecard .pc-v small{font:600 20px var(--display);color:var(--board-muted);margin-left:6px}
+.pricecard .pc-r{margin:0;color:var(--board-muted);font-size:15px;text-align:right;max-width:34ch}
+.pricecard .pc-r b{color:var(--board-ink)}
+.pricecard .btn{background:var(--plant);color:var(--plant-ink)!important;grid-column:1/-1;justify-self:start;margin-top:10px}
+.linkgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0;margin:14px 0;padding:0;list-style:none;background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.linkgrid li{max-width:none;box-shadow:0 0 0 .5px var(--line)}
+.linkgrid a{display:block;height:100%;padding:13px 16px;background:var(--surface);color:var(--ink);text-decoration:none}
+.linkgrid a:hover{background:var(--accent-soft)}
+.linkgrid b{font:600 18px/1.2 var(--display);display:block}
+.linkgrid small{display:block;color:var(--muted);font-size:14px;margin-top:2px}
+.cite{font-size:14px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;margin-top:36px}
+.btnlink{margin:8px 0}
+.faq h3{margin-top:16px}
 td.n b{font-weight:700}
-.up{color:var(--bad)} .down{color:var(--good)}
-.browse{margin-top:30px}
-.browse h2{font-size:22px}
+.browse{margin-top:44px}
+.browse h2{margin:34px 0 4px}
+@media (max-width:640px){.pricecard{grid-template-columns:1fr;padding:20px}.pricecard .pc-r{text-align:left}}
 """
 
 
@@ -285,18 +287,24 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
 {self.analytics()}"""
 
     def nav(self, pre, current=""):
-        links = [("", "Interactive rate book"), ("prices/", "Material prices"), ("rates/", "BoQ rates"), ("labour/", "Labour"),
-                 ("plant/", "Plant hire"), ("locations/", "Locations"), ("guides/cost-to-build-3-bedroom-bungalow/", "Building cost guide"),
-                 ("methodology/", "Methodology"), ("about/", "About")]
+        links = [("prices/", "Material prices"), ("prices/#equipment", "Equipment"), ("rates/", "BoQ rates"), ("labour/", "Labour"),
+                 ("plant/", "Plant hire"), ("locations/", "Locations"), ("guides/cost-to-build-3-bedroom-bungalow/", "Cost guide"), ("about/", "About")]
         cur = ' aria-current="page"'
         return '<nav class="sitenav" aria-label="Site">' + "".join(
             f'<a href="{pre}{h}"{cur if h == current else ""}>{t}</a>' for h, t in links) + "</nav>"
 
+    def masthead(self, pre, current=""):
+        return f"""<header class="mast">
+    <a class="wordmark" href="{pre}" aria-label="Buildocrat Rate Book home"><b>Build<span>ocrat</span></b><small>Rate Book</small></a>
+    {self.nav(pre, current)}
+    <div class="actions"><a class="wa" href="https://wa.me/2347018024292?text=Hello%20Buildocrat%2C%20I%27d%20like%20to%20lock%20prices%20for%20my%20project." target="_blank" rel="noopener">WhatsApp us</a></div>
+  </header>"""
+
     def footer(self, pre):
         return f"""<footer>
     <div class="fbrand">Build<span>ocrat</span></div>
-    <div>The Nigeria Construction Rate Book is published by Buildocrat. Prices as at {self.date_long}; key prices are re-checked every week against dated market sources. <a href="{pre}updates/">Update log</a> &middot; <a href="{pre}data/">Download the data</a> &middot; <a href="{pre}methodology/">Methodology</a> &middot; <a href="{pre}privacy/">Privacy</a></div>
-    <div class="fcorp">Buildocrat Property Technologies Ltd &middot; RC 7019619 &middot; No 30 Anthony Enahoro Street, Utako, Abuja &middot; WhatsApp <span class="sel">+234 701 802 4292</span> &middot; <span class="sel">buildocrat@gmail.com</span> &middot; <a href="{pre}about/">About Buildocrat</a></div>
+    <div>The Nigeria Construction Rate Book is published by Buildocrat. Prices as at {self.date_long}; key prices are re-checked every week against dated market sources. See the <a href="{pre}updates/">update log</a>, <a href="{pre}methodology/">methodology</a>, <a href="{pre}data/">data downloads</a> and <a href="{pre}privacy/">privacy notice</a>.</div>
+    <div class="fcorp">Buildocrat Property Technologies Ltd (RC 7019619), No 30 Anthony Enahoro Street, Utako, Abuja. WhatsApp <span class="sel">+234 701 802 4292</span>, email <span class="sel">buildocrat@gmail.com</span>. <a href="{pre}about/">About Buildocrat</a></div>
     <div>Indicative market rates for budgeting and first-pass BoQ pricing. Confirm LOW-confidence items with at least three supplier quotes before relying on them in a tender.</div>
   </footer>"""
 
@@ -328,18 +336,15 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
 <link rel="icon" type="image/png" sizes="192x192" href="{pre}icons/icon-192.png">
 <link rel="apple-touch-icon" href="{pre}icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap">
 <link rel="stylesheet" href="{pre}assets/site.css">
 </head>
 <body>
 <div class="wrap">
-  <header class="sitehead">
-    <div class="brandbar"><a class="wordmark" href="{pre}" aria-label="Buildocrat Rate Book home">Build<span>ocrat</span></a><span class="brandtag">Nigeria Construction Rate Book</span></div>
-    {self.nav(pre, current)}
-  </header>
+  {self.masthead(pre, current)}
   <nav class="crumbs" aria-label="Breadcrumb">{crumb_html}</nav>
   <main class="static">
-    <p class="meta">Prices as at {self.date_long} &middot; updated weekly &middot; base location Abuja</p>
+    <p class="meta">Prices as at {self.date_long}, checked weekly. Base location Abuja.</p>
     <h1>{h1}</h1>
 {body}
 {faq_html}
@@ -357,10 +362,12 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
     def link_item(self, pre, c, text=None):
         return f'<a href="{pre}{self.item_path[c]}">{e(text or self.items[c]["d"])}</a>'
 
-    def table(self, head, rows, numeric=()):
-        cn = ' class="n"'
-        h = "".join(f'<th{cn if i in numeric else ""} scope="col">{x}</th>' for i, x in enumerate(head))
-        b = "".join("<tr>" + "".join(f'<td{cn if i in numeric else ""}>{x}</td>' for i, x in enumerate(r)) + "</tr>" for r in rows)
+    def table(self, head, rows, numeric=(), hide=()):
+        def cl(i):
+            c = (["n"] if i in numeric else []) + (["hm"] if i in hide else [])
+            return f' class="{" ".join(c)}"' if c else ""
+        h = "".join(f'<th{cl(i)} scope="col">{x}</th>' for i, x in enumerate(head))
+        b = "".join("<tr>" + "".join(f'<td{cl(i)}>{x}</td>' for i, x in enumerate(r)) + "</tr>" for r in rows)
         return f'<div class="tablebox"><table><thead><tr>{h}</tr></thead><tbody>{b}</tbody></table></div>'
 
     def primary_sentence(self, code, loc=None):
@@ -386,8 +393,8 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
                 r = self.R[c]
                 rows.append([f"<b>{e(r['d'])}</b>", u(r["u"]), f"<b>{naira(self.E.rate(c))}</b>",
                              f"{naira(self.E.rate(c,'lo'))} - {naira(self.E.rate(c,'hi'))}", self.change(r) or "-",
-                             f'<span class="chip c-{r["conf"]}">{r["conf"]}</span>', e(r.get("ev") or "derived")])
-            tbl = self.table(["Item", "Unit", "Abuja price", "Range", "Change", "Confidence", "Evidence date"], rows, numeric=(2, 3))
+                             f'<span class="chip c-{r["conf"]}">{r["conf"].capitalize()}</span>', e(r.get("ev") or "derived")])
+            tbl = self.table(["Item", "Unit", "Abuja price", "Range", "Change", "Confidence", "Evidence date"], rows, numeric=(2, 3), hide=(1, 3, 4, 6))
             loc_rows = [[e(n), f"{naira(pv*fm)}", f"{fm:.2f}"] for n, fm, fl, fp in self.locs]
             loc_tbl = self.table(["Location", f"Estimated price per {u(p['u'])}", "Materials factor"], loc_rows, numeric=(1, 2))
             # usage in build-ups
@@ -414,8 +421,11 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
                 use_html = ("<h2>What diesel adds to plant hire</h2><p>Buildocrat's all-in plant rates include fuel at the current pump price, so a diesel price change moves every rate that uses machines.</p>"
                             + self.table(["Plant", "Fuel per day", "Fuel + lubricants per day", "All-in day rate"], prow[:14], numeric=(1, 2, 3)))
             srcs = sorted({self.R[c]["src"] for c in h["codes"] if not self.R[c].get("k")})
-            body = f"""    <p class="answer">{answer}</p>
-    <a class="btn btnlink" href="{pre}">Open the interactive rate book</a>
+            card = (f'<div class="pricecard"><p class="pc-k">{e(p["d"])}, Abuja</p><p class="pc-v">{naira(pv)}<small>per {u(p["u"])}</small></p>'
+                    f'<p class="pc-r">Market range <b>{naira(lo)}</b> to <b>{naira(hi)}</b> as at {self.date_long}.</p>'
+                    f'<a class="btn" href="{pre}">Price a whole BoQ in the rate book</a></div>')
+            body = f"""    {card}
+    <p class="answer">{answer}</p>
     <h2>{e(h['name'])} prices in Nigeria ({self.mon})</h2>
     {tbl}
     <p class="muted">Prices are Abuja market prices, delivered within the city, excluding VAT unless stated. "Change" compares with the previous weekly update.</p>
@@ -434,11 +444,15 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
                    ("How often is this price updated?", f"Buildocrat re-checks key prices every Monday against dated market sources. This page was last updated on {self.date_long}.")]
             title = f"{h['h1'].replace(' today','')} ({self.mon}) - {naira(pv)} per {u(p['u'])} | Buildocrat"
             desc = f"{h['name']} prices in Nigeria as at {self.date_long}: {p['d']} about {naira(pv)} per {u(p['u'])} in Abuja. Brand and size prices, city estimates and how much each item of work uses. Updated weekly."
-            self.page(path, title, desc[:300], e(h["h1"]), body, [("Material prices", "prices/"), (h["name"], path)], faq=faq, priority="0.9", current="prices/")
+            eq = h["primary"].startswith("M-EQ-")
+            crumbs = [("Equipment prices", "prices/#equipment"), (h["name"], path)] if eq else [("Material prices", "prices/"), (h["name"], path)]
+            self.page(path, title, desc[:300], e(h["h1"]), body, crumbs, faq=faq, priority="0.9", current="prices/#equipment" if eq else "prices/")
 
     def build_prices_index(self):
         path = "prices/"; pre = "../"
-        cards = "".join(f'<li><a href="{pre}prices/{h["slug"]}/"><b>{e(h["name"])}</b><small>{naira(self.E.rate(h["primary"]))} per {u(self.R[h["primary"]]["u"])}</small></a></li>' for h in HUBS)
+        card = lambda h: f'<li><a href="{pre}prices/{h["slug"]}/"><b>{e(h["name"])}</b><small>{naira(self.E.rate(h["primary"]))} per {u(self.R[h["primary"]]["u"])}</small></a></li>'
+        cards = "".join(card(h) for h in HUBS if not h["primary"].startswith("M-EQ-"))
+        eqcards = "".join(card(h) for h in HUBS if h["primary"].startswith("M-EQ-"))
         groups = {}
         for r in self.D["resources"]:
             groups.setdefault(r["g"], []).append(r)
@@ -446,10 +460,14 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
         for g, rs in groups.items():
             rows = [[f'<code>{r["c"]}</code>', (f'<a href="{pre}prices/{self.hub_of[r["c"]]["slug"]}/">{e(r["d"])}</a>' if r["c"] in self.hub_of else e(r["d"])),
                      u(r["u"]), f"<b>{naira(self.E.rate(r['c']))}</b>", f"{naira(self.E.rate(r['c'],'lo'))} - {naira(self.E.rate(r['c'],'hi'))}",
-                     f'<span class="chip c-{r["conf"]}">{r["conf"]}</span>'] for r in rs]
+                     f'<span class="chip c-{r["conf"]}">{r["conf"].capitalize()}</span>'] for r in rs]
             parts.append(f'<h2 id="{slug(g)}">{e(g.title() if g.isupper() else g)}</h2>' + self.table(["Code", "Material", "Unit", "Price (Abuja)", "Range", "Confidence"], rows, numeric=(3, 4)))
         body = f"""    <p class="answer">Current prices for {len(self.D['resources'])} building materials, tools and construction equipment in Nigeria as at {self.date_long}, from cement, iron rods, blocks, sand and granite to excavators, tipper trucks, cranes, generators and roofing, tiles, paint, electrical and plumbing items. Prices are Abuja market prices delivered within the city; use the <a href="{pre}locations/">location pages</a> for other cities.</p>
-    <h2>Most-searched prices</h2><ul class="linkgrid">{cards}</ul>
+    <h2>Building materials</h2><ul class="linkgrid">{cards}</ul>
+    <h2 id="equipment">Construction equipment for sale</h2>
+    <p>Purchase prices for new and used (tokunbo) machines. For daily hire rates see <a href="{pre}plant/">plant hire</a>.</p>
+    <ul class="linkgrid">{eqcards}</ul>
+    <h2>Full price list</h2>
     {''.join(parts)}"""
         self.page(path, f"Building materials prices in Nigeria ({self.mon}) - {len(self.D['resources'])} items | Buildocrat",
                   f"Current prices of {len(self.D['resources'])} building materials and construction equipment in Nigeria as at {self.date_long}: cement, iron rods, blocks, sand, granite, excavators, tippers, generators, roofing sheets, tiles, paint, timber, cables and more. Updated weekly.",
@@ -469,7 +487,7 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
                       f"{x['w']*100:.0f}%" if x["w"] else "-", naira(x["rate"]), naira(x["cost"])] for x in res["lines"]]
             lines += [["", "<b>Materials</b>", "", "", "", naira(res["m"])], ["", "<b>Labour</b>", "", "", "", naira(res["l"])],
                       ["", "<b>Plant</b>", "", "", "", naira(res["p"])], ["", f"<b>Net unit rate per {unit}</b>", "", "", "", f"<b>{naira(res['net'])}</b>"]]
-            bu = self.table(["Resource type", "Resource", "Quantity per unit", "Waste", "Rate", "Cost"], lines, numeric=(2, 3, 4, 5))
+            bu = self.table(["Resource type", "Resource", "Quantity per unit", "Waste", "Rate", "Cost"], lines, numeric=(2, 3, 4, 5), hide=(0, 3))
             lrows = []
             for n, fm, fl, fp in self.locs:
                 r2 = self.E.item(it, (fm, fl, fp))
@@ -488,8 +506,11 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
             faq = [(f"How much does {short} cost per {unit} in Nigeria?", f"About {naira(res['net'])} per {unit} net in Abuja as at {self.date_long}, or about {naira(res['net']*mk)} per {unit} as a tender rate including overheads, contingency, profit and VAT (Buildocrat Nigeria Construction Rate Book)."),
                    (f"What is the rate in Lagos?", f"Applying Buildocrat's Lagos location factors, the net rate is about {naira(lr['net'])} per {unit} and the tender rate about {naira(lr['net']*mk)} per {unit}."),
                    ("What does the rate include?", f"Materials ({e(mats)}) with waste allowances; labour ({e(labs)}) at all-in rates including feeding, transport, idle time and statutory costs; and plant ({e(plants)}) including fuel and operator. Overheads, profit and VAT are excluded from the net rate." + (f" Scope note: {e(it['n'])}" if it.get("n") else ""))]
-            body = f"""    <p class="answer">{answer}</p>
-    <a class="btn btnlink" href="{pre}">Price a BoQ with this rate</a>
+            card = (f'<div class="pricecard"><p class="pc-k">Net unit rate in Abuja, excluding overheads, profit and VAT</p><p class="pc-v">{naira(res["net"])}<small>per {unit}</small></p>'
+                    f'<p class="pc-r">Tender rate about <b>{naira(res["net"]*mk)}</b> per {unit} with overheads, contingency, profit and VAT.</p>'
+                    f'<a class="btn" href="{pre}">Price a BoQ with this rate</a></div>')
+            body = f"""    {card}
+    <p class="answer">{answer}</p>
     <h2>Rate build-up (Abuja, {self.mon})</h2>
     {bu}
     {f'<p class="muted">Scope note: {e(it["n"])}</p>' if it.get("n") else ''}
@@ -879,10 +900,10 @@ When citing, please use: "Buildocrat Nigeria Construction Rate Book ({BASE}), pr
         """Pre-rendered content for the interactive home page (so crawlers without JavaScript see it)."""
         f = (1, 1, 1)
         watch = ""
+        WL = self.D["meta"].get("watchLabels", {})
         for c in self.D["meta"]["watch"]:
             r = self.R[c]
-            watch += f'<div><div class="k">{e(r["d"][:38])} / {e(r["u"])}</div><div class="v">{naira(self.E.rate(c))}</div><div class="dlt"><span class="flat">as at {self.date_long}</span></div></div>'
-        watch += f'<div><div class="k">Naira / US$ ({e(self.D["meta"]["fxNote"])})</div><div class="v">₦{self.D["meta"]["fx"]:,}</div><div class="dlt"><span class="flat">reference</span></div></div>'
+            watch += f'<li><span class="k">{e(WL.get(c, r["d"]))}</span><span class="v">{naira(self.E.rate(c))}</span></li>'
         by_sec = {}
         for it in self.D["items"]:
             by_sec.setdefault(it["s"], []).append(it)
@@ -891,19 +912,21 @@ When citing, please use: "Buildocrat Nigeria Construction Rate Book ({BASE}), pr
             rows += f'<tr class="sec"><td colspan="8">{e(s)}</td></tr>'
             for it in sorted(by_sec[s], key=lambda x: x["c"]):
                 r = self.E.item(it, f)
-                rows += (f'<tr><td></td><td class="code">{it["c"]}</td><td><a href="{self.item_path[it["c"]]}">{e(it["d"])}</a></td><td>{e(it["u"])}</td>'
-                         f'<td class="n">{naira(r["m"])}</td><td class="n">{naira(r["l"])}</td><td class="n">{naira(r["p"])}</td><td class="n net">{naira(r["net"])}</td></tr>')
-        view = ('<div class="tablebox"><table><thead><tr><th></th><th>Code</th><th>Description</th><th>Unit</th><th class="n">Materials</th><th class="n">Labour</th>'
-                f'<th class="n">Plant</th><th class="n">Net rate</th></tr></thead><tbody>{rows}</tbody></table></div>')
+                rows += (f'<tr><td class="hm"></td><td class="code hm">{it["c"]}</td><td><a href="{self.item_path[it["c"]]}">{e(it["d"])}</a></td><td>{e(it["u"])}</td>'
+                         f'<td class="n hm">{naira(r["m"])}</td><td class="n hm">{naira(r["l"])}</td><td class="n hm">{naira(r["p"])}</td><td class="n net">{naira(r["net"])}</td></tr>')
+        view = ('<div class="tablebox"><table><thead><tr><th class="hm"></th><th class="hm">Code</th><th>Description</th><th>Unit</th><th class="n hm">Materials</th><th class="n hm">Labour</th>'
+                f'<th class="n hm">Plant</th><th class="n">Net rate</th></tr></thead><tbody>{rows}</tbody></table></div>')
         facts = "; ".join(f"{e(self.R[h['primary']]['d'])} {naira(self.E.rate(h['primary']))} per {u(self.R[h['primary']]['u'])}" for h in HUBS[:6])
-        summary = (f'<p class="lede" id="summary"><b>This week ({self.date_long}):</b> {facts}. A typical 140 m² three-bedroom bungalow costs about '
-                   f'<a href="guides/cost-to-build-3-bedroom-bungalow/">{naira(bung["total"])}</a> to build in Abuja ({naira(bung["total"]/BUNGALOW_GFA)} per m²).</p>')
-        links = "".join(f'<li><a href="prices/{h["slug"]}/"><b>{e(h["name"])} price</b><small>{naira(self.E.rate(h["primary"]))} per {u(self.R[h["primary"]]["u"])}</small></a></li>' for h in HUBS)
+        summary = (f'<p class="herofact">A typical 140 m² three-bedroom bungalow costs about '
+                   f'<a href="guides/cost-to-build-3-bedroom-bungalow/">{naira(bung["total"])}</a> to build in Abuja this week, or {naira(bung["total"]/BUNGALOW_GFA)} per m².</p>')
+        lk = lambda h: f'<li><a href="prices/{h["slug"]}/"><b>{e(h["name"])}</b><small>{naira(self.E.rate(h["primary"]))} per {u(self.R[h["primary"]]["u"])}</small></a></li>'
+        links = "".join(lk(h) for h in HUBS if not h["primary"].startswith("M-EQ-"))
+        eqlinks = "".join(lk(h) for h in HUBS if h["primary"].startswith("M-EQ-"))
         locl = "".join(f'<li><a href="locations/{slug(n.replace("(FCT)", "").replace("(Osun)", "osun"))}/"><b>{e(n)}</b><small>Construction costs</small></a></li>' for n, *_ in self.locs)
         browse = f"""<section class="browse" aria-label="Browse the rate book">
     <h2>Browse the rate book</h2>
     <ul class="linkgrid">
-      <li><a href="prices/"><b>All material prices</b><small>{len(self.D['resources'])} items</small></a></li>
+      <li><a href="prices/"><b>All prices</b><small>{len(self.D['resources'])} materials, tools and machines</small></a></li>
       <li><a href="rates/"><b>All BoQ unit rates</b><small>{len(self.D['items'])} rates with build-ups</small></a></li>
       <li><a href="labour/"><b>Labour rates</b><small>{len(self.D['labour'])} trades and staff grades</small></a></li>
       <li><a href="plant/"><b>Plant and equipment hire</b><small>{len(self.D['plant'])} machines</small></a></li>
@@ -912,7 +935,8 @@ When citing, please use: "Buildocrat Nigeria Construction Rate Book ({BASE}), pr
       <li><a href="updates/"><b>Weekly updates</b><small>What changed</small></a></li>
       <li><a href="data/"><b>Download the data</b><small>CSV and JSON, CC BY 4.0</small></a></li>
     </ul>
-    <h2>Prices people look up most</h2><ul class="linkgrid">{links}</ul>
+    <h2>Building material prices</h2><ul class="linkgrid">{links}</ul>
+    <h2>Construction equipment prices</h2><ul class="linkgrid">{eqlinks}</ul>
     <h2>Costs by location</h2><ul class="linkgrid">{locl}</ul>
   </section>"""
         return watch, view, summary, browse
