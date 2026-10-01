@@ -77,3 +77,49 @@ P-GNS,GNSS RTK kit,day,45000,35000,60000,0,0,0,45000,-,LOW,Judgement
 P-DRN,Drone survey (per day incl. pilot),day,150000,100000,200000,0,0,0,150000,-,LOW,Judgement
 P-CTN,20ft container office (hire),day,6000,4000,8000,0,0,0,6000,-,LOW,Judgement
 P-TLT,Portable toilet (hire & service),day,3000,2000,4000,0,0,0,3000,-,LOW,Judgement
+P-PDH,Piling rig with diesel/hydraulic impact hammer (crawler),day,1200000,960000.0,1500000.0,160,334400.0,58950.0,1593350.0,60-90 m driven/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-VBH,Vibratory hammer with crawler crane (sheet piles),day,1500000,1200000.0,1875000.0,200,418000.0,58950.0,1976950.0,150-250 m2/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-CFA,CFA piling rig,day,2500000,2000000.0,3125000.0,280,585200.0,58950.0,3144150.0,150-250 m/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-MPR,Micropile / anchor drilling rig,day,450000,360000.0,562500.0,90,188100.0,58950.0,697050.0,20-40 m/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-PRB,PVD (wick drain) stitcher rig,day,600000,480000.0,750000.0,120,250800.0,58950.0,909750.0,"3,000-5,000 m/day",LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-CC100,Crawler crane 100t,day,2200000,1760000.0,2750000.0,250,522500.0,52400.0,2774900.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-CC200,Crawler crane 200t,day,4000000,3200000.0,5000000.0,350,731500.0,52400.0,4783900.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-PRM,Prime mover with 60t trailer,day,500000,400000.0,625000.0,250,522500.0,26200.0,1048700.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-CRB,Crane barge 300t,day,12000000,9600000.0,15000000.0,1200,2508000.0,78600.0,14586600.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-TUG,"Tug 1,200hp",day,2500000,2000000.0,3125000.0,1500,3135000.0,117900.0,5752900.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-SPB,Spud barge (hire),day,900000,720000.0,1125000.0,0,0,0,900000,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-FTB,"Flat-top barge 1,000t (hire)",day,700000,560000.0,875000.0,0,0,0,700000,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-TSHD,"Trailing suction hopper dredger 5,000m3",day,45000000,36000000.0,56250000.0,15000,31350000.0,58950.0,76408950.0,"25,000-40,000 m3/day placed",LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-CSD20,"Cutter suction dredger 20"" with discharge line",day,9000000,7200000.0,11250000.0,2500,5225000.0,58950.0,14283950.0,"4,000-6,000 m3/day placed",LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-ECS,Hydrographic survey boat with echo sounder & GNSS,day,350000,280000.0,437500.0,80,119680.0,0,469680.0,10-15 km of line/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-SB583,Sideboom pipelayer (CAT 583 class),day,900000,720000.0,1125000.0,180,376200.0,58950.0,1335150.0,400-800 m laid/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-PBM,"Pipe bending machine 6-36""",day,800000,640000.0,1000000.0,60,125400.0,32750.0,958150.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-WRG,Diesel welding rig on truck (2 welders),day,150000,120000.0,187500.0,50,104500.0,0,254500.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-HDD,Horizontal directional drilling rig 100t with mud system,day,6000000,4800000.0,7500000.0,600,1254000.0,78600.0,7332600.0,30-60 m pullback/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-TRN,Chain trencher,day,1200000,960000.0,1500000.0,250,522500.0,32750.0,1755250.0,"500-1,000 m/day",LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-HTP,Hydrotest pump unit with recorders,day,150000,120000.0,187500.0,40,83600.0,0,233600.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-SBL,Abrasive blasting unit with 750cfm compressor,day,250000,200000.0,312500.0,120,250800.0,0,500800.0,60-80 m2/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-HOL,Holiday (coating) detector,day,25000,20000.0,31200.0,0,0,0,25000,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-XRY,Radiography crawler / X-ray unit (excl. technician),day,300000,240000.0,375000.0,0,0,0,300000,30-50 joints/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-ADT,Articulated dump truck 30t,day,600000,480000.0,750000.0,250,522500.0,26200.0,1148700.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-SCR,Motor scraper 15m3,day,1200000,960000.0,1500000.0,350,731500.0,41920.0,1973420.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-ASPL,Asphalt mixing plant 120tph (excl. bitumen & aggregate),day,3000000,2400000.0,3750000.0,1500,3135000.0,39300.0,6174300.0,"800-1,000 t/day",LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-CRU,Stone crushing plant 200tph,day,2500000,2000000.0,3125000.0,1200,2508000.0,39300.0,5047300.0,"1,500-2,000 t/day",LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-SFP,Slipform concrete paver,day,3000000,2400000.0,3750000.0,300,627000.0,32750.0,3659750.0,"1,000-2,000 m2/day",LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-SST,Soil stabiliser / recycler,day,2500000,2000000.0,3125000.0,350,731500.0,32750.0,3264250.0,"3,000-5,000 m2/day",LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-DRL,Crawler rock drill,day,600000,480000.0,750000.0,200,418000.0,32750.0,1050750.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-BTH,Bitumen tanker with heater,day,300000,240000.0,375000.0,150,313500.0,26200.0,639700.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-MBP,Mobile batching plant 30m3/h,day,600000,480000.0,750000.0,150,313500.0,39300.0,952800.0,150-200 m3/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-TMP,Ballast tamping machine,day,3500000,2800000.0,4375000.0,400,836000.0,32750.0,4368750.0,400-800 m/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-RWL,Rail welding & grinding unit,day,400000,320000.0,500000.0,80,167200.0,0,567200.0,8-15 welds/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-WPT,Wellpoint dewatering system (50 points),day,250000,200000.0,312500.0,60,125400.0,0,375400.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-LTW,Lighting tower,day,45000,36000.0,56200.0,25,52250.0,0,97250.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-GN500,Generator 500kVA,day,400000,320000.0,500000.0,650,1358500.0,11790.0,1770290.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-CMP750,Air compressor 750cfm,day,250000,200000.0,312500.0,200,418000.0,0,668000.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-BML,Articulating boom lift 20m,day,250000,200000.0,312500.0,30,62700.0,0,312700.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-SCL,Scissor lift 12m (electric),day,120000,96000.0,150000.0,0,0,0,120000,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-CDR,Diamond core drill rig,day,30000,24000.0,37500.0,4,5984.0,0,35984.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-FGR,Floor grinder / polisher,day,40000,32000.0,50000.0,0,0,0,40000,40-80 m2/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-VSC,Vibrating screed (petrol),day,25000,20000.0,31200.0,5,7480.0,0,32480.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-SHT,Shotcrete machine,day,300000,240000.0,375000.0,80,167200.0,0,467200.0,20-40 m3/day,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card
+P-GRP,Grout mixer & pump,day,120000,96000.0,150000.0,30,62700.0,0,182700.0,-,LOW,Judgement (Oct 2026). Replace with Yellowmetal or supplier rate card

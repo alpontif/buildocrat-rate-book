@@ -17,7 +17,10 @@ class Engine:
     def _mat(self, code, key):
         r = self.R[code]
         if "k" in r:
-            return self._mat(r["k"]["b"], key) * r["k"]["f"]
+            k = r["k"]
+            if key in ("lo", "hi") and k.get("s"):
+                return self._mat(k["b"], "r") * k["f"] * (1 - k["s"] if key == "lo" else 1 + k["s"])
+            return self._mat(k["b"], key) * k["f"]
         return r[key]
 
     def lab_day(self, l, which="r"):

@@ -8,7 +8,7 @@ function buildEngine(DATA) {
   const cache = {};
   function mat(code, key) {
     const r = R[code];
-    if (r.k) return mat(r.k.b, key) * r.k.f;
+    if (r.k) { if (key && key !== "r" && r.k.s) return mat(r.k.b, "r") * r.k.f * (key === "lo" ? 1 - r.k.s : 1 + r.k.s); return mat(r.k.b, key) * r.k.f; }
     return r[key];
   }
   function labDay(l, which) {

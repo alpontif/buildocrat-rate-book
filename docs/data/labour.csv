@@ -50,3 +50,50 @@ L-HSE,HSE officer,Staff,,,,350000,16867.31,2108.41,LOW,Judgement
 L-LAT,Materials lab technician,Staff,,,,250000,12048.08,1506.01,LOW,Judgement
 L-TMK,Timekeeper / site clerk,Staff,,,,180000,8674.62,1084.33,LOW,Judgement
 L-ADM,Site admin / accounts officer,Staff,,,,250000,12048.08,1506.01,LOW,Judgement
+L-PWL,Pipeline welder (6G coded),Craft,45000,36000.0,56200.0,,58950.0,7368.75,LOW,Judgement (Oct 2026); verify locally
+L-PFT,Pipe fitter,Craft,30000,24000.0,37500.0,,39300.0,4912.5,LOW,Judgement (Oct 2026); verify locally
+L-CTA,Coating applicator,Craft,20000,16000.0,25000.0,,26200.0,3275.0,LOW,Judgement (Oct 2026); verify locally
+L-BLS,Abrasive blaster / industrial painter,Craft,18000,14400.0,22500.0,,23580.0,2947.5,LOW,Judgement (Oct 2026); verify locally
+L-NDT,NDT technician (RT/UT Level II),Craft,50000,40000.0,62500.0,,65500.0,8187.5,LOW,Judgement (Oct 2026); verify locally
+L-INS,Insulation technician,Craft,18000,14400.0,22500.0,,23580.0,2947.5,LOW,Judgement (Oct 2026); verify locally
+L-ITC,Instrument technician,Craft,35000,28000.0,43800.0,,45850.0,5731.25,LOW,Judgement (Oct 2026); verify locally
+L-DIV,Commercial diver,Craft,150000,120000.0,187500.0,,196500.0,24562.5,LOW,Judgement (Oct 2026); verify locally
+L-DKH,Deckhand / marine crew,Craft,15000,12000.0,18800.0,,19650.0,2456.25,LOW,Judgement (Oct 2026); verify locally
+L-DRC,Dredge crew member,Craft,25000,20000.0,31200.0,,32750.0,4093.75,LOW,Judgement (Oct 2026); verify locally
+L-PIL,Piling hand,Craft,12000,9600.0,15000.0,,15720.0,1965.0,LOW,Judgement (Oct 2026); verify locally
+L-GTC,Geotechnical technician,Craft,25000,20000.0,31200.0,,32750.0,4093.75,LOW,Judgement (Oct 2026); verify locally
+L-RTW,Rail track worker,Craft,12000,9600.0,15000.0,,15720.0,1965.0,LOW,Judgement (Oct 2026); verify locally
+L-RWD,Rail welder (thermite),Craft,35000,28000.0,43800.0,,45850.0,5731.25,LOW,Judgement (Oct 2026); verify locally
+L-LIN,Lineman (overhead lines),Craft,18000,14400.0,22500.0,,23580.0,2947.5,LOW,Judgement (Oct 2026); verify locally
+L-CJT,HV cable jointer,Craft,40000,32000.0,50000.0,,52400.0,6550.0,LOW,Judgement (Oct 2026); verify locally
+L-HVE,HV electrician,Craft,30000,24000.0,37500.0,,39300.0,4912.5,LOW,Judgement (Oct 2026); verify locally
+L-LFT,Lift technician,Craft,35000,28000.0,43800.0,,45850.0,5731.25,LOW,Judgement (Oct 2026); verify locally
+L-FPT,Fire systems technician,Craft,25000,20000.0,31200.0,,32750.0,4093.75,LOW,Judgement (Oct 2026); verify locally
+L-ICT,Network / ICT technician,Craft,22000,17600.0,27500.0,,28820.0,3602.5,LOW,Judgement (Oct 2026); verify locally
+L-STM,Stone mason,Craft,16000,12800.0,20000.0,,20960.0,2620.0,LOW,Judgement (Oct 2026); verify locally
+L-DRY,Drywall installer,Craft,14000,11200.0,17500.0,,18340.0,2292.5,LOW,Judgement (Oct 2026); verify locally
+L-ESC,Armed security escort (per day),Craft,25000,20000.0,31200.0,,32750.0,4093.75,LOW,Judgement (Oct 2026); verify locally
+L-CK,Camp cook,Craft,10000,8000.0,12500.0,,13100.0,1637.5,LOW,Judgement (Oct 2026); verify locally
+L-FLG,Flagman / traffic controller,Craft,8000,6400.0,10000.0,,10480.0,1310.0,LOW,Judgement (Oct 2026); verify locally
+L-BCR,Crane barge operator,Operator,60000,48000.0,75000.0,,78600.0,9825.0,LOW,Judgement (Oct 2026); verify locally
+L-TGC,Tug master,Operator,90000,72000.0,112500.0,,117900.0,14737.5,LOW,Judgement (Oct 2026); verify locally
+L-SBO,Sideboom (pipelayer) operator,Operator,45000,36000.0,56200.0,,58950.0,7368.75,LOW,Judgement (Oct 2026); verify locally
+L-HDD,HDD rig operator,Operator,60000,48000.0,75000.0,,78600.0,9825.0,LOW,Judgement (Oct 2026); verify locally
+L-PDR,Piling rig operator,Operator,45000,36000.0,56200.0,,58950.0,7368.75,LOW,Judgement (Oct 2026); verify locally
+L-CPO,Concrete pump operator,Operator,30000,24000.0,37500.0,,39300.0,4912.5,LOW,Judgement (Oct 2026); verify locally
+L-BPO,Batching/asphalt plant operator,Operator,30000,24000.0,37500.0,,39300.0,4912.5,LOW,Judgement (Oct 2026); verify locally
+L-QCE,QA/QC engineer,Staff,,,,550000,26505.77,3313.22,LOW,Judgement (Oct 2026); verify locally
+L-QCI,QA/QC inspector,Staff,,,,350000,16867.31,2108.41,LOW,Judgement (Oct 2026); verify locally
+L-PLN,Planner / scheduler,Staff,,,,600000,28915.38,3614.42,LOW,Judgement (Oct 2026); verify locally
+L-DCC,Document controller,Staff,,,,250000,12048.08,1506.01,LOW,Judgement (Oct 2026); verify locally
+L-PRC,Procurement officer,Staff,,,,300000,14457.69,1807.21,LOW,Judgement (Oct 2026); verify locally
+L-MEE,Mechanical engineer,Staff,,,,550000,26505.77,3313.22,LOW,Judgement (Oct 2026); verify locally
+L-ELN,Electrical engineer,Staff,,,,550000,26505.77,3313.22,LOW,Judgement (Oct 2026); verify locally
+L-STE,Structural engineer,Staff,,,,600000,28915.38,3614.42,LOW,Judgement (Oct 2026); verify locally
+L-GEO,Geotechnical engineer,Staff,,,,600000,28915.38,3614.42,LOW,Judgement (Oct 2026); verify locally
+L-ENV,Environmental officer,Staff,,,,350000,16867.31,2108.41,LOW,Judgement (Oct 2026); verify locally
+L-CLO,Community liaison officer,Staff,,,,300000,14457.69,1807.21,LOW,Judgement (Oct 2026); verify locally
+L-PMO,Pipeline / oil & gas project engineer,Staff,,,,900000,43373.08,5421.63,LOW,Judgement (Oct 2026); verify locally
+L-WIN,Welding inspector (CSWIP 3.1),Staff,,,,800000,38553.85,4819.23,LOW,Judgement (Oct 2026); verify locally
+L-MSV,Marine superintendent,Staff,,,,900000,43373.08,5421.63,LOW,Judgement (Oct 2026); verify locally
+L-CRM,Camp manager,Staff,,,,300000,14457.69,1807.21,LOW,Judgement (Oct 2026); verify locally
