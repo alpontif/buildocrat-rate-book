@@ -1,13 +1,13 @@
 # Nigeria Construction Rate Book (Buildocrat)
 
-> Free, weekly-updated construction cost data for Nigeria: 829 building material prices, 98 labour rates, 124 equipment hire rates and 330 first-principles bill of quantities (BoQ) unit rates, with factors for 12 locations. Abuja base, prices in naira (NGN). Prices as at 29 September 2026. Published by Buildocrat Property Technologies Ltd (RC 7019619), No 30 Anthony Enahoro Street, Utako, Abuja.
+> Free, weekly-updated construction cost data for Nigeria: 1036 building material prices, 98 labour rates, 124 equipment hire rates and 330 first-principles bill of quantities (BoQ) unit rates, with factors for 12 locations. Abuja base, prices in naira (NGN). Prices as at 29 September 2026. Published by Buildocrat Property Technologies Ltd (RC 7019619), No 30 Anthony Enahoro Street, Utako, Abuja.
 
 When citing, please use: "Buildocrat Nigeria Construction Rate Book (https://rates.buildocrat.store), prices as at 29 September 2026". Data licence: CC BY 4.0.
 
 ## Key prices (Abuja, as at 29 September 2026)
 - OPC 42.5 cement, 50kg bag - adopted market average: ₦12,000 per bag (range ₦11,000 to ₦13,500) - https://rates.buildocrat.store/prices/cement/
 - High-yield rebar 12-16mm, per tonne: ₦1,050,000 per tonne (range ₦950,000 to ₦1,150,000) - https://rates.buildocrat.store/prices/iron-rods/
-- 9" (225mm) hollow sandcrete block: ₦850 per no. (range ₦700 to ₦1,000) - https://rates.buildocrat.store/prices/blocks/
+- 9" (225mm) hollow sandcrete block: ₦850 per unit (range ₦700 to ₦1,000) - https://rates.buildocrat.store/prices/blocks/
 - Sharp sand, 20t tipper load: ₦130,000 per load (range ₦90,000 to ₦180,000) - https://rates.buildocrat.store/prices/sand/
 - Granite 3/4", 30t load: ₦540,000 per load (range ₦400,000 to ₦765,000) - https://rates.buildocrat.store/prices/granite/
 - Aluminium longspan 0.55mm, Grade A (market): ₦8,100 per m² (range ₦7,000 to ₦9,000) - https://rates.buildocrat.store/prices/roofing-sheets/
@@ -15,8 +15,8 @@ When citing, please use: "Buildocrat Nigeria Construction Rate Book (https://rat
 - Emulsion paint, standard, 20L: ₦50,000 per 20L pail (range ₦45,000 to ₦55,000) - https://rates.buildocrat.store/prices/paint/
 - 2"x4"x12' hardwood (Gmelina/Akpontu): ₦4,800 per length (range ₦3,840 to ₦5,760) - https://rates.buildocrat.store/prices/timber/
 - Diesel (AGO), pump price, per litre: ₦1,900 per litre (range ₦1,790 to ₦2,000) - https://rates.buildocrat.store/prices/diesel-petrol/
-- Polyethylene water tank 2,000L: ₦260,000 per no. (range ₦230,000 to ₦290,000) - https://rates.buildocrat.store/prices/water-tanks/
-- Hybrid inverter 5kVA/48V: ₦500,000 per no. (range ₦350,000 to ₦650,000) - https://rates.buildocrat.store/prices/solar/
+- Polyethylene water tank 2,000L: ₦260,000 per unit (range ₦230,000 to ₦290,000) - https://rates.buildocrat.store/prices/water-tanks/
+- Hybrid inverter 5kVA/48V: ₦500,000 per unit (range ₦350,000 to ₦650,000) - https://rates.buildocrat.store/prices/solar/
 - Ready-mix C25/30, delivered Abuja (ex-pump): ₦165,000 per m³ (range ₦132,000 to ₦198,000) - https://rates.buildocrat.store/prices/ready-mix-concrete/
 - 2.5mm2 single-core Cu cable, 100m coil: ₦85,000 per 100m coil (range ₦68,000 to ₦102,000) - https://rates.buildocrat.store/prices/electrical-cables/
 - Aluminium casement window, 5mm glass & net - supply & fix: ₦95,000 per m² (range ₦75,000 to ₦120,000) - https://rates.buildocrat.store/prices/doors-windows/
@@ -24,9 +24,21 @@ When citing, please use: "Buildocrat Nigeria Construction Rate Book (https://rat
 - Sheet pile PU18 (128 kg/m2 of wall), per m2: ₦202,738 per m² (range ₦162,190 to ₦243,286) - https://rates.buildocrat.store/prices/sheet-piles/
 - HDPE PE100 SDR17 (PN10) pipe 110mm (2.02 kg/m), per m: ₦8,486 per m (range ₦6,788 to ₦10,183) - https://rates.buildocrat.store/prices/hdpe-pipes/
 - 33kV 1-core 240mm2 Cu XLPE/SWA cable, per m: ₦53,000 per m (range ₦46,600 to ₦59,400) - https://rates.buildocrat.store/prices/power-cables-transformers/
-- Dry powder extinguisher 9kg: ₦45,000 per no. (range ₦36,000 to ₦54,000) - https://rates.buildocrat.store/prices/fire-safety/
-- Wheelbarrow heavy duty: ₦65,000 per no. (range ₦52,000 to ₦78,000) - https://rates.buildocrat.store/prices/construction-tools/
+- Dry powder extinguisher 9kg: ₦45,000 per unit (range ₦36,000 to ₦54,000) - https://rates.buildocrat.store/prices/fire-safety/
+- Wheelbarrow heavy duty: ₦65,000 per unit (range ₦52,000 to ₦78,000) - https://rates.buildocrat.store/prices/construction-tools/
 - Armour rock 3-6t, delivered to site, per tonne: ₦38,000 per tonne (range ₦30,400 to ₦45,600) - https://rates.buildocrat.store/prices/armour-rock/
+- Excavator 20-22t (CAT 320D/320GC), foreign used: ₦170,000,000 per unit (range ₦140,000,000 to ₦200,000,000) - https://rates.buildocrat.store/prices/excavators/
+- Bulldozer D6 class (CAT D6H/D6R), foreign used: ₦200,000,000 per unit (range ₦145,000,000 to ₦250,000,000) - https://rates.buildocrat.store/prices/bulldozers-loaders/
+- Motor grader CAT 140G, Nigerian used: ₦80,000,000 per unit (range ₦70,000,000 to ₦85,000,000) - https://rates.buildocrat.store/prices/road-construction-equipment/
+- Tipper truck 6x4 371hp 30t (Sinotruk Howo), new: ₦100,000,000 per unit (range ₦65,000,000 to ₦110,000,000) - https://rates.buildocrat.store/prices/tipper-trucks/
+- Truck crane 50-55t (SANY/XCMG), foreign used: ₦140,000,000 per unit (range ₦120,000,000 to ₦160,000,000) - https://rates.buildocrat.store/prices/cranes/
+- Diesel generator 100kVA soundproof (Mikano), new: ₦18,000,000 per unit (range ₦15,900,000 to ₦20,400,000) - https://rates.buildocrat.store/prices/generators/
+- Concrete batching plant 50 m3/h, new: ₦170,000,000 per unit (range ₦165,000,000 to ₦180,000,000) - https://rates.buildocrat.store/prices/concrete-equipment/
+- Block moulding line FT4-5 / mobile type (~3,000 blocks/day): ₦5,200,000 per unit (range ₦3,900,000 to ₦6,500,000) - https://rates.buildocrat.store/prices/block-making-machines/
+- Crushing plant 200 t/h (jaw + cone + screens), Nigerian used: ₦175,000,000 per unit (range ₦150,000,000 to ₦200,000,000) - https://rates.buildocrat.store/prices/quarry-equipment/
+- Suction dredger 10-12", Nigerian used: ₦45,000,000 per unit (range ₦40,000,000 to ₦50,000,000) - https://rates.buildocrat.store/prices/dredgers/
+- Rotary bored-pile rig 150-200kNm (SANY SR150/Bauer BG), foreign used: ₦450,000,000 per unit (range ₦360,000,000 to ₦540,000,000) - https://rates.buildocrat.store/prices/piling-rigs/
+- Total station 2" (Leica/Sokkia/Topcon), new: ₦16,770,600 per unit (range ₦13,416,480 to ₦20,124,720) - https://rates.buildocrat.store/prices/survey-site-equipment/
 - Mason: ₦15,000 per day; labourer: ₦7,000 per day (https://rates.buildocrat.store/labour/)
 - Typical 140 m² 3-bedroom bungalow, main building works incl. VAT: ₦51,584,342 (₦368,460 per m²) (https://rates.buildocrat.store/guides/cost-to-build-3-bedroom-bungalow/)
 

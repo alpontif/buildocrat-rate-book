@@ -12,7 +12,7 @@ LAUNCH = "2026-09-29"
 LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/"
 e = html.escape
 
-UNIT = {"m2": "m²", "m3": "m³", "nr": "no.", "t": "tonne", "pt": "point", "h": "hour", "L": "litre",
+UNIT = {"m2": "m²", "m3": "m³", "nr": "unit", "t": "tonne", "pt": "point", "h": "hour", "L": "litre",
         "pail": "20L pail", "coil": "100m coil", "length": "length", "load": "load"}
 def u(x): return UNIT.get(x, x)
 def naira(v):
@@ -93,6 +93,42 @@ HUBS = [
  dict(slug='armour-rock', name='Armour rock & marine materials', h1='Price of armour rock and marine construction materials in Nigeria', q='How much is armour rock per tonne in Nigeria?',
       primary='M-MR-AR36', codes=['M-MR-AR36', 'M-MR-AR13', 'M-MR-CORE', 'M-MR-UL', 'M-MR-ROY', 'M-MR-FCONE', 'M-MR-FCYL', 'M-MR-FD300', 'M-MR-BOL50', 'M-MR-BOL100', 'M-MR-RAIL', 'M-MR-LADR'],
       drivers='Rock for breakwaters and shore protection is quarried inland and hauled long distances, so haulage and barge transport usually cost more than the rock itself.'),
+ dict(slug='excavators', name='Excavators', h1='Price of excavators in Nigeria (new and tokunbo)', q='How much is an excavator in Nigeria?',
+      primary='M-EQ-EX21U', codes=['M-EQ-EX17U', 'M-EQ-EX35U', 'M-EQ-EX35N', 'M-EQ-EX55N', 'M-EQ-EX55U', 'M-EQ-EX75U', 'M-EQ-EX75N', 'M-EQ-EX21C', 'M-EQ-EX21P', 'M-EQ-EX21U', 'M-EQ-EX21O', 'M-EQ-EX30U', 'M-EQ-EX30P', 'M-EQ-EX36C', 'M-EQ-EXLR', 'M-EQ-EXAMP', 'M-EQ-EXWH', 'M-EQ-HBRK', 'M-EQ-BKT1', 'M-EQ-VRIP'],
+      drivers='Excavator prices depend mostly on size (tonnes), brand, year and working hours. Chinese brands (SANY, XCMG, LiuGong) cost much less new than CAT or Komatsu. Tokunbo (foreign-used) CAT machines hold their value well. Imported new machines move with the exchange rate. Check the hour meter, undercarriage wear and hydraulic leaks, and do a test dig before paying.'),
+ dict(slug='bulldozers-loaders', name='Bulldozers & payloaders', h1='Price of bulldozers, payloaders and backhoes in Nigeria', q='How much is a bulldozer or payloader in Nigeria?',
+      primary='M-EQ-DZ6U', codes=['M-EQ-SSLU', 'M-EQ-SSLN', 'M-EQ-BHLC', 'M-EQ-BHLP', 'M-EQ-BHLU', 'M-EQ-BHLL', 'M-EQ-WL16', 'M-EQ-WL30', 'M-EQ-WL50', 'M-EQ-WL50U', 'M-EQ-WL950', 'M-EQ-WL966', 'M-EQ-WLNU', 'M-EQ-DZ6U', 'M-EQ-DZ7G', 'M-EQ-DZ7R', 'M-EQ-DZ8U', 'M-EQ-DZ26N', 'M-EQ-DZ34N', 'M-EQ-DZ16N', 'M-EQ-DZLGP', 'M-EQ-ADT30', 'M-EQ-RDT40'],
+      drivers='Older CAT D8H/D8K and 966 machines are still traded widely in Nigeria. New Chinese dozers and loaders (Shantui, Zoomlion, LiuGong, SDLG) cost less and come with a dealer warranty. On used machines, check the undercarriage, final drives, transmission and engine blow-by.'),
+ dict(slug='road-construction-equipment', name='Road construction equipment', h1='Price of graders, rollers, pavers and asphalt plants in Nigeria', q='How much is a road roller or motor grader in Nigeria?',
+      primary='M-EQ-GR14N', codes=['M-EQ-GR12N', 'M-EQ-GR14N', 'M-EQ-GR14U', 'M-EQ-GRCN', 'M-EQ-GRCAT', 'M-EQ-SDR12', 'M-EQ-SDR12U', 'M-EQ-TDR3', 'M-EQ-RR5', 'M-EQ-WBR', 'M-EQ-WBR1', 'M-EQ-PTR', 'M-EQ-PAVU', 'M-EQ-PAVN', 'M-EQ-AMP80', 'M-EQ-AMP160', 'M-EQ-BDIS', 'M-EQ-CHSP', 'M-EQ-MILL', 'M-EQ-LMRK', 'M-EQ-KERB', 'M-EQ-STAB'],
+      drivers='Road plant is mostly imported, so new prices follow the exchange rate. Used CAT graders (12G, 140G) are common and cheap to maintain locally. Asphalt plants are quoted ex-works: budget for shipping, installation and commissioning.'),
+ dict(slug='tipper-trucks', name='Tipper trucks & haulage', h1='Price of tipper trucks, low-beds and mixer trucks in Nigeria', q='How much is a Howo tipper truck in Nigeria?',
+      primary='M-EQ-TIP30N', codes=['M-EQ-TIP30N', 'M-EQ-TIP30U', 'M-EQ-TIPMB', 'M-EQ-TIP10', 'M-EQ-THN', 'M-EQ-THU', 'M-EQ-LB80', 'M-EQ-LB100', 'M-EQ-FLATT', 'M-EQ-TM10N', 'M-EQ-TM10U', 'M-EQ-WTK', 'M-EQ-FBWN', 'M-EQ-KNCK', 'M-EQ-PU4X4', 'M-EQ-PU4U', 'M-EQ-BUS18', 'M-EQ-DUMP3'],
+      drivers='Sinotruk Howo tippers dominate the Nigerian market. New prices vary with horsepower, axle and tyre count, and body size. On used trucks, check the customs papers and confirm the chassis and engine numbers.'),
+ dict(slug='cranes', name='Cranes & forklifts', h1='Price of cranes and forklifts in Nigeria', q='How much is a crane in Nigeria?',
+      primary='M-EQ-TC55U', codes=['M-EQ-TC25N', 'M-EQ-TC55U', 'M-EQ-TC55N', 'M-EQ-TC70N', 'M-EQ-TC80U', 'M-EQ-AT80U', 'M-EQ-AT90U', 'M-EQ-AT120U', 'M-EQ-TC400U', 'M-EQ-CC55U', 'M-EQ-CC150U', 'M-EQ-TWU', 'M-EQ-TWPN', 'M-EQ-TWCN', 'M-EQ-FL3D', 'M-EQ-FL3E', 'M-EQ-FL7', 'M-EQ-FL10', 'M-EQ-FL16', 'M-EQ-FL3U', 'M-EQ-TELU', 'M-EQ-HOIST', 'M-EQ-SCIS', 'M-EQ-BOOM', 'M-EQ-CHB5', 'M-EQ-GNTY'],
+      drivers='Crane prices rise steeply with lifting capacity, and Grove all-terrain cranes cost more than Chinese truck cranes of the same size. Ask for the load chart, the last load test and the wire rope certificate before buying any used crane.'),
+ dict(slug='generators', name='Generators & pumps', h1='Price of generators and pumps in Nigeria', q='How much is a 100kVA generator in Nigeria?',
+      primary='M-EQ-G100', codes=['M-EQ-G10', 'M-EQ-G30', 'M-EQ-G50', 'M-EQ-G100', 'M-EQ-G150', 'M-EQ-G200', 'M-EQ-G250', 'M-EQ-G300', 'M-EQ-G500', 'M-EQ-G1000', 'M-EQ-P55', 'M-EQ-P10', 'M-EQ-LTWR', 'M-EQ-WGEN', 'M-EQ-DP4', 'M-EQ-DP6', 'M-EQ-SUB3', 'M-EQ-WPT', 'M-EQ-DTNK'],
+      drivers='Generator prices depend on engine brand (Perkins, Cummins, Mikano, FG Wilson), alternator, whether the set is soundproof, and whether an ATS and installation are included. Size the generator to the real load plus motor starting currents.'),
+ dict(slug='concrete-equipment', name='Concrete equipment', h1='Price of concrete batching plants, pumps and mixers in Nigeria', q='How much is a concrete batching plant in Nigeria?',
+      primary='M-EQ-BP50', codes=['M-EQ-BP35', 'M-EQ-BP50', 'M-EQ-BP75', 'M-EQ-BP120', 'M-EQ-BPMOB', 'M-EQ-SILO', 'M-EQ-CP20', 'M-EQ-CP40', 'M-EQ-CP60', 'M-EQ-CP80', 'M-EQ-CP100', 'M-EQ-CPBM', 'M-EQ-MXPMP', 'M-EQ-SLMX', 'M-EQ-MX2B', 'M-EQ-VIBE', 'M-EQ-PTRW', 'M-EQ-FSAW', 'M-EQ-CORE', 'M-EQ-RCUT', 'M-EQ-RBND', 'M-EQ-RTHR'],
+      drivers='Batching plant prices are for the plant only; foundations, installation, power supply and a weighbridge are extra. Pump prices depend on output (m3/h) and the length of delivery pipe supplied.'),
+ dict(slug='block-making-machines', name='Block making machines', h1='Price of block making machines in Nigeria', q='How much is a block moulding machine in Nigeria?',
+      primary='M-EQ-BMFT', codes=['M-EQ-BM2', 'M-EQ-BMEL', 'M-EQ-BMEGG', 'M-EQ-BMFT', 'M-EQ-BMHY', 'M-EQ-BMAUT', 'M-EQ-QT10', 'M-EQ-PANMX'],
+      drivers='Locally fabricated block machines are cheap but slow. Hydraulic and automatic machines make denser, more uniform blocks at much higher output. Choose a machine that can meet NIS 87 strength requirements.'),
+ dict(slug='quarry-equipment', name='Quarry & drilling equipment', h1='Price of stone crushers, drill rigs and compressors in Nigeria', q='How much is a stone crushing plant in Nigeria?',
+      primary='M-EQ-CRU200', codes=['M-EQ-JAWS', 'M-EQ-JAWL', 'M-EQ-CRU200', 'M-EQ-CRU450', 'M-EQ-MOBCR', 'M-EQ-SCRN', 'M-EQ-CONV', 'M-EQ-WAGON', 'M-EQ-DTH', 'M-EQ-BHRG', 'M-EQ-BHRGU', 'M-EQ-AC750', 'M-EQ-AC375', 'M-EQ-AC750U', 'M-EQ-AC100', 'M-EQ-JKHM', 'M-EQ-EBRK'],
+      drivers='Crushing plant prices depend on capacity (tonnes per hour) and on whether you buy a jaw crusher only or jaw plus cone with screens. Quarry licences, explosives permits and a power supply add to the cost.'),
+ dict(slug='dredgers', name='Dredgers & marine equipment', h1='Price of dredgers and marine equipment in Nigeria', q='How much is a sand dredger in Nigeria?',
+      primary='M-EQ-D12U', codes=['M-EQ-DJET', 'M-EQ-D8U', 'M-EQ-D12U', 'M-EQ-DCSDS', 'M-EQ-DCSD14', 'M-EQ-DCSD20', 'M-EQ-DPMP', 'M-EQ-SPUD', 'M-EQ-TUG', 'M-EQ-HOPB', 'M-EQ-CREW', 'M-EQ-OB200', 'M-EQ-SBGY'],
+      drivers='Locally built jet-suction dredgers are cheap and widely used for sand mining. Cutter suction dredgers cost far more but can cut compacted material and pump much further. Budget for the discharge pipeline, pontoons and a support boat.'),
+ dict(slug='piling-rigs', name='Piling rigs', h1='Price of piling rigs and pile hammers in Nigeria', q='How much is a piling rig in Nigeria?',
+      primary='M-EQ-RIGU', codes=['M-EQ-RIGU', 'M-EQ-RIGN', 'M-EQ-VIBH', 'M-EQ-D62', 'M-EQ-HPU', 'M-EQ-SPDR'],
+      drivers='Piling rigs are almost all imported; new Chinese rotary rigs cost far less than European ones. Budget for transport on low-beds, tooling (augers, casings, buckets) and a trained operator.'),
+ dict(slug='survey-site-equipment', name='Survey & site equipment', h1='Price of survey instruments and site equipment in Nigeria', q='How much is a total station in Nigeria?',
+      primary='M-EQ-TSTN', codes=['M-EQ-TSTN', 'M-EQ-GNSS', 'M-EQ-DRONE', 'M-EQ-ATLV', 'M-EQ-RAMM', 'M-EQ-PLT200', 'M-EQ-TOIL', 'M-EQ-CON40', 'M-EQ-HFRM', 'M-EQ-PRPS', 'M-EQ-ALFW', 'M-EQ-PWASH', 'M-EQ-HYDT'],
+      drivers='Survey instruments are imported and priced in dollars. Buy from dealers who can calibrate and service them locally.'),
 ]
 
 BUNGALOW = [("A01", 450), ("A02", 38), ("A04", 20), ("A07", 150), ("A08", 150), ("B01", 3.2), ("B02", 16), ("B06", 1.2), ("B12", 0.4),
@@ -190,7 +226,7 @@ class Site:
                 "license": LICENSE_URL, "isAccessibleForFree": True, "inLanguage": "en-NG",
                 "datePublished": LAUNCH, "dateModified": self.upd, "temporalCoverage": f"{LAUNCH}/..",
                 "spatialCoverage": {"@type": "Place", "name": "Nigeria", "address": {"@type": "PostalAddress", "addressCountry": "NG"}},
-                "keywords": ["Nigeria", "construction costs", "building materials prices", "cement price", "iron rod price", "BoQ rates", "unit rates", "labour rates", "equipment hire", "quantity surveying"],
+                "keywords": ["Nigeria", "construction costs", "building materials prices", "cement price", "iron rod price", "BoQ rates", "unit rates", "labour rates", "equipment hire", "construction equipment prices", "excavator price", "generator price", "quantity surveying"],
                 "variableMeasured": ["Material price (NGN)", "Labour daily wage (NGN)", "Plant hire day rate (NGN)", "BoQ unit rate (NGN)"],
                 "measurementTechnique": "Dated market price research; first-principles rate build-ups (materials x waste + labour hours + plant days)",
                 "distribution": [
@@ -412,11 +448,11 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
                      u(r["u"]), f"<b>{naira(self.E.rate(r['c']))}</b>", f"{naira(self.E.rate(r['c'],'lo'))} - {naira(self.E.rate(r['c'],'hi'))}",
                      f'<span class="chip c-{r["conf"]}">{r["conf"]}</span>'] for r in rs]
             parts.append(f'<h2 id="{slug(g)}">{e(g.title() if g.isupper() else g)}</h2>' + self.table(["Code", "Material", "Unit", "Price (Abuja)", "Range", "Confidence"], rows, numeric=(3, 4)))
-        body = f"""    <p class="answer">Current prices for {len(self.D['resources'])} building materials in Nigeria as at {self.date_long}, from cement, iron rods, blocks, sand and granite to roofing, tiles, paint, electrical and plumbing items. Prices are Abuja market prices delivered within the city; use the <a href="{pre}locations/">location pages</a> for other cities.</p>
+        body = f"""    <p class="answer">Current prices for {len(self.D['resources'])} building materials, tools and construction equipment in Nigeria as at {self.date_long}, from cement, iron rods, blocks, sand and granite to excavators, tipper trucks, cranes, generators and roofing, tiles, paint, electrical and plumbing items. Prices are Abuja market prices delivered within the city; use the <a href="{pre}locations/">location pages</a> for other cities.</p>
     <h2>Most-searched prices</h2><ul class="linkgrid">{cards}</ul>
     {''.join(parts)}"""
         self.page(path, f"Building materials prices in Nigeria ({self.mon}) - {len(self.D['resources'])} items | Buildocrat",
-                  f"Current prices of {len(self.D['resources'])} building materials in Nigeria as at {self.date_long}: cement, iron rods, blocks, sand, granite, roofing sheets, tiles, paint, timber, cables and more. Updated weekly.",
+                  f"Current prices of {len(self.D['resources'])} building materials and construction equipment in Nigeria as at {self.date_long}: cement, iron rods, blocks, sand, granite, excavators, tippers, generators, roofing sheets, tiles, paint, timber, cables and more. Updated weekly.",
                   "Building materials prices in Nigeria", body, [("Material prices", path)], priority="0.9", current="prices/")
 
     def build_rate_pages(self):
