@@ -4,8 +4,29 @@
   <link href="https://rates.buildocrat.store/feed.xml" rel="self"/>
   <link href="https://rates.buildocrat.store/"/>
   <id>https://rates.buildocrat.store/</id>
-  <updated>2026-09-29T06:00:00+01:00</updated>
+  <updated>2026-10-06T06:00:00+01:00</updated>
   <author><name>Buildocrat Property Technologies Ltd</name></author>
+  <entry>
+    <title>Price update 2026-10-06</title>
+    <id>https://rates.buildocrat.store/updates/#2026-10-06</id>
+    <link href="https://rates.buildocrat.store/updates/"/>
+    <updated>2026-10-06T06:00:00+01:00</updated>
+    <summary>Restored from artifact: the 5 Oct and 6 Oct refreshes (naira, diesel, petrol, LPG, Dangote and BUA cement, 9-inch block, four aluminium roofing lines, 2.5mm2 cable), which had been published but not saved to the repo. Follow-up check found no new dated Abuja evidence for the cement average, rebar, sharp sand or granite, and no dated source to upgrade LOW plumbing or long-reach excavator lines; no further price changes.</summary>
+  </entry>
+  <entry>
+    <title>Price update 2026-10-06</title>
+    <id>https://rates.buildocrat.store/updates/#2026-10-06</id>
+    <link href="https://rates.buildocrat.store/updates/"/>
+    <updated>2026-10-06T06:00:00+01:00</updated>
+    <summary>Weekly refresh: naira N1,328 -&gt; N1,333/$ (CBN NFEM, 6 Oct; imported items follow); diesel N1,900 -&gt; N1,870/L (Dangote gantry cut N1,850 -&gt; N1,780, national pump avg N1,811); petrol Abuja N1,400 -&gt; N1,385/L (NNPC N1,370, independents N1,400); 2.5mm2 cable 100m coil N85,000 -&gt; N77,000 (Coleman retailer list, LOW -&gt; MEDIUM); LPG N1,100/kg, 9-inch block N850 and aluminium roofing reconfirmed. Cement average, rebar, sand and granite unchanged (no fresh Abuja source). Also saves the 5 Oct refresh (Dangote/BUA cement), which had been published but not saved to the repo.</summary>
+  </entry>
+  <entry>
+    <title>Price update 2026-10-05</title>
+    <id>https://rates.buildocrat.store/updates/#2026-10-05</id>
+    <link href="https://rates.buildocrat.store/updates/"/>
+    <updated>2026-10-05T06:00:00+01:00</updated>
+    <summary>Weekly refresh: naira N1,331 -&gt; N1,328/$ (CBN NFEM, 2 Oct; imported items follow); petrol N1,360 -&gt; N1,400/L (Abuja pumps N1,370-1,450); Dangote cement N12,300 -&gt; N12,500/bag and BUA N11,800 -&gt; N12,200/bag (Abuja dealer checks, 21 Sep); 0.40mm roofing confirmed at N5,600/m2. Cement average, rebar, diesel, LPG, blocks, sand and granite unchanged (no new Abuja-dated evidence).</summary>
+  </entry>
   <entry>
     <title>Price update 2026-10-01</title>
     <id>https://rates.buildocrat.store/updates/#2026-10-01</id>
