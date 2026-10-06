@@ -1,5 +1,5 @@
 // Buildocrat Rate Book service worker. Version changes on every rebuild.
-const CACHE = "rate-book-db5b5d424e";
+const CACHE = "rate-book-55175f1312";
 const CORE = ["./", "index.html", "rate-data.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));

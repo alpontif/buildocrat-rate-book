@@ -1,6 +1,6 @@
 # Nigeria Construction Rate Book (Buildocrat)
 
-> Free, weekly-updated construction cost data for Nigeria: 1036 building material prices, 98 labour rates, 124 equipment hire rates and 330 first-principles bill of quantities (BoQ) unit rates, with factors for 12 locations. Abuja base, prices in naira (NGN). Prices as at 6 October 2026. Published by Buildocrat Property Technologies Ltd (RC 7019619), No 30 Anthony Enahoro Street, Utako, Abuja.
+> Free, weekly-updated construction cost data for Nigeria: 1037 building material prices, 98 labour rates, 132 equipment hire rates and 330 first-principles bill of quantities (BoQ) unit rates, with factors for 12 locations. Abuja base, prices in naira (NGN). Prices as at 6 October 2026. Published by Buildocrat Property Technologies Ltd (RC 7019619), No 30 Anthony Enahoro Street, Utako, Abuja.
 
 When citing, please use: "Buildocrat Nigeria Construction Rate Book (https://rates.buildocrat.store), prices as at 6 October 2026". Data licence: CC BY 4.0.
 

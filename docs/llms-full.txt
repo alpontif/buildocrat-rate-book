@@ -1042,6 +1042,7 @@ M-EQ-PRPS | Adjustable steel prop 1.8-3.5m, new | nr | ₦18,000 | ₦14,000-₦
 M-EQ-ALFW | Aluminium wall/slab formwork system, per m2 of panel | m2 | ₦242,606 | ₦194,085-₦291,127 | LOW | derived | Desk estimate US$130 FOB China/EU x 1.4 landed x NFEM rate (Oct 2026); verify with dealer quotes
 M-EQ-PWASH | Pressure washer 250 bar petrol | nr | ₦650,000 | ₦520,000-₦780,000 | LOW | derived | Desk estimate (Oct 2026); verify with 3 dealer quotes
 M-EQ-HYDT | Hydraulic torque wrench / bolt tensioning set | nr | ₦6,000,000 | ₦4,800,000-₦7,200,000 | LOW | derived | Desk estimate (Oct 2026); verify with 3 dealer quotes
+M-TL-RIGK | Scaffolder/rigger tool kit: 3 spanners (17-21, 21-26, 22-24), 4 rolls binding wire, 2 wood saws | kit | ₦202,000 | ₦161,600-₦242,400 | LOW | derived | Built up from book prices: spanner set (M-TL-SPAN) for the 3 spanners, 4 x binding wire 20kg (M-STL-04), 2 x wood saw (M-TL-WSAW)
 
 ## BoQ unit rates (net, Abuja)
 code | section | item | unit | materials | labour | plant | net rate | tender rate
@@ -1603,6 +1604,14 @@ P-FGR | Floor grinder / polisher | ₦40,000/day | 0 | ₦40,000/day | 40-80 m2/
 P-VSC | Vibrating screed (petrol) | ₦25,000/day | 5 | ₦32,618/day | -
 P-SHT | Shotcrete machine | ₦300,000/day | 80 | ₦464,560/day | 20-40 m3/day
 P-GRP | Grout mixer & pump | ₦120,000/day | 30 | ₦181,710/day | -
+P-CMP900 | Air compressor 900cfm (diesel) with hoses and accessories | ₦300,000/day | 240 | ₦793,680/day | blasting/pneumatic tools
+P-CR100 | Mobile crane 100t | ₦2,000,000/day | 250 | ₦2,566,650/day | -
+P-TIG | TIG welding set with torch, argon regulator and leads (without generator) | ₦18,000/day | 0 | ₦18,000/day | excl. argon (M-TL-ARR)
+P-WLE | Electric arc welding set with leads, holder and earth clamp (without generator) | ₦12,000/day | 0 | ₦12,000/day | excl. electrodes
+P-FLP | Heavy-duty diesel flushing pump, 6" high-head | ₦80,000/day | 70 | ₦223,990/day | pipeline flushing/filling
+P-SCK4 | Scaffold tubes, kit of 50 nr x 4m (hire) | ₦6,300/day | 0 | ₦6,300/day | kit
+P-SCK32 | Scaffold tubes, kit of 50 nr x 3m + 50 nr x 2m with 100 couplers (hire) | ₦9,200/day | 0 | ₦9,200/day | kit
+P-SCKB | Scaffold boards & fittings kit: 100 boards 3.75m x 305 x 30mm, 300 couplers (right-angle, swivel, sleeve), 40 joint pins, 40 base plates, 2 pinch bars (hire) | ₦12,400/day | 0 | ₦12,400/day | kit
 
 ## Location factors (materials, labour, plant; Abuja = 1.00)
 Abuja (FCT): 1.00, 1.00, 1.00
@@ -1625,3 +1634,4 @@ Riverine / creek site: 1.30, 1.10, 1.40
 2026-10-05: Weekly refresh: naira N1,331 -> N1,328/$ (CBN NFEM, 2 Oct; imported items follow); petrol N1,360 -> N1,400/L (Abuja pumps N1,370-1,450); Dangote cement N12,300 -> N12,500/bag and BUA N11,800 -> N12,200/bag (Abuja dealer checks, 21 Sep); 0.40mm roofing confirmed at N5,600/m2. Cement average, rebar, diesel, LPG, blocks, sand and granite unchanged (no new Abuja-dated evidence).
 2026-10-06: Weekly refresh: naira N1,328 -> N1,333/$ (CBN NFEM, 6 Oct; imported items follow); diesel N1,900 -> N1,870/L (Dangote gantry cut N1,850 -> N1,780, national pump avg N1,811); petrol Abuja N1,400 -> N1,385/L (NNPC N1,370, independents N1,400); 2.5mm2 cable 100m coil N85,000 -> N77,000 (Coleman retailer list, LOW -> MEDIUM); LPG N1,100/kg, 9-inch block N850 and aluminium roofing reconfirmed. Cement average, rebar, sand and granite unchanged (no fresh Abuja source). Also saves the 5 Oct refresh (Dangote/BUA cement), which had been published but not saved to the repo.
 2026-10-06: Restored from artifact: the 5 Oct and 6 Oct refreshes (naira, diesel, petrol, LPG, Dangote and BUA cement, 9-inch block, four aluminium roofing lines, 2.5mm2 cable), which had been published but not saved to the repo. Follow-up check found no new dated Abuja evidence for the cement average, rebar, sharp sand or granite, and no dated source to upgrade LOW plumbing or long-reach excavator lines; no further price changes.
+2026-10-06: Added oil & gas support equipment lines (LOW, judgement, verify with quotes): 900cfm air compressor N300,000/day; 100t mobile crane N2,000,000/day; TIG welding set N18,000/day; electric welding set N12,000/day; 6-inch diesel flushing pump N80,000/day; three scaffold hire kits (tubes 4m, tubes 3m+2m with couplers, boards and fittings) and a scaffolder/rigger tool kit. 400cfm compressor, 100 and 250kVA generators and diesel welding generator were already listed.
