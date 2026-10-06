@@ -1063,7 +1063,7 @@ A07 | Earthworks | Anti-termite treatment to formation | m2 | ₦683 | ₦34.39 
 A08 | Earthworks | 1000g polythene DPM with 150mm laps | m2 | ₦333 | ₦57.31 | ₦0 | ₦390 | ₦521
 H01 | Demolition | Demolish 225mm blockwork wall, stack debris on site | m2 | ₦0 | ₦1,376 | ₦0 | ₦1,376 | ₦1,836
 H02 | Demolition | Break up 150mm concrete slab with excavator breaker, load debris | m2 | ₦0 | ₦458 | ₦16,483 | ₦16,942 | ₦22,613
-H03 | Demolition | Break out reinforced concrete with compressor & breakers | m3 | ₦0 | ₦9,170 | ₦50,855 | ₦60,025 | ₦80,118
+H03 | Demolition | Break out reinforced concrete with compressor & breakers | m3 | ₦0 | ₦9,170 | ₦74,188 | ₦83,358 | ₦111,262
 B01 | Concrete | Plain concrete 1:3:6 in blinding (site-mixed) | m3 | ₦86,480 | ₦9,334 | ₦2,885 | ₦98,699 | ₦131,738
 B02 | Concrete | Reinforced concrete 1:2:4 in foundations / bases / ground beams | m3 | ₦109,596 | ₦12,854 | ₦5,242 | ₦127,692 | ₦170,436
 B03 | Concrete | Reinforced concrete 1:2:4 in suspended slabs, beams & columns | m3 | ₦109,596 | ₦19,896 | ₦6,290 | ₦135,781 | ₦181,234
@@ -1092,8 +1092,8 @@ C03 | Masonry | 225mm hollow blockwork filled solid with 1:2:4 concrete, below D
 C06 | Masonry | Half-brick burnt clay facing brickwork in mortar 1:4, pointed | m2 | ₦30,856 | ₦4,094 | ₦0 | ₦34,949 | ₦46,649
 C08 | Masonry | Bituminous felt DPC 225mm wide bedded on walls | m | ₦827 | ₦123 | ₦0 | ₦950 | ₦1,268
 C04 | Masonry | CROSS-CHECK: produce 9" hollow sandcrete block on site (machine), cured | nr | ₦583 | ₦86.46 | ₦40.24 | ₦709 | ₦947
-S01 | Steelwork | Structural steel UB/UC frame, fabricated, primed & erected | t | ₦1,595,190 | ₦221,062 | ₦606,612 | ₦2,422,864 | ₦3,233,911
-S02 | Steelwork | Light steel roof trusses (angle/SHS), fabricated, primed & erected | t | ₦1,603,500 | ₦178,488 | ₦509,120 | ₦2,291,108 | ₦3,058,049
+S01 | Steelwork | Structural steel UB/UC frame, fabricated, primed & erected | t | ₦1,595,190 | ₦221,062 | ₦711,612 | ₦2,527,864 | ₦3,374,059
+S02 | Steelwork | Light steel roof trusses (angle/SHS), fabricated, primed & erected | t | ₦1,603,500 | ₦178,488 | ₦649,120 | ₦2,431,108 | ₦3,244,913
 S03 | Steelwork | Galvanised Z-purlin 150mm fixed to trusses | m | ₦8,941 | ₦606 | ₦0 | ₦9,547 | ₦12,742
 S04 | Steelwork | Steel handrail/balustrade 1m high, 2" pipe & 25mm SHS, painted | m | ₦26,250 | ₦9,334 | ₦0 | ₦35,583 | ₦47,495
 S05 | Steelwork | Wrought-iron burglary-proof to windows, supply & fix | m2 | ₦35,000 | ₦229 | ₦0 | ₦35,229 | ₦47,022
@@ -1218,10 +1218,10 @@ O09 | Oil & gas | Install 12" ANSI 150 gate valve with 2 weld-neck flanges, gask
 O10 | Oil & gas | Pipeline marker post set in concrete | nr | ₦46,854 | ₦1,719 | ₦0 | ₦48,573 | ₦64,833
 O11 | Oil & gas | Underground fuel tank 33,000L installed: excavation, sand surround, concrete anchor slab | nr | ₦10,264,648 | ₦108,730 | ₦705,760 | ₦11,079,138 | ₦14,787,845
 O12 | Oil & gas | Fuel dispenser installed with 6m 2" seamless product line and electrics | nr | ₦12,223,040 | ₦62,061 | ₦0 | ₦12,285,101 | ₦16,397,500
-O13 | Oil & gas | Fuel station canopy: steel frame, aluminium roof and ACP fascia | m2 | ₦92,700 | ₦11,839 | ₦4,270 | ₦108,808 | ₦145,232
+O13 | Oil & gas | Fuel station canopy: steel frame, aluminium roof and ACP fascia | m2 | ₦92,700 | ₦11,839 | ₦4,620 | ₦109,158 | ₦145,699
 O14 | Oil & gas | Abrasive blast clean to Sa2.5 and apply 3-coat epoxy system to steelwork | m2 | ₦27,840 | ₦2,751 | ₦8,281 | ₦38,872 | ₦51,885
 O15 | Oil & gas | Radiographic testing of pipeline weld (service, incl. film) | nr | ₦35,000 | ₦573 | ₦0 | ₦35,573 | ₦47,481
-O16 | Oil & gas | Fabricate and erect steel storage tank shell/bottom/roof, per tonne of plate | t | ₦1,833,372 | ₦154,252 | ₦479,332 | ₦2,466,956 | ₦3,292,762
+O16 | Oil & gas | Fabricate and erect steel storage tank shell/bottom/roof, per tonne of plate | t | ₦1,833,372 | ₦154,252 | ₦549,332 | ₦2,536,956 | ₦3,386,194
 O17 | Oil & gas | Install 12" pig launcher/receiver incl. tie-in welds | nr | ₦84,189,000 | ₦256,760 | ₦749,240 | ₦85,195,000 | ₦113,713,760
 P01 | Piling & ground engineering | Bored cast-in-place pile 600mm dia in C30/37 concrete incl. rebar cage and drilling fluid | m | ₦103,096 | ₦8,024 | ₦125,491 | ₦236,611 | ₦315,816
 P02 | Piling & ground engineering | Bored cast-in-place pile 900mm dia in C30/37 concrete incl. rebar cage and drilling fluid | m | ₦220,353 | ₦13,018 | ₦199,148 | ₦432,519 | ₦577,304
@@ -1230,7 +1230,7 @@ P04 | Piling & ground engineering | Precast concrete pile 400x400mm supplied and
 P05 | Piling & ground engineering | Steel tubular pile 762x14mm supplied and driven incl. splices | m | ₦499,259 | ₦2,260 | ₦31,761 | ₦533,280 | ₦711,794
 P06 | Piling & ground engineering | Steel sheet piling PU18, permanent, supplied and driven by vibro hammer | m2 | ₦215,408 | ₦835 | ₦10,947 | ₦227,190 | ₦303,241
 P07 | Piling & ground engineering | Temporary sheet piling PU18 driven and extracted (30% material write-off/hire) | m2 | ₦62,740 | ₦1,376 | ₦21,893 | ₦86,008 | ₦114,799
-P08 | Piling & ground engineering | Break down pile head 600mm and prepare starter bars | nr | ₦0 | ₦4,667 | ₦19,071 | ₦23,738 | ₦31,684
+P08 | Piling & ground engineering | Break down pile head 600mm and prepare starter bars | nr | ₦0 | ₦4,667 | ₦27,821 | ₦32,488 | ₦43,363
 P09 | Piling & ground engineering | Pile integrity test (low-strain), per pile | nr | ₦30,000 | ₦0 | ₦0 | ₦30,000 | ₦40,042
 P10 | Piling & ground engineering | Prefabricated vertical drains installed to 15m | m | ₦392 | ₦11.46 | ₦259 | ₦662 | ₦884
 P11 | Piling & ground engineering | Gabion box 2x1x1m filled with hand-packed stone | nr | ₦79,988 | ₦9,416 | ₦13,625 | ₦103,028 | ₦137,516
@@ -1242,7 +1242,7 @@ P16 | Piling & ground engineering | Ground/rock anchor 32mm bar, drilled and gro
 P17 | Piling & ground engineering | Geosynthetic clay liner laid with overlaps | m2 | ₦9,919 | ₦57.31 | ₦0 | ₦9,976 | ₦13,316
 P18 | Piling & ground engineering | Settlement plate installed and initial reading | nr | ₦85,000 | ₦18,668 | ₦0 | ₦103,668 | ₦138,370
 P19 | Piling & ground engineering | Non-woven geotextile 400g/m2 laid as separator/filter | m2 | ₦2,662 | ₦34.39 | ₦0 | ₦2,696 | ₦3,599
-Q01 | Bridges & heavy structures | Post-tensioning: 12x15.2mm tendons supplied, placed, stressed and grouted | t | ₦7,318,681 | ₦196,500 | ₦298,990 | ₦7,814,171 | ₦10,429,941
+Q01 | Bridges & heavy structures | Post-tensioning: 12x15.2mm tendons supplied, placed, stressed and grouted | t | ₦7,318,681 | ₦196,500 | ₦318,990 | ₦7,834,171 | ₦10,456,636
 Q02 | Bridges & heavy structures | Laminated elastomeric bearing supplied and installed | dm3 | ₦4,106 | ₦237 | ₦0 | ₦4,343 | ₦5,797
 Q03 | Bridges & heavy structures | Pot bearing 2,000kN supplied, installed and grouted | nr | ₦7,150,360 | ₦15,065 | ₦112,386 | ₦7,277,811 | ₦9,714,035
 Q04 | Bridges & heavy structures | Strip-seal expansion joint with C40 nosing and anchorage steel | m | ₦651,369 | ₦7,696 | ₦0 | ₦659,065 | ₦879,686
@@ -1303,10 +1303,10 @@ N11 | Power distribution | 132kV lattice tower steel erected | t | ₦3,616,696 
 N12 | Power distribution | 100kVA diesel generator installed with ATS, plinth and 15m LV cable | nr | ₦34,871,144 | ₦91,045 | ₦374,620 | ₦35,336,809 | ₦47,165,695
 N13 | Power distribution | Lightning protection system for a typical 2-storey building (6 air terminals) | nr | ₦729,500 | ₦91,045 | ₦0 | ₦820,545 | ₦1,095,220
 N14 | Power distribution | LV aerial bundled cable 3x70+54.6 on 9m concrete poles at 40m spans | m | ₦15,266 | ₦2,391 | ₦1,153 | ₦18,810 | ₦25,107
-V01 | Water & sewerage | HDPE PE100 SDR17 pipe 110mm laid and butt-fused in trench on sand bed | m | ₦9,466 | ₦678 | ₦293 | ₦10,437 | ₦13,931
-V02 | Water & sewerage | HDPE PE100 SDR17 pipe 160mm laid and butt-fused in trench on sand bed | m | ₦19,596 | ₦904 | ₦391 | ₦20,891 | ₦27,884
-V03 | Water & sewerage | HDPE PE100 SDR17 pipe 250mm laid and butt-fused in trench on sand bed | m | ₦47,150 | ₦1,384 | ₦1,949 | ₦50,483 | ₦67,382
-V04 | Water & sewerage | HDPE PE100 SDR17 pipe 400mm laid and butt-fused in trench on sand bed | m | ₦119,536 | ₦2,145 | ₦2,962 | ₦124,643 | ₦166,367
+V01 | Water & sewerage | HDPE PE100 SDR17 pipe 110mm laid and butt-fused in trench on sand bed | m | ₦9,466 | ₦678 | ₦343 | ₦10,487 | ₦13,998
+V02 | Water & sewerage | HDPE PE100 SDR17 pipe 160mm laid and butt-fused in trench on sand bed | m | ₦19,596 | ₦904 | ₦458 | ₦20,958 | ₦27,973
+V03 | Water & sewerage | HDPE PE100 SDR17 pipe 250mm laid and butt-fused in trench on sand bed | m | ₦47,150 | ₦1,384 | ₦2,049 | ₦50,583 | ₦67,515
+V04 | Water & sewerage | HDPE PE100 SDR17 pipe 400mm laid and butt-fused in trench on sand bed | m | ₦119,536 | ₦2,145 | ₦3,095 | ₦124,777 | ₦166,545
 V05 | Water & sewerage | Ductile iron pipe DN150 laid in trench on sand bed | m | ₦52,905 | ₦1,244 | ₦1,816 | ₦55,966 | ₦74,700
 V06 | Water & sewerage | Ductile iron pipe DN300 laid in trench on sand bed | m | ₦119,713 | ₦2,121 | ₦3,028 | ₦124,862 | ₦166,659
 V07 | Water & sewerage | uPVC sewer pipe 200mm laid on granular bed | m | ₦15,811 | ₦1,146 | ₦0 | ₦16,957 | ₦22,634
@@ -1348,7 +1348,7 @@ Y04 | Industrial buildings | Insulated sectional door 4x4m motorised, installed 
 Y05 | Industrial buildings | Overhead crane 10t x 20m span installed incl. 80m crane rail | nr | ₦124,602,442 | ₦426,405 | ₦2,645,320 | ₦127,674,167 | ₦170,412,695
 Y06 | Industrial buildings | Dry-shake floor hardener (5kg/m2) power-floated into slab | m2 | ₦6,300 | ₦295 | ₦129 | ₦6,724 | ₦8,974
 Y07 | Industrial buildings | Cold-room PU panel 100mm installed | m2 | ₦113,162 | ₦2,030 | ₦0 | ₦115,192 | ₦153,752
-Y08 | Industrial buildings | Pre-engineered steel building frame (approx. 35kg/m2), primed and erected | m2 | ₦54,989 | ₦5,895 | ₦4,015 | ₦64,899 | ₦86,623
+Y08 | Industrial buildings | Pre-engineered steel building frame (approx. 35kg/m2), primed and erected | m2 | ₦54,989 | ₦5,895 | ₦4,295 | ₦65,179 | ₦86,997
 Y09 | Industrial buildings | Hydraulic dock leveller installed in pit | nr | ₦10,516,550 | ₦44,868 | ₦0 | ₦10,561,418 | ₦14,096,819
 E29 | Finishes | Raised access floor 600x600 on adjustable pedestals | m2 | ₦108,892 | ₦1,212 | ₦0 | ₦110,104 | ₦146,960
 E30 | Finishes | Terrazzo floor 25mm laid, ground and polished | m2 | ₦19,143 | ₦4,831 | ₦1,000 | ₦24,974 | ₦33,333
@@ -1533,12 +1533,12 @@ P-CCT | Concrete floor saw (petrol) | ₦25,000/day | 8 | ₦37,188/day | -
 P-BBM | Bar bending machine (electric) | ₦20,000/day | 0 | ₦20,000/day | needs generator
 P-BLM | Vibrating block machine (petrol) | ₦15,000/day | 6 | ₦24,141/day | 500-700 blocks/day
 P-GN5 | Generator 5kVA (petrol) | ₦12,000/day | 12 | ₦30,282/day | -
-P-GEN | Generator 20kVA (diesel) | ₦35,000/day | 40 | ₦117,280/day | -
-P-GN60 | Generator 60kVA (diesel) | ₦70,000/day | 90 | ₦266,920/day | -
-P-GN100 | Generator 100kVA (diesel) | ₦110,000/day | 150 | ₦430,340/day | -
-P-GN250 | Generator 250kVA (diesel) | ₦220,000/day | 320 | ₦890,030/day | -
-P-WLG | Welding generator 400A (diesel) | ₦45,000/day | 40 | ₦127,280/day | -
-P-CMP | Air compressor 375cfm with 2 breakers | ₦120,000/day | 90 | ₦305,130/day | demolition/breaking
+P-GEN | Generator 20kVA (diesel) | ₦55,000/day | 40 | ₦137,280/day | -
+P-GN60 | Generator 60kVA (diesel) | ₦95,000/day | 90 | ₦291,920/day | -
+P-GN100 | Generator 100kVA (diesel) | ₦130,000/day | 150 | ₦450,340/day | -
+P-GN250 | Generator 250kVA (diesel) | ₦240,000/day | 320 | ₦910,030/day | -
+P-WLG | Welding generator 400A (diesel) | ₦80,000/day | 40 | ₦162,280/day | -
+P-CMP | Air compressor 375cfm with 2 breakers | ₦260,000/day | 90 | ₦445,130/day | demolition/breaking
 P-PM2 | Dewatering pump 2" (petrol) | ₦8,000/day | 5 | ₦15,618/day | -
 P-PMP | Dewatering pump 3" (petrol) | ₦12,000/day | 8 | ₦24,188/day | -
 P-PM6 | Dewatering pump 6" (diesel) | ₦45,000/day | 60 | ₦168,420/day | -
@@ -1595,8 +1595,8 @@ P-TMP | Ballast tamping machine | ₦3,500,000/day | 400 | ₦4,355,550/day | 40
 P-RWL | Rail welding & grinding unit | ₦400,000/day | 80 | ₦564,560/day | 8-15 welds/day
 P-WPT | Wellpoint dewatering system (50 points) | ₦250,000/day | 60 | ₦373,420/day | -
 P-LTW | Lighting tower | ₦45,000/day | 25 | ₦96,425/day | -
-P-GN500 | Generator 500kVA | ₦400,000/day | 650 | ₦1,748,840/day | -
-P-CMP750 | Air compressor 750cfm | ₦250,000/day | 200 | ₦661,400/day | -
+P-GN500 | Generator 500kVA | ₦600,000/day | 650 | ₦1,948,840/day | -
+P-CMP750 | Air compressor 750cfm | ₦500,000/day | 200 | ₦911,400/day | -
 P-BML | Articulating boom lift 20m | ₦250,000/day | 30 | ₦311,710/day | -
 P-SCL | Scissor lift 12m (electric) | ₦120,000/day | 0 | ₦120,000/day | -
 P-CDR | Diamond core drill rig | ₦30,000/day | 4 | ₦36,094/day | -
@@ -1604,8 +1604,8 @@ P-FGR | Floor grinder / polisher | ₦40,000/day | 0 | ₦40,000/day | 40-80 m2/
 P-VSC | Vibrating screed (petrol) | ₦25,000/day | 5 | ₦32,618/day | -
 P-SHT | Shotcrete machine | ₦300,000/day | 80 | ₦464,560/day | 20-40 m3/day
 P-GRP | Grout mixer & pump | ₦120,000/day | 30 | ₦181,710/day | -
-P-CMP900 | Air compressor 900cfm (diesel) with hoses and accessories | ₦300,000/day | 240 | ₦793,680/day | blasting/pneumatic tools
-P-CR100 | Mobile crane 100t | ₦2,000,000/day | 250 | ₦2,566,650/day | -
+P-CMP900 | Air compressor 900cfm (diesel) with hoses and accessories | ₦600,000/day | 240 | ₦1,093,680/day | blasting/pneumatic tools
+P-CR100 | Mobile crane 100t | ₦2,500,000/day | 250 | ₦3,066,650/day | -
 P-TIG | TIG welding set with torch, argon regulator and leads (without generator) | ₦18,000/day | 0 | ₦18,000/day | excl. argon (M-TL-ARR)
 P-WLE | Electric arc welding set with leads, holder and earth clamp (without generator) | ₦12,000/day | 0 | ₦12,000/day | excl. electrodes
 P-FLP | Heavy-duty diesel flushing pump, 6" high-head | ₦80,000/day | 70 | ₦223,990/day | pipeline flushing/filling
@@ -1635,3 +1635,4 @@ Riverine / creek site: 1.30, 1.10, 1.40
 2026-10-06: Weekly refresh: naira N1,328 -> N1,333/$ (CBN NFEM, 6 Oct; imported items follow); diesel N1,900 -> N1,870/L (Dangote gantry cut N1,850 -> N1,780, national pump avg N1,811); petrol Abuja N1,400 -> N1,385/L (NNPC N1,370, independents N1,400); 2.5mm2 cable 100m coil N85,000 -> N77,000 (Coleman retailer list, LOW -> MEDIUM); LPG N1,100/kg, 9-inch block N850 and aluminium roofing reconfirmed. Cement average, rebar, sand and granite unchanged (no fresh Abuja source). Also saves the 5 Oct refresh (Dangote/BUA cement), which had been published but not saved to the repo.
 2026-10-06: Restored from artifact: the 5 Oct and 6 Oct refreshes (naira, diesel, petrol, LPG, Dangote and BUA cement, 9-inch block, four aluminium roofing lines, 2.5mm2 cable), which had been published but not saved to the repo. Follow-up check found no new dated Abuja evidence for the cement average, rebar, sharp sand or granite, and no dated source to upgrade LOW plumbing or long-reach excavator lines; no further price changes.
 2026-10-06: Added oil & gas support equipment lines (LOW, judgement, verify with quotes): 900cfm air compressor N300,000/day; 100t mobile crane N2,000,000/day; TIG welding set N18,000/day; electric welding set N12,000/day; 6-inch diesel flushing pump N80,000/day; three scaffold hire kits (tubes 4m, tubes 3m+2m with couplers, boards and fittings) and a scaffolder/rigger tool kit. 400cfm compressor, 100 and 250kVA generators and diesel welding generator were already listed.
+2026-10-06: Plant hire re-priced on purchase-price evidence (about 1%/day of replacement value) checked against Nigerian oilfield hire bands: Generator 20kVA (diesel) N35,000 -> N55,000/day; Generator 60kVA (diesel) N70,000 -> N95,000/day; Generator 100kVA (diesel) N110,000 -> N130,000/day; Generator 250kVA (diesel) N220,000 -> N240,000/day; Generator 500kVA N400,000 -> N600,000/day; Welding generator 400A (diesel) N45,000 -> N80,000/day; Air compressor 375cfm with 2 breakers N120,000 -> N260,000/day; Air compressor 750cfm N250,000 -> N500,000/day; Air compressor 900cfm (diesel) with hoses and accessories N300,000 -> N600,000/day; Mobile crane 100t N2,000,000 -> N2,500,000/day. The 25% single-source limit was waived for this change at Kola's request.
