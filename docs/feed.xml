@@ -4,8 +4,15 @@
   <link href="https://rates.buildocrat.store/feed.xml" rel="self"/>
   <link href="https://rates.buildocrat.store/"/>
   <id>https://rates.buildocrat.store/</id>
-  <updated>2026-10-06T06:00:00+01:00</updated>
+  <updated>2026-10-15T06:00:00+01:00</updated>
   <author><name>Buildocrat Property Technologies Ltd</name></author>
+  <entry>
+    <title>Price update 2026-10-15</title>
+    <id>https://rates.buildocrat.store/updates/#2026-10-15</id>
+    <link href="https://rates.buildocrat.store/updates/"/>
+    <updated>2026-10-15T06:00:00+01:00</updated>
+    <summary>Weekly refresh: naira steady at N1,333/$ (CBN NFEM, 14 Oct; week&#x27;s closes N1,331.50-1,333.55; imported items unchanged); petrol Abuja N1,385 -&gt; N1,405/L (NNPC N1,405, MRS and AA Rano N1,409-1,410 after the 10-11 Oct rise); LPG reconfirmed at N1,100/kg (depots N980-1,170). Diesel left at N1,870/L: Dangote gantry rose N1,700 -&gt; N1,800 on 10 Oct but no dated Abuja pump price was found. Cement, rebar, roofing, 9-inch block, sand and granite unchanged (no fresh dated Abuja source). No LOW lines upgraded.</summary>
+  </entry>
   <entry>
     <title>Price update 2026-10-06</title>
     <id>https://rates.buildocrat.store/updates/#2026-10-06</id>

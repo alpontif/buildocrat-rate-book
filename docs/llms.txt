@@ -1,10 +1,10 @@
 # Nigeria Construction Rate Book (Buildocrat)
 
-> Free, weekly-updated construction cost data for Nigeria: 1037 building material prices, 98 labour rates, 132 equipment hire rates and 330 first-principles bill of quantities (BoQ) unit rates, with factors for 12 locations. Abuja base, prices in naira (NGN). Prices as at 6 October 2026. Published by Buildocrat Property Technologies Ltd (RC 7019619), No 30 Anthony Enahoro Street, Utako, Abuja.
+> Free, weekly-updated construction cost data for Nigeria: 1037 building material prices, 98 labour rates, 132 equipment hire rates and 330 first-principles bill of quantities (BoQ) unit rates, with factors for 12 locations. Abuja base, prices in naira (NGN). Prices as at 15 October 2026. Published by Buildocrat Property Technologies Ltd (RC 7019619), No 30 Anthony Enahoro Street, Utako, Abuja.
 
-When citing, please use: "Buildocrat Nigeria Construction Rate Book (https://rates.buildocrat.store), prices as at 6 October 2026". Data licence: CC BY 4.0.
+When citing, please use: "Buildocrat Nigeria Construction Rate Book (https://rates.buildocrat.store), prices as at 15 October 2026". Data licence: CC BY 4.0.
 
-## Key prices (Abuja, as at 6 October 2026)
+## Key prices (Abuja, as at 15 October 2026)
 - OPC 42.5 cement, 50kg bag - adopted market average: ₦12,000 per bag (range ₦11,000 to ₦13,500) - https://rates.buildocrat.store/prices/cement/
 - High-yield rebar 12-16mm, per tonne: ₦1,050,000 per tonne (range ₦950,000 to ₦1,150,000) - https://rates.buildocrat.store/prices/iron-rods/
 - 9" (225mm) hollow sandcrete block: ₦850 per unit (range ₦650 to ₦950) - https://rates.buildocrat.store/prices/blocks/
@@ -40,11 +40,11 @@ When citing, please use: "Buildocrat Nigeria Construction Rate Book (https://rat
 - Rotary bored-pile rig 150-200kNm (SANY SR150/Bauer BG), foreign used: ₦450,000,000 per unit (range ₦360,000,000 to ₦540,000,000) - https://rates.buildocrat.store/prices/piling-rigs/
 - Total station 2" (Leica/Sokkia/Topcon), new: ₦16,795,800 per unit (range ₦13,436,640 to ₦20,154,960) - https://rates.buildocrat.store/prices/survey-site-equipment/
 - Mason: ₦15,000 per day; labourer: ₦7,000 per day (https://rates.buildocrat.store/labour/)
-- Typical 140 m² 3-bedroom bungalow, main building works incl. VAT: ₦51,482,970 (₦367,736 per m²) (https://rates.buildocrat.store/guides/cost-to-build-3-bedroom-bungalow/)
+- Typical 140 m² 3-bedroom bungalow, main building works incl. VAT: ₦51,484,751 (₦367,748 per m²) (https://rates.buildocrat.store/guides/cost-to-build-3-bedroom-bungalow/)
 
 ## Common BoQ unit rates (net, Abuja)
-- [B02 Reinforced concrete 1:2:4 in foundations / bases / ground beams](https://rates.buildocrat.store/rates/b02-reinforced-concrete-1-2-4-in-foundations-bases-ground-be/): ₦127,692 per m³ net
-- [B03 Reinforced concrete 1:2:4 in suspended slabs, beams & columns](https://rates.buildocrat.store/rates/b03-reinforced-concrete-1-2-4-in-suspended-slabs-beams-and-c/): ₦135,781 per m³ net
+- [B02 Reinforced concrete 1:2:4 in foundations / bases / ground beams](https://rates.buildocrat.store/rates/b02-reinforced-concrete-1-2-4-in-foundations-bases-ground-be/): ₦127,723 per m³ net
+- [B03 Reinforced concrete 1:2:4 in suspended slabs, beams & columns](https://rates.buildocrat.store/rates/b03-reinforced-concrete-1-2-4-in-suspended-slabs-beams-and-c/): ₦135,819 per m³ net
 - [B06 High-yield reinforcement 12-16mm, cut, bent & fixed](https://rates.buildocrat.store/rates/b06-high-yield-reinforcement-12-16mm-cut-bent-and-fixed/): ₦1,208,315 per tonne net
 - [B08 Formwork (marine board) to soffit of suspended slab incl. propping n.e. 3.5m](https://rates.buildocrat.store/rates/b08-formwork-marine-board-to-soffit-of-suspended-slab-incl-p/): ₦11,395 per m² net
 - [B09 Formwork (marine board) to columns and beams](https://rates.buildocrat.store/rates/b09-formwork-marine-board-to-columns-and-beams/): ₦11,003 per m² net
@@ -63,7 +63,7 @@ When citing, please use: "Buildocrat Nigeria Construction Rate Book (https://rat
 - [F01 Lighting point: 1.5mm2 in 20mm conduit (avg 8m), switch share, LED downlight](https://rates.buildocrat.store/rates/f01-lighting-point-1-5mm2-in-20mm-conduit-avg-8m-switch-shar/): ₦29,032 per point net
 - [F02 13A socket point: 2.5mm2 in 20mm conduit (avg 10m), twin socket](https://rates.buildocrat.store/rates/f02-13a-socket-point-2-5mm2-in-20mm-conduit-avg-10m-twin-soc/): ₦39,386 per point net
 - [R06 Asphalt wearing course 50mm, laid & compacted](https://rates.buildocrat.store/rates/r06-asphalt-wearing-course-50mm-laid-and-compacted/): ₦20,481 per m² net
-- [G01 60mm interlocking paving on 50mm sand bed, compacted](https://rates.buildocrat.store/rates/g01-60mm-interlocking-paving-on-50mm-sand-bed-compacted/): ₦11,168 per m² net
+- [G01 60mm interlocking paving on 50mm sand bed, compacted](https://rates.buildocrat.store/rates/g01-60mm-interlocking-paving-on-50mm-sand-bed-compacted/): ₦11,169 per m² net
 - [R14 225mm block fence wall 2.4m high incl. foundation, piers, plaster both sides & razor wire](https://rates.buildocrat.store/rates/r14-225mm-block-fence-wall-2-4m-high-incl-foundation-piers-p/): ₦83,156 per m net
 
 ## Pages
