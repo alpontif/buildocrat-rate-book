@@ -137,41 +137,49 @@ BUNGALOW = [("A01", 450), ("A02", 38), ("A04", 20), ("A07", 150), ("A08", 150), 
             ("J01", 8), ("J03", 1), ("J04", 18), ("F01", 32), ("F02", 28), ("F23", 1), ("F03", 3), ("F04", 3), ("F05", 1), ("F12", 9), ("F14", 7)]
 BUNGALOW_GFA = 140
 
+BARS = '<span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>'
+BURST = '<svg class="shape burst" viewBox="0 0 200 200" aria-hidden="true"><path d="M100.0,0.0 L114.0,29.4 L138.3,7.6 L140.0,40.1 L170.7,29.3 L159.9,60.0 L192.4,61.7 L170.6,86.0 L200.0,100.0 L170.6,114.0 L192.4,138.3 L159.9,140.0 L170.7,170.7 L140.0,159.9 L138.3,192.4 L114.0,170.6 L100.0,200.0 L86.0,170.6 L61.7,192.4 L60.0,159.9 L29.3,170.7 L40.1,140.0 L7.6,138.3 L29.4,114.0 L0.0,100.0 L29.4,86.0 L7.6,61.7 L40.1,60.0 L29.3,29.3 L60.0,40.1 L61.7,7.6 L86.0,29.4Z"/></svg>'
+
 EXTRA_CSS = """
-.crumbs{font-size:13px;color:var(--muted);margin:18px 0 8px}
+.crumbs{font-size:13px;color:var(--muted);margin:22px 0 10px}
 .crumbs a{color:var(--muted)}
 main.static{display:block}
-main.static h1{font-size:clamp(36px,5.4vw,64px);line-height:1;margin:8px 0 18px;max-width:20ch}
-main.static h2{margin:48px 0 12px}
-main.static h3{font:600 16px/1.4 var(--body);letter-spacing:0;margin:20px 0 4px}
+main.static h1{font-size:clamp(38px,5.6vw,68px);line-height:.98;margin:10px 0 20px;max-width:18ch}
+main.static h2{margin:52px 0 12px}
+main.static h3{font:700 16px/1.4 var(--body);letter-spacing:0;margin:20px 0 4px}
 main.static p,main.static li{max-width:70ch}
 main.static a.btn,.browse a.btn{color:var(--pill-ink)}
-.meta{font-size:13px;color:var(--muted);margin:0;display:inline-flex;align-items:center;gap:8px;padding:5px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface)}
-.meta::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--lime)}
+.meta{font-size:13px;font-weight:600;color:var(--ink);margin:0;display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;background:var(--mint)}
 .answer{font-size:17px;line-height:1.6;max-width:68ch;margin:0 0 10px;color:var(--ink)}
-.pricecard{position:relative;overflow:hidden;isolation:isolate;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 32px;align-items:end;background:var(--surface);border-radius:var(--r);padding:28px 30px;margin:8px 0 22px;max-width:900px}
-.pricecard::before{content:"";position:absolute;z-index:-1;right:-120px;top:-160px;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle,var(--glow) 0%,rgba(214,240,74,.15) 42%,transparent 70%)}
-.pricecard .pc-k{margin:0;color:var(--muted);font-size:14.5px;grid-column:1/-1;display:flex;align-items:center;gap:10px}
-.pricecard .pc-k::before{content:"";flex:none;width:26px;height:10px;border-radius:999px;background:var(--lime)}
-.pricecard .pc-v{margin:0;font:300 clamp(46px,7vw,84px)/1 var(--display);letter-spacing:-.04em}
-.pricecard .pc-v small{font:400 18px var(--body);letter-spacing:0;color:var(--muted);margin-left:8px}
-.pricecard .pc-r{margin:0;color:var(--muted);font-size:14px;text-align:right;max-width:32ch}
-.pricecard .pc-r b{color:var(--ink);font-weight:600}
-.pricecard .btn{grid-column:1/-1;justify-self:start;margin-top:12px;color:var(--pill-ink)!important}
-.linkgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin:16px 0;padding:0;list-style:none}
+.pricecard{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;padding:62px 32px 30px;margin:8px 0 26px;max-width:900px}
+.pricecard .pc-k{margin:0;font-size:15px;font-weight:600;max-width:60%}
+.pricecard .pc-v{margin:0;font:800 clamp(48px,7.5vw,92px)/.95 var(--display);letter-spacing:-.05em;max-width:72%}
+.pricecard .pc-v small{display:inline-block;font:600 18px var(--body);letter-spacing:0;margin-left:10px;opacity:.75}
+.pricecard .pc-r{margin:0;font-size:14.5px;max-width:52ch}
+.pricecard .pc-r b{font-weight:700}
+.pricecard>.bars{left:32px;top:26px}
+.pricecard .btn{justify-self:start;margin-top:14px;color:var(--pill-ink)!important}
+.pricecard .shape.ring{width:360px;height:360px;border-width:70px;right:-150px}
+.pricecard .shape.burst{width:280px;height:280px;right:-80px;bottom:auto;top:-60px}
+.linkgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin:16px 0;padding:0;list-style:none}
 .linkgrid li{max-width:none}
-.linkgrid a{display:block;height:100%;padding:16px 18px;background:var(--surface);color:var(--ink);text-decoration:none;border-radius:12px;border:1px solid transparent}
-.linkgrid a:hover{border-color:var(--ink)}
-.linkgrid b{font:400 19px/1.2 var(--display);letter-spacing:-.015em;display:block}
-.linkgrid small{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:13.5px;margin-top:8px}
-.linkgrid small::before{content:"";flex:none;width:18px;height:8px;border-radius:999px;background:var(--lime)}
-.cite{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;margin-top:40px}
+.linkgrid a{position:relative;overflow:hidden;isolation:isolate;display:block;height:100%;min-height:104px;padding:16px 18px 18px;background:var(--mint);color:var(--ink);text-decoration:none;border-radius:var(--r);transition:transform .15s}
+.linkgrid li:nth-child(3n+2) a{background:var(--sky)}
+.linkgrid li:nth-child(3n) a{background:var(--blush)}
+.linkgrid a::after{content:"";position:absolute;z-index:-1;width:62px;height:62px;right:-22px;bottom:-22px;border-radius:50%;border:13px solid var(--green)}
+.linkgrid li:nth-child(3n+2) a::after{border:0;background:var(--blue);border-radius:100% 0 0 0;right:0;bottom:0;width:44px;height:44px}
+.linkgrid li:nth-child(3n) a::after{border:0;background:var(--coral);width:40px;height:40px;right:-12px;bottom:-12px;border-radius:50%}
+.linkgrid a:hover{transform:translateY(-2px)}
+.linkgrid b{font:800 19px/1.15 var(--display);letter-spacing:-.025em;display:block;max-width:85%}
+.linkgrid small{display:block;color:var(--ink);opacity:.72;font-size:13.5px;margin-top:8px;max-width:80%}
+.cite{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;margin-top:44px}
 .btnlink{margin:8px 0}
 .faq h3{margin-top:16px}
-td.n b{font-weight:600}
-.browse{margin-top:52px}
-.browse h2{margin:40px 0 4px}
-@media (max-width:640px){.pricecard{grid-template-columns:1fr;padding:22px 20px}.pricecard .pc-r{text-align:left}}
+td.n b{font-weight:700}
+.browse{margin-top:56px}
+.browse h2{margin:44px 0 4px}
+@media (max-width:640px){.pricecard>.bars{left:20px}.pricecard{padding:56px 20px 24px}.pricecard .pc-k,.pricecard .pc-v{max-width:none}.pricecard .shape.ring{width:240px;height:240px;border-width:48px;right:-140px}}
+@media (prefers-reduced-motion:reduce){.linkgrid a{transition:none}}
 """
 
 
@@ -285,7 +293,7 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
 <meta name="twitter:description" content="{e(desc)}">
 <meta name="twitter:image" content="{BASE}/og.png">
 <meta name="author" content="Buildocrat Property Technologies Ltd">
-<meta name="theme-color" content="#ECEDE9">
+<meta name="theme-color" content="#00A651">
 {ver}<link rel="alternate" type="application/atom+xml" title="Buildocrat Rate Book - weekly price updates" href="{BASE}/feed.xml">
 <script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@graph": g}, ensure_ascii=False)}</script>
 {self.analytics()}"""
@@ -298,15 +306,15 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
             f'<a href="{pre}{h}"{cur if h == current else ""}>{t}</a>' for h, t in links) + "</nav>"
 
     def masthead(self, pre, current=""):
-        return f"""<header class="mast">
-    <a class="wordmark" href="{pre}" aria-label="Buildocrat Rate Book home"><b>Build<span>ocrat</span></b><small>Rate Book</small></a>
+        return f"""<div class="band band-slim"><header class="mast">
+    <a class="wordmark" href="{pre}" aria-label="Buildocrat Rate Book home"><span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><b>Build<span>ocrat</span></b><small>Rate Book</small></a>
     {self.nav(pre, current)}
     <div class="actions"><a class="wa" href="https://wa.me/2347018024292?text=Hello%20Buildocrat%2C%20I%27d%20like%20to%20lock%20prices%20for%20my%20project." target="_blank" rel="noopener">WhatsApp us</a></div>
-  </header>"""
+  </header></div>"""
 
     def footer(self, pre):
         return f"""<footer>
-    <div class="fbrand">Build<span>ocrat</span></div>
+    <div class="fbrand"><span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>Build<span>ocrat</span></div>
     <div>The Nigeria Construction Rate Book is published by Buildocrat. Prices as at {self.date_long}; key prices are re-checked every week against dated market sources. See the <a href="{pre}updates/">update log</a>, <a href="{pre}methodology/">methodology</a>, <a href="{pre}data/">data downloads</a> and <a href="{pre}privacy/">privacy notice</a>.</div>
     <div class="fcorp">Buildocrat Property Technologies Ltd (RC 7019619), No 30 Anthony Enahoro Street, Utako, Abuja. WhatsApp <span class="sel">+234 701 802 4292</span>, email <span class="sel">buildocrat@gmail.com</span>. <a href="{pre}about/">About Buildocrat</a></div>
     <div>Indicative market rates for budgeting and first-pass BoQ pricing. Confirm LOW-confidence items with at least three supplier quotes before relying on them in a tender.</div>
@@ -340,7 +348,7 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
 <link rel="icon" type="image/png" sizes="192x192" href="{pre}icons/icon-192.png">
 <link rel="apple-touch-icon" href="{pre}icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="{pre}assets/site.css">
 </head>
 <body>
@@ -425,7 +433,9 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
                 use_html = ("<h2>What diesel adds to plant hire</h2><p>Buildocrat's all-in plant rates include fuel at the current pump price, so a diesel price change moves every rate that uses machines.</p>"
                             + self.table(["Plant", "Fuel per day", "Fuel + lubricants per day", "All-in day rate"], prow[:14], numeric=(1, 2, 3)))
             srcs = sorted({self.R[c]["src"] for c in h["codes"] if not self.R[c].get("k")})
-            card = (f'<div class="pricecard"><p class="pc-k">{e(p["d"])}, Abuja</p><p class="pc-v">{naira(pv)}<small>per {u(p["u"])}</small></p>'
+            eqh = h["primary"].startswith("M-EQ-")
+            shape = BURST if eqh else '<span class="shape ring" aria-hidden="true"></span>'
+            card = (f'<div class="poster pricecard {"p-blush" if eqh else "p-mint"}">{BARS}{shape}<p class="pc-k">{e(p["d"])}, Abuja</p><p class="pc-v">{naira(pv)}<small>per {u(p["u"])}</small></p>'
                     f'<p class="pc-r">Market range <b>{naira(lo)}</b> to <b>{naira(hi)}</b> as at {self.date_long}.</p>'
                     f'<a class="btn" href="{pre}">Price a whole BoQ in the rate book</a></div>')
             body = f"""    {card}
@@ -510,7 +520,7 @@ else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_ra
             faq = [(f"How much does {short} cost per {unit} in Nigeria?", f"About {naira(res['net'])} per {unit} net in Abuja as at {self.date_long}, or about {naira(res['net']*mk)} per {unit} as a tender rate including overheads, contingency, profit and VAT (Buildocrat Nigeria Construction Rate Book)."),
                    (f"What is the rate in Lagos?", f"Applying Buildocrat's Lagos location factors, the net rate is about {naira(lr['net'])} per {unit} and the tender rate about {naira(lr['net']*mk)} per {unit}."),
                    ("What does the rate include?", f"Materials ({e(mats)}) with waste allowances; labour ({e(labs)}) at all-in rates including feeding, transport, idle time and statutory costs; and plant ({e(plants)}) including fuel and operator. Overheads, profit and VAT are excluded from the net rate." + (f" Scope note: {e(it['n'])}" if it.get("n") else ""))]
-            card = (f'<div class="pricecard"><p class="pc-k">Net unit rate in Abuja, excluding overheads, profit and VAT</p><p class="pc-v">{naira(res["net"])}<small>per {unit}</small></p>'
+            card = (f'<div class="poster pricecard p-sky">{BARS}<span class="shape quarter" aria-hidden="true"></span><p class="pc-k">Net unit rate in Abuja, excluding overheads, profit and VAT</p><p class="pc-v">{naira(res["net"])}<small>per {unit}</small></p>'
                     f'<p class="pc-r">Tender rate about <b>{naira(res["net"]*mk)}</b> per {unit} with overheads, contingency, profit and VAT.</p>'
                     f'<a class="btn" href="{pre}">Price a BoQ with this rate</a></div>')
             body = f"""    {card}
@@ -881,35 +891,37 @@ When citing, please use: "Buildocrat Nigeria Construction Rate Book ({BASE}), pr
                 if os.path.exists(fp): return ImageFont.truetype(fp, size)
             return ImageFont.load_default()
         W, H = 1200, 630
-        BG, INK, MUT, LIME, PANEL = (236, 237, 233), (21, 21, 21), (106, 107, 102), (214, 240, 74), (250, 250, 248)
-        im = Image.new("RGB", (W, H), BG)
-        glow = Image.new("RGB", (W, H), BG); gd = ImageDraw.Draw(glow)
-        for r in range(420, 0, -6):   # soft lime glow, bottom-left
-            t = 1 - r / 420
-            col = tuple(int(BG[k] + (LIME[k] - BG[k]) * min(1, t * 1.25)) for k in range(3))
-            gd.ellipse([-140 - r, 560 - r, -140 + r, 560 + r], fill=col)
-        im.paste(glow); d = ImageDraw.Draw(im)
-        d.ellipse([64, 60, 88, 84], fill=LIME)
-        d.text((100, 52), "Buildocrat", font=font(34), fill=INK)
-        for i, ln in enumerate(["Nigeria", "Construction", "Rate Book"]):
-            d.text((64, 128 + i * 66), ln, font=font(58, False), fill=INK)
-        d.text((64, 340), f"Prices as at {self.date_long}.", font=font(23, False), fill=MUT)
-        d.text((64, 372), "Updated every week.", font=font(23, False), fill=MUT)
+        GRN, INK, MINT, SKY, BLUE, WHITE = (0, 166, 81), (17, 19, 17), (205, 235, 216), (205, 230, 240), (26, 154, 214), (255, 255, 255)
+        im = Image.new("RGB", (W, H), GRN); d = ImageDraw.Draw(im)
+        def bars(x, y, h, col):
+            for i, f in enumerate([0.45, 0.8, 0.55, 1.0, 0.35, 0.7, 0.5, 0.9]):
+                d.rectangle([x + i * 7, y + h - h * f, x + i * 7 + 4, y + h], fill=col)
+        bars(48, 30, 30, MINT); d.text((112, 28), "Buildocrat", font=font(30), fill=WHITE)
+        # mint poster with a green ring, clipped to the poster
+        poster = Image.new("RGB", (560, 470), MINT); pd = ImageDraw.Draw(poster)
+        pd.ellipse([330, 150, 330 + 400, 150 + 400], fill=GRN); pd.ellipse([400, 220, 660, 480], fill=MINT)
+        im.paste(poster, (48, 100)); d = ImageDraw.Draw(im)
+        bars(76, 124, 22, GRN)
+        for i, ln in enumerate(["Nigeria", "construction", "prices, checked", "weekly."]):
+            d.text((76, 168 + i * 62), ln, font=font(54), fill=INK)
+        d.text((76, 430), f"Prices as at {self.date_long}.", font=font(21, False), fill=INK)
+        d.rounded_rectangle([76, 480, 76 + d.textlength("rates.buildocrat.store", font=font(21)) + 40, 528], radius=24, fill=INK)
+        d.text((96, 491), "rates.buildocrat.store", font=font(21), fill=WHITE)
+        # sky poster with blue quarter circle and the price list
+        x0, y0, pw, ph = 628, 100, 524, 470
+        poster = Image.new("RGB", (pw, ph), SKY); pd = ImageDraw.Draw(poster)
+        pd.pieslice([pw - 150, -150, pw + 150, 150], 90, 180, fill=BLUE)
+        im.paste(poster, (x0, y0)); d = ImageDraw.Draw(im)
+        bars(x0 + 28, y0 + 24, 22, BLUE)
+        d.text((x0 + 28, y0 + 62), "This week.", font=font(34), fill=INK)
         rows = [("M-CEM-01", "Cement, bag"), ("M-STL-01", "Iron rods, tonne"), ("M-BLK-01", "9-inch block"), ("M-FUE-01", "Diesel, litre"), ("M-EQ-EX21U", "Excavator 20t")]
-        x0, y0, pw = 600, 60, 536
-        d.rounded_rectangle([x0, y0, x0 + pw, y0 + 430], radius=22, fill=PANEL)
         for i, (c, lab) in enumerate(rows):
-            y = y0 + 26 + i * 80
-            if i: d.line([x0 + 26, y - 8, x0 + pw - 26, y - 8], fill=(220, 221, 215), width=2)
-            d.rounded_rectangle([x0 + 26, y + 22, x0 + 56, y + 32], radius=5, fill=LIME)
-            d.text((x0 + 72, y + 14), lab, font=font(20, False), fill=INK)
-            txt = naira(self.E.rate(c)); fs = 32
-            while fs > 18 and d.textlength(txt, font=font(fs, False)) > 250: fs -= 2
-            d.text((x0 + pw - 26 - d.textlength(txt, font=font(fs, False)), y + 8), txt, font=font(fs, False), fill=INK)
-        d.rounded_rectangle([64, 520, 64 + d.textlength("rates.buildocrat.store", font=font(24)) + 48, 576], radius=28, fill=INK)
-        d.text((88, 532), "rates.buildocrat.store", font=font(24), fill=(255, 255, 255))
-        d.text((600, 522), f"{len(self.D['items'])} BoQ rates, {len(self.D['resources'])} materials and machines,", font=font(20, False), fill=MUT)
-        d.text((600, 550), "labour, plant hire, 12 locations", font=font(20, False), fill=MUT)
+            y = y0 + 130 + i * 64
+            d.line([x0 + 28, y - 6, x0 + pw - 28, y - 6], fill=(170, 195, 205), width=2)
+            d.text((x0 + 28, y + 14), lab, font=font(19, False), fill=INK)
+            txt = naira(self.E.rate(c)); fs = 30
+            while fs > 18 and d.textlength(txt, font=font(fs)) > 250: fs -= 2
+            d.text((x0 + pw - 28 - d.textlength(txt, font=font(fs)), y + 8), txt, font=font(fs), fill=INK)
         im.save(os.path.join(self.root, "og.png"), optimize=True)
         return True
 

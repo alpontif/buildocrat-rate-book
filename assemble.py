@@ -84,8 +84,8 @@ manifest = {
   "id": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#ECEDE9",
-  "theme_color": "#ECEDE9",
+  "background_color": "#F2F5F1",
+  "theme_color": "#00A651",
   "lang": "en-NG",
   "categories": ["business", "productivity", "utilities"],
   "icons": [

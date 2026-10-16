@@ -9,20 +9,19 @@ OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs", "icons")
 os.makedirs(OUT, exist_ok=True)
 
 def icon(size, safe=1.0, rounded=True):
+    GREENF = (0, 166, 81); MINT = (205, 235, 216)
     img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    r = int(size * 0.18) if rounded else 0
-    d.rounded_rectangle([0, 0, size - 1, size - 1], radius=r, fill=GREEN)
+    r = int(size * 0.2) if rounded else 0
+    d.rounded_rectangle([0, 0, size - 1, size - 1], radius=r, fill=GREENF)
     inner = size * safe
-    f = ImageFont.truetype(FONT, int(inner * 0.62))
-    box = d.textbbox((0, 0), "B", font=f)
-    w, h = box[2] - box[0], box[3] - box[1]
-    x = (size - w) / 2 - box[0]
-    y = (size - h) / 2 - box[1] - inner * 0.04
-    d.text((x, y), "B", font=f, fill=WHITE)
-    # ledger rule under the letter: the price-book line
-    lw = inner * 0.44; ly = (size + h) / 2 + inner * 0.04
-    d.rectangle([(size - lw) / 2, ly, (size + lw) / 2, ly + max(2, inner * 0.035)], fill=WHITE)
+    hs = [0.45, 0.8, 0.55, 1.0, 0.35, 0.7, 0.5, 0.9]
+    bw = inner * 0.05; gap = inner * 0.03; H = inner * 0.46
+    total = len(hs) * bw + (len(hs) - 1) * gap
+    x = (size - total) / 2; base = size / 2 + H / 2
+    for i, h in enumerate(hs):
+        d.rounded_rectangle([x, base - H * h, x + bw, base], radius=max(1, bw * 0.3), fill=(255, 255, 255) if i % 3 else MINT)
+        x += bw + gap
     return img
 
 icon(192).save(os.path.join(OUT, "icon-192.png"))
