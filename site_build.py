@@ -251,21 +251,34 @@ class Site:
                     {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": BASE + "/data/plant.csv"}]}
 
     def analytics(self):
-        """Analytics tags, only when IDs are set in site-config.json. Also tracks key actions on every page."""
-        ga = (self.cfg.get("ga4_measurement_id") or "").strip()
+        """GA4 on every page. site-config.json can override the ID; the default stays so scheduled rebuilds keep the tag."""
+        ga = (self.cfg.get("ga4_measurement_id") or "").strip() or "G-CB1M7J6Q5G"
         cf = (self.cfg.get("cloudflare_web_analytics_token") or "").strip()
-        out = ""
-        if ga:
-            out += (f'<script async src="https://www.googletagmanager.com/gtag/js?id={e(ga)}"></script>\n'
-                    f'<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","{e(ga)}");</script>\n')
+        out = (
+            "<!-- Google tag (gtag.js) -->\n"
+            f'<script async src="https://www.googletagmanager.com/gtag/js?id={e(ga)}"></script>\n'
+            "<script>\n"
+            "  window.dataLayer = window.dataLayer || [];\n"
+            "  function gtag(){dataLayer.push(arguments);}\n"
+            "  gtag('js', new Date());\n"
+            "\n"
+            f"  gtag('config', '{e(ga)}');\n"
+            "</script>\n"
+            "<script>\n"
+            "document.addEventListener(\"click\", function (ev) {\n"
+            "  var a = ev.target && ev.target.closest ? ev.target.closest(\"a\") : null;\n"
+            "  if (!a || typeof gtag !== \"function\") return;\n"
+            "  var h = a.href || \"\";\n"
+            "  var raw = a.getAttribute(\"href\") || \"\";\n"
+            "  if (h.indexOf(\"wa.me\") !== -1 || h.indexOf(\"api.whatsapp.com\") !== -1 || raw.indexOf(\"wa.me\") !== -1 || raw.indexOf(\"api.whatsapp.com\") !== -1) gtag(\"event\", \"whatsapp_click\", {link_url: h || raw});\n"
+            "  else if (h.indexOf(\"mailto:\") === 0 || raw.indexOf(\"mailto:\") === 0) gtag(\"event\", \"email_click\", {link_url: h || raw});\n"
+            "  else if (/\\.(csv|json|txt)$/.test(raw)) gtag(\"event\", \"data_download\", {file_name: raw.split(\"/\").pop()});\n"
+            "  else if (a.classList.contains(\"btn\") && raw.indexOf(\"http\") !== 0) gtag(\"event\", \"open_rate_book\", {page_path: location.pathname});\n"
+            "}, true);\n"
+            "</script>\n"
+        )
         if cf:
             out += f"<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js\" data-cf-beacon='{{\"token\": \"{e(cf)}\"}}'></script>\n"
-        if ga:
-            out += """<script>document.addEventListener("click",function(ev){var a=ev.target.closest&&ev.target.closest("a");if(!a||typeof gtag!=="function")return;var h=a.getAttribute("href")||"";
-if(h.indexOf("wa.me/")>-1)gtag("event","whatsapp_click",{link_text:(a.textContent||"").trim().slice(0,60),page_path:location.pathname});
-else if(/\\.(csv|json|txt)$/.test(h))gtag("event","data_download",{file_name:h.split("/").pop()});
-else if(a.classList.contains("btn")&&h.indexOf("http")!==0)gtag("event","open_rate_book",{page_path:location.pathname});},true);</script>
-"""
         return out
 
     def head_meta(self, url, title, desc, extra_graph=()):
@@ -874,11 +887,23 @@ When citing, please use: "Buildocrat Nigeria Construction Rate Book ({BASE}), pr
         doc = f"""<!doctype html>
 <html lang="en-NG"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Page not found | Buildocrat Rate Book</title><meta name="robots" content="noindex">
-<link rel="stylesheet" href="{BASE}/assets/site.css"></head>
+<link rel="icon" href="favicon.ico">
+{self.analytics()}<link rel="stylesheet" href="{BASE}/assets/site.css"></head>
 <body><div class="wrap"><header class="sitehead"><div class="brandbar"><a class="wordmark" href="{BASE}/">Build<span>ocrat</span></a><span class="brandtag">Nigeria Construction Rate Book</span></div>{self.nav(BASE + '/')}</header>
 <main class="static"><h1>Page not found</h1><p>The page may have moved. Try the <a href="{BASE}/">interactive rate book</a>, <a href="{BASE}/prices/">material prices</a> or <a href="{BASE}/rates/">BoQ rates</a>.</p></main></div></body></html>
 """
         self.out("404.html", doc)
+
+    def write_favicon(self):
+        """docs/favicon.ico from icons/icon-192.png (PNG stored inside an ICO)."""
+        import struct
+        src = os.path.join(self.root, "icons", "icon-192.png")
+        if not os.path.exists(src):
+            return
+        png = open(src, "rb").read()
+        # ICONDIR + one ICONDIRENTRY, then the PNG bytes. 0-byte width would mean 256; 192 fits.
+        blob = struct.pack("<HHH", 0, 1, 1) + struct.pack("<BBBBHHII", 192, 192, 0, 0, 1, 32, len(png), 22) + png
+        open(os.path.join(self.root, "favicon.ico"), "wb").write(blob)
 
     def og_image(self):
         try:
@@ -982,7 +1007,7 @@ When citing, please use: "Buildocrat Nigeria Construction Rate Book ({BASE}), pr
         self.build_labour(); self.build_plant(); self.build_locations()
         bung = self.build_guide()
         self.build_method(); self.build_about(); self.build_updates(); self.build_data(); self.build_privacy()
-        self.write_csvs(); self.write_llms(bung); self.write_feed(); self.write_404()
+        self.write_csvs(); self.write_llms(bung); self.write_feed(); self.write_404(); self.write_favicon()
         self.write_sitemap_robots()
         self.og_image()
         key = self.cfg.get("indexnow_key")

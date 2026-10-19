@@ -1,3 +1,26 @@
+<!--GA4-->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CB1M7J6Q5G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CB1M7J6Q5G');
+</script>
+<script>
+document.addEventListener("click", function (ev) {
+  var a = ev.target && ev.target.closest ? ev.target.closest("a") : null;
+  if (!a || typeof gtag !== "function") return;
+  var h = a.href || "";
+  var raw = a.getAttribute("href") || "";
+  if (h.indexOf("wa.me") !== -1 || h.indexOf("api.whatsapp.com") !== -1 || raw.indexOf("wa.me") !== -1 || raw.indexOf("api.whatsapp.com") !== -1) gtag("event", "whatsapp_click", {link_url: h || raw});
+  else if (h.indexOf("mailto:") === 0 || raw.indexOf("mailto:") === 0) gtag("event", "email_click", {link_url: h || raw});
+  else if (/\.(csv|json|txt)$/.test(raw)) gtag("event", "data_download", {file_name: raw.split("/").pop()});
+  else if (a.classList.contains("btn") && raw.indexOf("http") !== 0) gtag("event", "open_rate_book", {page_path: location.pathname});
+}, true);
+</script>
+<!--/GA4-->
 <title>Nigeria Construction Rate Book</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

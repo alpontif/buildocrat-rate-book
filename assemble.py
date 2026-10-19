@@ -7,7 +7,32 @@ Outputs:
   docs/rate-data.json - public copy of the data
 Run:  python3 assemble.py
 """
-import json, os, shutil, hashlib
+import json, os, re, shutil, hashlib
+
+# Standard GA4 tag. Homepage head gets this from site.analytics(); the copy here
+# is inserted only if that injection is missing, so a rebuild cannot drop it.
+GA4_SNIPPET = """<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CB1M7J6Q5G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CB1M7J6Q5G');
+</script>
+<script>
+document.addEventListener("click", function (ev) {
+  var a = ev.target && ev.target.closest ? ev.target.closest("a") : null;
+  if (!a || typeof gtag !== "function") return;
+  var h = a.href || "";
+  var raw = a.getAttribute("href") || "";
+  if (h.indexOf("wa.me") !== -1 || h.indexOf("api.whatsapp.com") !== -1 || raw.indexOf("wa.me") !== -1 || raw.indexOf("api.whatsapp.com") !== -1) gtag("event", "whatsapp_click", {link_url: h || raw});
+  else if (h.indexOf("mailto:") === 0 || raw.indexOf("mailto:") === 0) gtag("event", "email_click", {link_url: h || raw});
+  else if (/\\.(csv|json|txt)$/.test(raw)) gtag("event", "data_download", {file_name: raw.split("/").pop()});
+  else if (a.classList.contains("btn") && raw.indexOf("http") !== 0) gtag("event", "open_rate_book", {page_path: location.pathname});
+}, true);
+</script>
+"""
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 p = lambda *a: os.path.join(HERE, *a)
@@ -24,12 +49,15 @@ open(p("rate-book.html"), "w", encoding="utf-8").write(body)
 # 2) standalone website: crawlable multi-page site + SEO/AI files (site_build.py)
 from site_build import Site, EXTRA_CSS, BASE, HUBS
 cfg = json.load(open(p("site-config.json"))) if os.path.exists(p("site-config.json")) else {}
+if not (cfg.get("ga4_measurement_id") or "").strip():
+    cfg["ga4_measurement_id"] = "G-CB1M7J6Q5G"
 os.makedirs(p("docs"), exist_ok=True)
 site = Site(p("docs"), data, cfg)
 bung = site.build_all(tpl)
 upd = data["meta"]["updated"]
 title_end = body.index("</title>") + len("</title>")
 rest = body[title_end:]
+rest = re.sub(r"<!--GA4-->.*?<!--/GA4-->\n?", "", rest, count=1, flags=re.S)
 watch, view, summary, browse = site.home_inserts(bung)
 def inject(src, a, b):
     assert src.count(a) == 1, a
@@ -65,6 +93,10 @@ head = f"""<!doctype html>
 </head>
 <body>
 """
+if head.count("googletagmanager.com/gtag/js") == 0:
+    head = head.replace("</head>", GA4_SNIPPET + "</head>", 1)
+elif head.count("googletagmanager.com/gtag/js") != 1:
+    raise SystemExit("homepage head would contain the GA4 tag more than once")
 SW_REG = """<script>
 if ("serviceWorker" in navigator && window.self === window.top) {
   window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
