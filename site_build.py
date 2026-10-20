@@ -183,6 +183,18 @@ td.n b{font-weight:700}
 """
 
 
+# X (Twitter) base pixel, site ID rhmpt. Paste just before </head> on every page.
+# twq('config') loads the tag; twq('track','PageView') fires the page-view event.
+X_PIXEL = """<!-- X pixel rhmpt -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+twq('config','rhmpt');
+twq('track','PageView');
+</script>
+"""
+
 class Site:
     def __init__(self, root, data, cfg):
         self.root, self.D, self.cfg = root, data, cfg
@@ -363,7 +375,7 @@ class Site:
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="{pre}assets/site.css">
-</head>
+{X_PIXEL}</head>
 <body>
 <div class="wrap">
   {self.masthead(pre, current)}
@@ -888,7 +900,7 @@ When citing, please use: "Buildocrat Nigeria Construction Rate Book ({BASE}), pr
 <html lang="en-NG"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Page not found | Buildocrat Rate Book</title><meta name="robots" content="noindex">
 <link rel="icon" href="favicon.ico">
-{self.analytics()}<link rel="stylesheet" href="{BASE}/assets/site.css"></head>
+{self.analytics()}<link rel="stylesheet" href="{BASE}/assets/site.css">{X_PIXEL}</head>
 <body><div class="wrap"><header class="sitehead"><div class="brandbar"><a class="wordmark" href="{BASE}/">Build<span>ocrat</span></a><span class="brandtag">Nigeria Construction Rate Book</span></div>{self.nav(BASE + '/')}</header>
 <main class="static"><h1>Page not found</h1><p>The page may have moved. Try the <a href="{BASE}/">interactive rate book</a>, <a href="{BASE}/prices/">material prices</a> or <a href="{BASE}/rates/">BoQ rates</a>.</p></main></div></body></html>
 """
