@@ -112,6 +112,8 @@ a{color:var(--accent);text-underline-offset:3px}
 .board h1{color:var(--ink);max-width:12.5ch}
 .board-lede{color:var(--ink);opacity:.82;font-size:16.5px;line-height:1.55;max-width:46ch;margin:18px 0 24px}
 .board-lede b{font-weight:600;opacity:1}
+.est-cta{display:inline-flex;align-items:center;margin:0 0 22px;padding:14px 22px;border-radius:999px;background:var(--pill);color:var(--pill-ink);font:700 15.5px/1 var(--body);text-decoration:none}
+.est-cta:hover{opacity:.88}
 .find{position:relative;max-width:560px}
 .find label{display:block;font:700 13px var(--body);color:var(--ink);margin-bottom:8px}
 .findrow{display:flex;gap:6px;background:var(--surface);border-radius:999px;padding:5px;box-shadow:0 0 0 1px rgba(0,0,0,.06)}
@@ -268,8 +270,8 @@ footer a{color:#fff}
   .shape.burst{width:220px;height:220px;right:-90px;bottom:-80px}
   .board-lede{font-size:15.5px}
   .findrow button{padding:0 16px}
-  .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding:2px}
-  .tabs button{white-space:nowrap}
+  .tabs{flex-wrap:wrap;overflow:visible;padding:2px}
+  .tabs button{max-width:100%;white-space:normal;line-height:1.25}
   .count{margin-left:0;width:100%}
   .bar{position:static}
   .hm{display:none}
@@ -305,6 +307,7 @@ footer a{color:#fff}
       <span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="shape ring" aria-hidden="true"></span>
       <h1 id="ttl">Nigeria construction prices, checked weekly.</h1>
       <p class="board-lede">The Nigeria Construction Rate Book: current prices for <b>building materials, construction equipment, labour and plant hire</b> in Nigeria, plus <span id="n-items">330</span> BoQ unit rates built up from first principles. Checked every week by Buildocrat.</p>
+      <a class="est-cta" href="#estimator">Estimator</a>
       <form class="find" role="search" id="findForm" autocomplete="off">
         <label for="find">Search prices and rates</label>
         <div class="findrow"><input id="find" type="search" placeholder="e.g. cement, excavator, blockwork" role="combobox" aria-expanded="false" aria-controls="findres" aria-autocomplete="list"><button type="submit">Search</button></div>
@@ -324,7 +327,7 @@ footer a{color:#fff}
   </section>
  </div>
 
-  <div class="bar">
+  <div class="bar" id="estimator">
     <div class="tabs" role="tablist" id="tabs">
       <button role="tab" data-tab="rates" aria-selected="true">BoQ unit rates</button>
       <button role="tab" data-tab="mats" aria-selected="false">Materials &amp; equipment</button>
@@ -374,8 +377,12 @@ const ageDays = d => d ? Math.floor((today - new Date(d + "T00:00:00")) / 864e5)
 const store = {get(k, d){try{const v = localStorage.getItem(k); return v ? JSON.parse(v) : d}catch(e){return d}},
                set(k, v){try{localStorage.setItem(k, JSON.stringify(v))}catch(e){}}};
 
-const state = {tab: "rates", q: "", sec: "", conf: "", loc: store.get("rb-loc", DATA.locations[0][0]), tender: false, open: new Set()};
-if (/^#(rates|mats|lab|plant|est|method|log|about)$/.test(location.hash)) state.tab = location.hash.slice(1);
+function tabFromHash(){
+  const h = (location.hash || "").replace(/^#/, "");
+  if (h === "estimator") return "est";
+  return /^(rates|mats|lab|plant|est|method|log|about)$/.test(h) ? h : "";
+}
+const state = {tab: tabFromHash() || "rates", q: "", sec: "", conf: "", loc: store.get("rb-loc", DATA.locations[0][0]), tender: false, open: new Set()};
 
 function factors(){ const l = DATA.locations.find(x => x[0] === state.loc) || DATA.locations[0]; return {m: l[1], l: l[2], p: l[3]}; }
 const markup = () => (1 + P.oh) * (1 + P.cont) * (1 + P.profit) * (1 + P.vat);
@@ -687,6 +694,8 @@ $("#view").addEventListener("click", e => { const tr = e.target.closest("tr.item
 $("#view").addEventListener("keydown", e => { const tr = e.target.closest("tr.item"); if (tr && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); toggleRow(tr); } });
 document.querySelectorAll("#tabs button").forEach(x => x.setAttribute("aria-selected", x.dataset.tab === state.tab));
 setSections(); render();
+window.addEventListener("hashchange", () => { const t = tabFromHash(); if (t) goTab(t); });
+if (state.tab === "est") requestAnimationFrame(() => { const bar = document.querySelector(".bar"); if (bar) bar.scrollIntoView({block: "start"}); });
 
 /* Install as an app (own website only; hidden inside embedded viewers) */
 (function(){
