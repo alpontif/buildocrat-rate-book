@@ -47,7 +47,7 @@ body = tpl.replace("__ENGINE__", eng).replace("__DATA__", raw.replace("</", "<\\
 open(p("rate-book.html"), "w", encoding="utf-8").write(body)
 
 # 2) standalone website: crawlable multi-page site + SEO/AI files (site_build.py)
-from site_build import Site, EXTRA_CSS, BASE, HUBS
+from site_build import Site, EXTRA_CSS, BASE, HUBS, X_PIXEL
 cfg = json.load(open(p("site-config.json"))) if os.path.exists(p("site-config.json")) else {}
 if not (cfg.get("ga4_measurement_id") or "").strip():
     cfg["ga4_measurement_id"] = "G-CB1M7J6Q5G"
@@ -90,7 +90,7 @@ head = f"""<!doctype html>
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n<style>html{{color-scheme:light dark}}[hidden]{{display:none!important}}img{{max-width:100%}}{EXTRA_CSS}</style>
-</head>
+{X_PIXEL}</head>
 <body>
 """
 if head.count("googletagmanager.com/gtag/js") == 0:
