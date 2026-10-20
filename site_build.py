@@ -324,7 +324,7 @@ class Site:
 {self.analytics()}"""
 
     def nav(self, pre, current=""):
-        links = [("prices/", "Material prices"), ("prices/#equipment", "Equipment"), ("rates/", "BoQ rates"), ("labour/", "Labour"),
+        links = [("#estimator", "Estimator"), ("prices/", "Material prices"), ("prices/#equipment", "Equipment"), ("rates/", "BoQ rates"), ("labour/", "Labour"),
                  ("plant/", "Plant hire"), ("locations/", "Locations"), ("guides/cost-to-build-3-bedroom-bungalow/", "Cost guide"), ("about/", "About")]
         cur = ' aria-current="page"'
         return '<nav class="sitenav" aria-label="Site">' + "".join(

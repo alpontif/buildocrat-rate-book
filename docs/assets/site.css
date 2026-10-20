@@ -84,6 +84,8 @@ a{color:var(--accent);text-underline-offset:3px}
 .board h1{color:var(--ink);max-width:12.5ch}
 .board-lede{color:var(--ink);opacity:.82;font-size:16.5px;line-height:1.55;max-width:46ch;margin:18px 0 24px}
 .board-lede b{font-weight:600;opacity:1}
+.est-cta{display:inline-flex;align-items:center;margin:0 0 22px;padding:14px 22px;border-radius:999px;background:var(--pill);color:var(--pill-ink);font:700 15.5px/1 var(--body);text-decoration:none}
+.est-cta:hover{opacity:.88}
 .find{position:relative;max-width:560px}
 .find label{display:block;font:700 13px var(--body);color:var(--ink);margin-bottom:8px}
 .findrow{display:flex;gap:6px;background:var(--surface);border-radius:999px;padding:5px;box-shadow:0 0 0 1px rgba(0,0,0,.06)}
@@ -240,8 +242,8 @@ footer a{color:#fff}
   .shape.burst{width:220px;height:220px;right:-90px;bottom:-80px}
   .board-lede{font-size:15.5px}
   .findrow button{padding:0 16px}
-  .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding:2px}
-  .tabs button{white-space:nowrap}
+  .tabs{flex-wrap:wrap;overflow:visible;padding:2px}
+  .tabs button{max-width:100%;white-space:normal;line-height:1.25}
   .count{margin-left:0;width:100%}
   .bar{position:static}
   .hm{display:none}
