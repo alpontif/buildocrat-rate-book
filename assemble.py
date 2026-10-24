@@ -66,6 +66,9 @@ rest = inject(rest, '<ul class="watch" id="watch"></ul>', f'<ul class="watch" id
 rest = inject(rest, '<main id="view"></main>', f'<main id="view">{view}</main>')
 rest = inject(rest, "<!--SITENAV-->", site.nav(""))
 rest = inject(rest, "<!--HEROFACT-->", summary)
+_d = __import__("datetime").date.fromisoformat(upd)
+rest = inject(rest, '<b id="upd">29 Sep 2026</b>', f'<b id="upd">{_d.day} {_d.strftime("%B %Y")}</b>')
+rest = inject(rest, '<span id="basefx">Naira at &#8358;1,331 to the US dollar.</span>', f'<span id="basefx">Naira at &#8358;{data["meta"]["fx"]:,} to the US dollar ({data["meta"]["fxNote"]}).</span>')
 rest = inject(rest, "  <footer>", browse + "\n  <footer>")
 rest = rest.replace('<a href="#about" data-goto="about">About Buildocrat</a></div>', '<a href="#about" data-goto="about">About Buildocrat</a>. <a href="privacy/">Privacy notice</a></div>', 1)
 site_map = {"items": site.item_path, "hubs": {c: f"prices/{h['slug']}/" for c, h in site.hub_of.items()}}

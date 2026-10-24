@@ -1136,7 +1136,7 @@ E08 | Finishes | 2 coats weathershield paint to external render | m2 | ₦998 | 
 E18 | Finishes | Sand-textured coating + 2 coats weathershield, external | m2 | ₦3,832 | ₦1,240 | ₦0 | ₦5,073 | ₦6,771
 E17 | Finishes | Knot, prime & 3 coats gloss to wood or metal | m2 | ₦2,698 | ₦921 | ₦0 | ₦3,620 | ₦4,831
 E19 | Finishes | POP screeding (skimming) to walls/ceilings | m2 | ₦1,134 | ₦827 | ₦0 | ₦1,961 | ₦2,617
-E20 | Finishes | Plain POP false ceiling on 2x2 timber frame | m2 | ₦5,771 | ₦2,595 | ₦0 | ₦8,366 | ₦11,166
+E20 | Finishes | Plain POP false ceiling on 2x2 timber frame | m2 | ₦5,770 | ₦2,595 | ₦0 | ₦8,366 | ₦11,166
 E09 | Finishes | 12.5mm gypsum board ceiling on 2x2 frame, POP-jointed | m2 | ₦6,424 | ₦1,531 | ₦0 | ₦7,955 | ₦10,617
 E21 | Finishes | PVC ceiling panels on 2x2 frame | m2 | ₦7,733 | ₦1,003 | ₦0 | ₦8,736 | ₦11,660
 E22 | Finishes | 600x600 acoustic ceiling tiles on exposed T-grid | m2 | ₦13,125 | ₦1,003 | ₦0 | ₦14,128 | ₦18,857
