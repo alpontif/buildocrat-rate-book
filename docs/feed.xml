@@ -4,8 +4,15 @@
   <link href="https://rates.buildocrat.store/feed.xml" rel="self"/>
   <link href="https://rates.buildocrat.store/"/>
   <id>https://rates.buildocrat.store/</id>
-  <updated>2026-10-15T06:00:00+01:00</updated>
+  <updated>2026-10-24T06:00:00+01:00</updated>
   <author><name>Buildocrat Property Technologies Ltd</name></author>
+  <entry>
+    <title>Price update 2026-10-24</title>
+    <id>https://rates.buildocrat.store/updates/#2026-10-24</id>
+    <link href="https://rates.buildocrat.store/updates/"/>
+    <updated>2026-10-24T06:00:00+01:00</updated>
+    <summary>Weekly refresh: naira N1,333 -&gt; N1,365/$ (CBN NFEM close 22 Oct, the sharpest daily fall in 18 months; weighted average that day N1,344; imported items follow, about +2.4%); LPG reconfirmed at N1,100/kg (depots N1,025-1,225, 20 Oct). Petrol left at N1,405/L (NNPC N1,405; no new Abuja station prices), diesel at N1,870/L (Lagos depots N1,785, national pump avg ~N1,801; no dated Abuja pump price). Aluminium roofing unchanged (Ideal Roofing list still dated 1 Oct). Cement, rebar, 9-inch block, sand and granite unchanged (no fresh, independent dated Abuja source). No LOW lines upgraded.</summary>
+  </entry>
   <entry>
     <title>Price update 2026-10-15</title>
     <id>https://rates.buildocrat.store/updates/#2026-10-15</id>
